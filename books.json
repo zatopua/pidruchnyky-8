@@ -1,0 +1,267 @@
+{
+  "grade": 8,
+  "subjects": [
+    {
+      "slug": "ukr-mova",
+      "subject": "Українська мова",
+      "group": "Мови й література",
+      "color": "#2f6db3",
+      "pages": 292,
+      "source": "ukrainska-mova-zabolotnyi-8-klas-2025.pdf",
+      "source_sha256": "f42e4e2e96f010789ad984b4ee31ca049decc9e25d795efec5ed7e23a39f4a30",
+      "extracted": "2026-10-04",
+      "ocr": {
+        "engine": "tesseract 5.3.4 (ukr)",
+        "pages": 1,
+        "date": "2026-10-04"
+      },
+      "page_offset": 4
+    },
+    {
+      "slug": "ukr-lit",
+      "subject": "Українська література",
+      "group": "Мови й література",
+      "color": "#c2410c",
+      "pages": 307,
+      "source": "ukrainska-literatura-zabolotnyi-8-klas-2025.pdf",
+      "source_sha256": "92c1ebf7cdad0bddeb0dac508ab821ee889ba3e06d197418d869677d4175d82d",
+      "extracted": "2026-10-04",
+      "page_offset": 2
+    },
+    {
+      "slug": "zar-lit",
+      "subject": "Зарубіжна література",
+      "group": "Мови й література",
+      "color": "#9d3b6e",
+      "pages": 289,
+      "source": "zarubizhna-literatura-nikolenko-8-klas-2025.pdf",
+      "source_sha256": "321b0bb7ab479d9fb73115b51351752a452ba215690e27a62f2342968987a468",
+      "extracted": "2026-10-04",
+      "page_offset": 1
+    },
+    {
+      "slug": "english",
+      "subject": "Англійська мова",
+      "group": "Мови й література",
+      "color": "#0f766e",
+      "pages": 191,
+      "source": "angliiska-mova-karpuk-8-klas-2025.pdf",
+      "source_sha256": "72837769036b18dfa683d3ad4ea8764e2c145c367b4e6e6502ea9c447314b5eb",
+      "extracted": "2026-10-04",
+      "ocr": {
+        "engine": "tesseract 5.3.4 (eng+ukr)",
+        "pages": 163,
+        "date": "2026-10-04"
+      },
+      "page_offset": 0
+    },
+    {
+      "slug": "algebra",
+      "subject": "Алгебра",
+      "group": "Математика",
+      "color": "#4338ca",
+      "pages": 259,
+      "source": "algebra-ister-8-klas-2025.pdf",
+      "source_sha256": "c4249cf4194ac00a3ab20a561950959b4e1b9e8a728161c3224389a32546d414",
+      "extracted": "2026-10-04",
+      "ocr": {
+        "engine": "tesseract 5.3.4 (ukr)",
+        "pages": 1,
+        "date": "2026-10-04"
+      },
+      "page_offset": 3
+    },
+    {
+      "slug": "geometria",
+      "subject": "Геометрія",
+      "group": "Математика",
+      "color": "#7c3aed",
+      "pages": 219,
+      "source": "geometriia-ister-8-klas-2025.pdf",
+      "source_sha256": "e421c50f750877afb588a6f029bb828d77d45155d2a7c8c9b223201e5dc45f1e",
+      "extracted": "2026-10-04",
+      "page_offset": 3
+    },
+    {
+      "slug": "fizyka",
+      "subject": "Фізика",
+      "group": "Природничі науки",
+      "color": "#1b4f8a",
+      "pages": 294,
+      "source": "fizyka-bariakhtar-8-klas-2025.pdf",
+      "source_sha256": "0881b7c69f9465d7af400a8c2298377c2e3b37a067eafbad61bf461f630c0de2",
+      "extracted": "2026-10-04",
+      "page_offset": 3
+    },
+    {
+      "slug": "khimiia",
+      "subject": "Хімія",
+      "group": "Природничі науки",
+      "color": "#0e7490",
+      "pages": 275,
+      "source": "khimiia-midak-8-klas-2025.pdf",
+      "source_sha256": "642416f39230cd992829c017017a087934491967799b92bee88f3782070651ac",
+      "extracted": "2026-10-04",
+      "ocr": {
+        "engine": "tesseract 5.3.4 (ukr)",
+        "pages": 4,
+        "date": "2026-10-04"
+      },
+      "page_offset": 2
+    },
+    {
+      "slug": "biolohiia",
+      "subject": "Біологія",
+      "group": "Природничі науки",
+      "color": "#3f7d20",
+      "pages": 308,
+      "source": "biologiia-balan-8-klas-2025.pdf",
+      "source_sha256": "c6e657b61b86bd1e2468625106f1b1cdb95a568b8ebb5f154087a2d2e84132bf",
+      "extracted": "2026-10-04",
+      "ocr": {
+        "engine": "tesseract 5.3.4 (ukr)",
+        "pages": 2,
+        "date": "2026-10-04"
+      },
+      "page_offset": 4
+    },
+    {
+      "slug": "heohrafiia",
+      "subject": "Географія",
+      "group": "Природничі науки",
+      "color": "#a16207",
+      "pages": 139,
+      "source": "geografiia-zapotockyi-8-klas-2025.pdf",
+      "source_sha256": "755a7ac0867f1acb1b6771e360c3b696081d9fcbd43683dbd090bb0bacd61894",
+      "extracted": "2026-10-04",
+      "ocr": {
+        "engine": "tesseract 5.3.4 (ukr)",
+        "pages": 3,
+        "date": "2026-10-04"
+      },
+      "page_offset": 2,
+      "page_scale": 2
+    },
+    {
+      "slug": "istoriia-ukr",
+      "subject": "Історія України",
+      "group": "Суспільство",
+      "color": "#b45309",
+      "pages": 260,
+      "source": "istoriia-ukrainy-shchupak-8-klas-2025.pdf",
+      "source_sha256": "1c6ccbfc1f7e57496fde26d5e25cd9cc98c9c01162d8b8643395e625d201815d",
+      "extracted": "2026-10-04",
+      "ocr": {
+        "engine": "tesseract 5.3.4 (ukr)",
+        "pages": 4,
+        "date": "2026-10-04"
+      },
+      "page_offset": 2
+    },
+    {
+      "slug": "vsesvitnia",
+      "subject": "Всесвітня історія",
+      "group": "Суспільство",
+      "color": "#78350f",
+      "pages": 213,
+      "source": "vsesvitnia-istoriia-shchupak-8-klas-2025.pdf",
+      "source_sha256": "e8d61c0ac6823ed0c7c90a8e99a244d39bf9c19453182c7ffed2da430112d188",
+      "extracted": "2026-10-04",
+      "ocr": {
+        "engine": "tesseract 5.3.4 (ukr)",
+        "pages": 213,
+        "date": "2026-10-04"
+      },
+      "page_offset": 2
+    },
+    {
+      "slug": "hromadianska",
+      "subject": "Громадянська освіта",
+      "group": "Суспільство",
+      "color": "#9a3412",
+      "pages": 101,
+      "source": "gromadianska-osvita-pometun-8-klas-2025.pdf",
+      "source_sha256": "bcfa53362c20aa2cec308c526cf017f6a57d74a8ba61d8d246af45e2f5c9b76d",
+      "extracted": "2026-10-04",
+      "ocr": {
+        "engine": "tesseract 5.3.4 (ukr)",
+        "pages": 101,
+        "date": "2026-10-04"
+      }
+    },
+    {
+      "slug": "pidpryiemnytstvo",
+      "subject": "Підприємництво і фінансова грамотність",
+      "group": "Суспільство",
+      "color": "#0f766e",
+      "pages": 211,
+      "source": "pidpryiemnyctvo-i-finansova-gramotnist-kuzniecova-8-klas-2025.pdf",
+      "source_sha256": "3237b8eb29decf7d692d21d08066a72340977f30af1815a3e7c3e8e56bdf1d70",
+      "extracted": "2026-10-04",
+      "ocr": {
+        "engine": "tesseract 5.3.4 (ukr)",
+        "pages": 211,
+        "date": "2026-10-04"
+      }
+    },
+    {
+      "slug": "informatyka",
+      "subject": "Інформатика",
+      "group": "Технології",
+      "color": "#155e75",
+      "pages": 214,
+      "source": "informatyka-bios-8-klas-2025.pdf",
+      "source_sha256": "c2e2bab8d58c54bc806c1bb7de24bd22f204e5ab63772def8ba5d021f9fa44cf",
+      "extracted": "2026-10-04",
+      "ocr": {
+        "engine": "tesseract 5.3.4 (ukr+eng)",
+        "pages": 214,
+        "date": "2026-10-04"
+      },
+      "page_offset": 3
+    },
+    {
+      "slug": "tekhnolohii",
+      "subject": "Технології",
+      "group": "Технології",
+      "color": "#525252",
+      "pages": 258,
+      "source": "tekhnologii-khodzycka-8-klas-2025.pdf",
+      "source_sha256": "77e948682529fcc82d35ec084bb278eee210f36002ffe45b7cda06546c8fea09",
+      "extracted": "2026-10-04",
+      "page_offset": 1
+    },
+    {
+      "slug": "mystetstvo",
+      "subject": "Мистецтво",
+      "group": "Мистецтво й здоров'я",
+      "color": "#be185d",
+      "pages": 146,
+      "source": "mystectvo-gaidamaka-8-klas-2025.pdf",
+      "source_sha256": "31ba4a49a1a48ed8e95fb34a2a526d80c1dbd7acc190117ddfb661e5b9cbd95b",
+      "extracted": "2026-10-04",
+      "ocr": {
+        "engine": "tesseract 5.3.4 (ukr)",
+        "pages": 2,
+        "date": "2026-10-04"
+      },
+      "page_offset": 2
+    },
+    {
+      "slug": "zdorovia",
+      "subject": "Здоров'я, безпека та добробут",
+      "group": "Мистецтво й здоров'я",
+      "color": "#15803d",
+      "pages": 179,
+      "source": "zdorovia-bezpeka-ta-dobrobut-gushchyna-8-klas-2025.pdf",
+      "source_sha256": "67c872d1a765b939ebd8d9619acb0dd41a74d4bfbf5513da32ea3c144d68f238",
+      "extracted": "2026-10-04",
+      "ocr": {
+        "engine": "tesseract 5.3.4 (ukr)",
+        "pages": 179,
+        "date": "2026-10-04"
+      },
+      "page_offset": 0
+    }
+  ]
+}
