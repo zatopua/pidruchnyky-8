@@ -1,0 +1,3989 @@
+{
+ "_meta": {
+  "generator": "Claude Sonnet у хмарній сесії (субагенти, картинка + OCR сторінки)",
+  "prompt_version": 3,
+  "generated": "2026-10-04",
+  "text_sha256": "541deaaaf9c3e65008e332ac33fca42cd4a2ccb54a4f2ad96fe1c98ad2fbf600"
+ },
+ "pages": {
+  "1": {
+   "kind": "cover",
+   "title": "Обкладинка — English (Year 8), Student's Book",
+   "points": [
+    "Обкладинка підручника «Англійська мова» (English), Student's Book, 8 клас, з аудіосупроводом.",
+    "Автори: Oksana Karpyuk, Kristina Karpyuk; серія «kids online»."
+   ]
+  },
+  "2": {
+   "kind": "intro",
+   "title": "Вихідні дані підручника",
+   "points": [
+    "Підручник «Англійська мова (8-й рік навчання) — English (Year 8)» для 8 класу, авт. Карпюк О. Д., Карпюк К. Т., Тернопіль: Астон, 2025, 192 с.",
+    "Рекомендовано МОН України (наказ від 21.02.2025 № 347); створено за модельною програмою «Іноземна мова 5–9 класи».",
+    "Це інформаційно-комунікаційний проєкт із зразками онлайн-взаємодії дітей із різних країн; видання має аудіосупровід."
+   ]
+  },
+  "3": {
+   "kind": "image",
+   "title": "Вступ — вірш про «Kids Online»",
+   "points": [
+    "Сторінка-ілюстрація: підлітки з ґаджетами, соцмережі, відео; у хмарці — чотиривірш-заохочення практикувати англійську.",
+    "У вірші: «Let's practise English, dear friends, with websites and YouTube» — курс «Kids Online» допомагає вчити мову."
+   ]
+  },
+  "4": {
+   "kind": "toc",
+   "title": "Contents (початок): Starter і Units 1–8",
+   "points": [
+    "Зміст із колонками Vocabulary та Grammar: Starter (с. 6–8), Unit 1 «Welcome to School!» (с. 9–30), Unit 2 «Friends Forever» (с. 31–50).",
+    "Unit 3 «Do We Need the Mass Media?» (с. 51–68), Unit 4 «Music Is Everywhere!» (с. 69–86), Unit 5 «Do You Need a Book?» (с. 87–106).",
+    "Unit 6 «Different Choices, Different Lives» (с. 107–124), Unit 7 «Ukraine Profile» (с. 125–144), Unit 8 «Discover English-Speaking Countries!» (с. 145–164).",
+    "Граматика: порядок слів у питаннях, «adverbs of degree», «modal verbs», «tag questions», «Present Perfect with for/since», «Past Perfect», «relative clauses», «First Conditional», «Passive Voice».",
+    "Далі: Grammar Focus (с. 165–177), Vocabulary List (с. 178–189), Irregular Verbs (с. 190–191)."
+   ]
+  },
+  "5": {
+   "kind": "toc",
+   "title": "Contents (продовження): Reading, Speaking, Writing",
+   "points": [
+    "Таблиця за темами: Reading & Listening, Speaking, Writing для Starter і Units 1–8.",
+    "Starter: «Summer Holidays», запитання й відповіді, написання листівки. Unit 1: шкільні правила й норми, освіта у Британії та США, блог про ідеальну школу.",
+    "Unit 2: поради, як здобути друзів, способи спілкування, лист другу. Unit 3: традиційні й сучасні медіа, влогінг, лист редактору.",
+    "Unit 4: музика, концерти, біографія співака. Unit 5: книжки, читацькі звички, рецензія й опитування. Unit 6: спосіб життя, розпорядок дня, правила здорового життя.",
+    "Unit 7: Україна, її географія й клімат, стаття й вікторина. Unit 8: англомовні країни (Британія, США, Нова Зеландія, Австралія, Канада), блог про країну."
+   ]
+  },
+  "6": {
+   "kind": "text",
+   "title": "Starter — Word Order in Yes/No Questions",
+   "points": [
+    "Впр. 1: прослухати чотирьох дітей (Stacey, Nick, Nicole, Steve) і зіставити імена з літніми заняттями (a–d); далі розповісти класові про власні літні канікули.",
+    "Рамка про порядок слів у питаннях, що вимагають відповіді «так/ні»: допоміжне дієслово на початку, потім підмет, потім основне дієслово.",
+    "Приклади в рамці з короткими відповідями: «Do you like travelling? — Yes, I do.», «Are you reading right now? — No, I'm not.», «Had you known about it before? — No, I hadn't.»",
+    "Впр. 2: зіставити шість питань (1–6) із короткими відповідями."
+   ],
+   "formulas": [
+    "Do/Does/Did + підмет + V: «Do you like travelling?»",
+    "Am/Is/Are/Was/Were + підмет + V-ing: «Was Emma dancing at 4 pm?»",
+    "Have/Has/Had + підмет + V3: «Have the kids done their homework yet?»"
+   ]
+  },
+  "7": {
+   "kind": "text",
+   "title": "Starter — Wh-Questions",
+   "points": [
+    "Рамка Wh-Questions: питальне слово на початку, далі допоміжне дієслово, підмет і основне дієслово: «What do you like?», «Why are they smiling?», «When did Ned return?».",
+    "Якщо питальне слово — підмет (Who, What), допоміжне дієслово йде одразу за ним: «Who is talking at the moment?», «What had happened before then?».",
+    "Із іменником: «What subjects did you learn?», «Which book has he read?».",
+    "Впр. 3 і 5: поставити питання до готових відповідей (3: №1–6; 5: №1–8). Впр. 4a: розставити слова в питання (№1–8); 4b: у парах скласти вісім власних wh-питань."
+   ],
+   "formulas": [
+    "Wh-слово + допоміжне дієслово + підмет + V: «Where was Kim sleeping?»",
+    "Who/What + допоміжне дієслово + V (питання до підмета): «Who is talking?»",
+    "What/Which + іменник + допоміжне дієслово + підмет + V: «Which book has he read?»"
+   ]
+  },
+  "8": {
+   "kind": "exercises",
+   "title": "Starter — Postcard from Holidays",
+   "points": [
+    "Впр. 6: у парах розпитати партнера про шкільне життя (чи подобається школа, чи важко починати навчальний рік, що полегшує, чи піде в гуртки) і розповісти класові.",
+    "Впр. 7: доповнити листівку Gemma словами з рамки (ate, Atlantic Ocean, dolphins, Ireland, very long, windy). Впр. 8: розставити відомості з листівки в порядок a–e.",
+    "Впр. 9: відповісти на шість запитань про останні канікули (де, як дісталися, де жили, погода, що робили, найкраще/найгірше).",
+    "Впр. 10: написати листівку про останні канікули (80–100 слів) за зразком листівки Gemma й запитаннями впр. 9."
+   ]
+  },
+  "9": {
+   "kind": "intro",
+   "title": "Unit 1. Welcome to School! — вступна сторінка",
+   "points": [
+    "Початок Unit 1 «Welcome to School!». Lead-in: скільки часу ви проводите в школі, яке ваше шкільне життя, які улюблені предмети й позашкільні заняття та чому.",
+    "What's in this unit?, Language: шкільні кімнати й приладдя, типи шкіл, правила й норми, «adverbs of degree», «modal verbs: have to/had to, can/could, may/might».",
+    "Skills: презентувати школу, висловлювати думку про правила й традиції, розуміти середню освіту у Британії та США, писати блог про ідеальну школу."
+   ]
+  },
+  "10": {
+   "kind": "text",
+   "title": "Unit 1. Welcome to School! — Videos",
+   "points": [
+    "Репортаж про школи в Кембриджі: усі учні живуть в одному місті, але школи різні — не лише дизайном, а й правилами та нормами.",
+    "William вчиться в Netherall School: велика державна середня школа, відкрита 1871 р., учні 11–18 років; треба бути організованим, носити форму.",
+    "Tej навчається в Cambridge Home School (заснована 2002 р.): міжнародна онлайн-школа для учнів 7–19 років; треба бути толерантним і поважати всіх.",
+    "Впр. 1: подивитися відео, прочитати коментарі й здогадатися про значення виділених слів. Впр. 2a: повторити слова з рамки; 2b: доповнити шість речень новими словами."
+   ],
+   "terms": [
+    {
+     "term": "manner",
+     "def": "манера поведінки (manners — правила пристойної поведінки)"
+    },
+    {
+     "term": "norm",
+     "def": "норма, прийняте правило"
+    },
+    {
+     "term": "private school",
+     "def": "приватна школа"
+    },
+    {
+     "term": "state school",
+     "def": "державна школа"
+    },
+    {
+     "term": "to analyse",
+     "def": "аналізувати"
+    },
+    {
+     "term": "strict",
+     "def": "суворий"
+    },
+    {
+     "term": "tolerant",
+     "def": "толерантний, терпимий до інших"
+    }
+   ]
+  },
+  "11": {
+   "kind": "text",
+   "title": "Unit 1. Welcome to School! — Kids Online (Videos)",
+   "points": [
+    "Andrea вчиться в St Mary's School (відкрита 1898 р.): приватна школа для дівчат 3–19 років, багато дискусій на уроках, важливі гарні манери, усі в формі.",
+    "Adam — у приватній школі для дітей 1–16 років (працює з 1976 р.): форма обов'язкова, класи невеликі, предмети можна обирати, є гуртки (футбол, Drama Club).",
+    "Впр. 3a: прочитати тексти ще раз і заповнити таблицю (назва школи, тип, вік учнів, рік відкриття; частково заповнено).",
+    "Впр. 3b: сказати, чи правдиві речення №1–5 (про учнів із відео, школи в Кембриджі, Netherall School, форму, Adam); решта речень — на наступній сторінці."
+   ]
+  },
+  "12": {
+   "kind": "text",
+   "title": "Unit 1. Welcome to School! — Comments",
+   "points": [
+    "Коментарі підлітків: Jane (15, США) — шкільна форма є майже скрізь, а в її школі можна носити що завгодно, якщо чисто й охайно.",
+    "Petro (14, Україна): в Україні школи не дуже різні — однакові предмети й подібні правила. Chang (14, Китай): правила дуже суворі, треба вчасно приходити й бути готовим до уроків.",
+    "Olivia (13, Польща): класно, що є школи, де можна обирати, що вчити; хоче, щоб її школа була схожою.",
+    "Впр. 3b (закінчення): речення №6–10 true/false. Впр. 4: за коментарями вписати імена дітей (№1–4). Впр. 5: написати короткий абзац про свою школу (назва й тип, вік учнів, правила й традиції)."
+   ]
+  },
+  "13": {
+   "kind": "text",
+   "title": "Unit 1. Vocabulary — My School",
+   "points": [
+    "Тема «My School»: план школи на два поверхи — Ground floor (перший) і First floor (другий) — з підписаними кімнатами та фото приміщень.",
+    "Впр. 1: за планом школи доповнити речення зі с. 14 (кімнати за описом); завдання продовжується на наступній сторінці."
+   ],
+   "terms": [
+    {
+     "term": "gym",
+     "def": "спортзал"
+    },
+    {
+     "term": "assembly hall",
+     "def": "актова зала"
+    },
+    {
+     "term": "canteen",
+     "def": "їдальня"
+    },
+    {
+     "term": "school kitchen",
+     "def": "шкільна кухня"
+    },
+    {
+     "term": "lockers",
+     "def": "шафки для речей"
+    },
+    {
+     "term": "changing room",
+     "def": "роздягальня"
+    },
+    {
+     "term": "IT classroom",
+     "def": "кабінет інформатики"
+    },
+    {
+     "term": "science lab",
+     "def": "наукова лабораторія"
+    },
+    {
+     "term": "staff room",
+     "def": "учительська"
+    },
+    {
+     "term": "headteacher's office",
+     "def": "кабінет директора"
+    },
+    {
+     "term": "corridor",
+     "def": "коридор"
+    },
+    {
+     "term": "stairs",
+     "def": "сходи"
+    }
+   ]
+  },
+  "14": {
+   "kind": "exercises",
+   "title": "Unit 1. Vocabulary — My School (prepositions)",
+   "points": [
+    "Впр. 1 (закінчення): речення №1–10 про кімнати («… is a room for the headteacher», «… is a room where you do experiments», «… is a place where you leave your books, bags…»).",
+    "Впр. 2: зіставити шість прийменників місця з малюнками (дерево й хлопчик у різних позиціях).",
+    "Впр. 3: за планом школи (с. 13) вибрати правильний прийменник у реченнях №1–8, напр. «The IT classroom is in front of/next to the entrance»."
+   ],
+   "terms": [
+    {
+     "term": "in front of",
+     "def": "перед"
+    },
+    {
+     "term": "behind",
+     "def": "позаду, за"
+    },
+    {
+     "term": "between",
+     "def": "між"
+    },
+    {
+     "term": "in the middle (of)",
+     "def": "посередині, в центрі"
+    },
+    {
+     "term": "opposite",
+     "def": "навпроти"
+    },
+    {
+     "term": "next to",
+     "def": "поруч із"
+    }
+   ]
+  },
+  "15": {
+   "kind": "text",
+   "title": "Unit 1. Vocabulary — School Equipment",
+   "points": [
+    "Впр. 4: подумати про свою школу, обрати кілька кімнат і сказати, де вони розташовані. Зразок: «At my school, the canteen is on the ground floor opposite the gym.»",
+    "Впр. 5a: за малюнками шкільного обладнання сказати, де його можна знайти. Зразок: «Computers can be found in the IT classroom, the staff room and the headteacher's office.»",
+    "Впр. 5b: придумати, які ще речі є в кімнатах із таким обладнанням (desks, seats, cupboards тощо)."
+   ],
+   "terms": [
+    {
+     "term": "computer",
+     "def": "комп'ютер"
+    },
+    {
+     "term": "board",
+     "def": "дошка"
+    },
+    {
+     "term": "bookcase",
+     "def": "книжкова шафа"
+    },
+    {
+     "term": "microscope",
+     "def": "мікроскоп"
+    },
+    {
+     "term": "dishwasher",
+     "def": "посудомийна машина"
+    },
+    {
+     "term": "piano",
+     "def": "піаніно, фортепіано"
+    },
+    {
+     "term": "stage",
+     "def": "сцена"
+    },
+    {
+     "term": "sink",
+     "def": "раковина"
+    }
+   ]
+  },
+  "16": {
+   "kind": "text",
+   "title": "Unit 1. Reading — Education in the UK",
+   "points": [
+    "Впр. 1a: поміркувати, що таке школа і навіщо діти й підлітки туди ходять; 1b: прослухати й прочитати текст «Education in the UK», здогадатися про виділені слова.",
+    "У Британії навчаються зазвичай 12 років. Primary school — для дітей 5–11 років, один учитель викладає всі предмети.",
+    "З 11 років — secondary education: comprehensive school і grammar school (державні, безкоштовні) або private school (платна; багато boarding schools, напр. Eton).",
+    "Різні вчителі з різних предметів; обов'язкові English, Maths, Science. Деякі діти вчаться вдома (homeschooled) із батьками чи онлайн із tutor.",
+    "Зазвичай є форма; уроки о 9:00 з assembly; чотири уроки до обіду й 2–3 після, закінчення о 15:45, далі гуртки (drama, singing, dancing, sport)."
+   ],
+   "terms": [
+    {
+     "term": "primary school",
+     "def": "початкова школа (5–11 років)"
+    },
+    {
+     "term": "secondary education",
+     "def": "середня освіта (з 11 років)"
+    },
+    {
+     "term": "neighbourhood",
+     "def": "околиця, район, де живеш"
+    },
+    {
+     "term": "tutor",
+     "def": "репетитор, приватний вчитель"
+    },
+    {
+     "term": "afterwards",
+     "def": "потім, після (уроків)"
+    }
+   ]
+  },
+  "17": {
+   "kind": "text",
+   "title": "Unit 1. Reading — Education in the UK (закінчення)",
+   "points": [
+    "Закінчення тексту: канікули — два тижні на Різдво й два на Великдень, літні тривають шість тижнів; наприкінці кожного року є тести.",
+    "Найважливіші тести — наприкінці high school: добрі оцінки потрібні для вступу до університету; найвідоміші — Oxford і Cambridge.",
+    "Впр. 2a: повторити слова з рамки Words for You; 2b: зіставити чотири терміни (№1–4) з поясненнями a–d. Впр. 3: вибрати a або b у реченнях №1–8 за змістом тексту."
+   ],
+   "terms": [
+    {
+     "term": "assembly",
+     "def": "ранкові збори всієї школи"
+    },
+    {
+     "term": "boarding school",
+     "def": "школа-інтернат, де учні вчаться й живуть"
+    },
+    {
+     "term": "comprehensive school",
+     "def": "загальна державна школа для всіх місцевих дітей"
+    },
+    {
+     "term": "grammar school",
+     "def": "особлива школа, куди вступають після іспитів"
+    },
+    {
+     "term": "high school",
+     "def": "старша школа"
+    },
+    {
+     "term": "to homeschool",
+     "def": "навчати (вчитися) вдома"
+    },
+    {
+     "term": "to last",
+     "def": "тривати"
+    }
+   ]
+  },
+  "18": {
+   "kind": "exercises",
+   "title": "Unit 1. Reading — Education in the UK",
+   "points": [
+    "Впр. 4: відповісти на запитання №1–6 за текстом (тривалість primary school, що таке boarding school, головні предмети, хто зустрічає учнів, що роблять після уроків, чому важливі оцінки).",
+    "Впр. 5: у парах знайти в інтернеті інформацію про українські школи й скласти таблицю: що спільне та що різне в українській і британській школі; показати класові.",
+    "Впр. 6: у групах обрати іншу англомовну країну й підготувати цифрову презентацію про школи (тривалість, типи, предмети й чи можна їх обирати, правила й традиції)."
+   ]
+  },
+  "19": {
+   "kind": "exercises",
+   "title": "Unit 1. Grammar — Adverbs of Degree",
+   "points": [
+    "Тема «Adverbs of Degree» (прислівники ступеня); довідка — Grammar Focus 1.1, с. 165–166; для впр. 1–4.",
+    "Впр. 1: вибрати правильний прислівник (напр. almost/too, very/enough, quite/so) у реченнях №1–10. Впр. 2: зіставити початки речень №1–8 із закінченнями a–h.",
+    "Впр. 3: доповнити речення №1–8 словами з рамки (completely, absolutely, hardly, somewhat, totally, a little, a (little) bit); приклад: «This file was completely/totally deleted.»",
+    "Впр. 4: розставити слова у правильному порядку й скласти речення №1–8. Додаткова практика — Grammar Book: Unit 1, Grammar 1."
+   ]
+  },
+  "20": {
+   "kind": "text",
+   "title": "Unit 1. Listening — School Uniform: Is It Good or Bad?",
+   "points": [
+    "Впр. 1a: прослухати нові слова з рамки Words for You і повторити; 1b: перевірити значення за Vocabulary List у кінці книжки.",
+    "Впр. 2: закінчити шість речень (напр. «My new costume is very …», «James wore jeans to school and got …») словами з рамки.",
+    "Впр. 3: у парах обговорити: чи можна носити зображені речі (джинси, сорочка, піджак, спідниця, футболка, кросівки, кепка, прикраси) до школи; чи шкільна форма — добра чи погана ідея і чому."
+   ],
+   "terms": [
+    {
+     "term": "detention",
+     "def": "залишення після уроків як покарання"
+    },
+    {
+     "term": "freedom",
+     "def": "свобода"
+    },
+    {
+     "term": "stripe",
+     "def": "смужка"
+    },
+    {
+     "term": "fashionable",
+     "def": "модний"
+    },
+    {
+     "term": "odd",
+     "def": "дивний, незвичний"
+    },
+    {
+     "term": "old-fashioned",
+     "def": "старомодний"
+    },
+    {
+     "term": "to get detention (for)",
+     "def": "отримати покарання «залишення після уроків» (за що-небудь)"
+    }
+   ]
+  },
+  "21": {
+   "kind": "exercises",
+   "title": "Unit 1. Listening — School Uniform: Is It Good or Bad?",
+   "points": [
+    "Впр. 4a: прослухати чотирьох учнів (Will, Tilly, Mike, Sasha) про шкільну форму й вписати їхні імена в твердження №1–4 (подобається, ненавидить, хоче носити, полегшує все).",
+    "Впр. 4b: прослухати ще раз і вибрати a або b у реченнях №1–8 (колір штанів, смужки на краватці, дивне взуття, хто дав detention, чи модна форма тощо).",
+    "Впр. 5: чи змінилася ваша думка про шкільну форму після почутого, чому (ні) — розповісти класові."
+   ]
+  },
+  "22": {
+   "kind": "text",
+   "title": "Unit 1. Vocabulary — School Rules",
+   "points": [
+    "Тема «School Rules»: шість малюнків із поведінкою учнів на уроці (жування, списування, підняту руку, позіхання тощо).",
+    "Впр. 1a: розібрати 12 дій на ті, що OK, і ті, що Not OK (в таблиці). 1b: пояснити, чому дії з колонки Not OK погані; зразок: «I think chewing gum is not okay because you can't speak clearly…»",
+    "Впр. 2: у парах скласти список правил своєї школи й показати класові; перемагає пара з найбільшим списком. Внизу починається підзаголовок «How well do you know your school rules?»"
+   ],
+   "terms": [
+    {
+     "term": "chew gum",
+     "def": "жувати жуйку"
+    },
+    {
+     "term": "cheat in tests",
+     "def": "списувати на тестах"
+    },
+    {
+     "term": "pass notes around",
+     "def": "передавати записки"
+    },
+    {
+     "term": "yawn",
+     "def": "позіхати"
+    },
+    {
+     "term": "switch off your phone",
+     "def": "вимикати телефон"
+    },
+    {
+     "term": "bully smaller students",
+     "def": "цькувати менших учнів"
+    },
+    {
+     "term": "come to school on time",
+     "def": "приходити до школи вчасно"
+    }
+   ]
+  },
+  "23": {
+   "kind": "exercises",
+   "title": "Unit 1. Grammar — Modal Verbs",
+   "points": [
+    "Тема «Modal Verbs» (модальні дієслова); довідка — Grammar Focus 1.2, с. 166–167; для впр. 1–3.",
+    "Впр. 1a: зіставити речення №1–6 з продовженнями a–f; 1b: сказати, які з них виражають можливість, необхідність, заборону й обов'язок.",
+    "Впр. 2: вибрати правильний варіант (may/might, can/must, don't/didn't, have to/can, can't/couldn't тощо) у реченнях №1–10.",
+    "Впр. 3: закінчити речення №1–8 власними словами з модальними формами; зразок: «It was raining, so I had to take my umbrella.» Практика — Grammar Book: Unit 1, Grammar 2."
+   ],
+   "formulas": [
+    "(not) have to / had to",
+    "can / could (not)",
+    "may / might (not)"
+   ]
+  },
+  "24": {
+   "kind": "exercises",
+   "title": "Unit 1. Speaking — Talking About School",
+   "points": [
+    "Впр. 1a: подумати, якими можуть бути школи, і додати прикметники до списку (Big, spacious, new …). 1b: прослухати розмову Jack і Will про їхні школи й визначити true/false для речень №1–6.",
+    "Впр. 2: відповісти на запитання про свою школу: який вигляд має (велика/мала, сучасна/класична), чи є форма, що може завдати клопоту.",
+    "Впр. 3: прослухати решту розмови двічі й закінчити речення №1–8 (нова школа Jack, суворість, гуртки, предмети Will тощо).",
+    "Впр. 4: у парах дізнатися думку партнера про школу (подобається чи ні, правила, улюблені й нелюбимі предмети, гуртки), занотувати й розповісти класові."
+   ]
+  },
+  "25": {
+   "kind": "exercises",
+   "title": "Unit 1. Writing — My Perfect School (blog post)",
+   "points": [
+    "Впр. 1: у групах по 3–4 обговорити ідеальну школу: який вигляд має будівля, де розташована (місто чи село), які правила.",
+    "Впр. 2: прочитати блог Stacey Richard «My Perfect School» (велика будівля в центрі міста, стадіон, шафки, уроки з 10:00, без форми, багато гуртків, поїздки) і відповісти на запитання №1–8.",
+    "Впр. 3: написати короткий блог про свою ідеальну школу за схемою з трьох абзаців: вигляд і розташування, уроки й правила, заняття після школи."
+   ],
+   "formulas": [
+    "Paragraph 1: My perfect school is … It is in … There are …",
+    "Paragraph 2: Lessons start at … There are … Everyone … (rules).",
+    "Paragraph 3: After lessons, students can … (activities, clubs, trips)."
+   ]
+  },
+  "26": {
+   "kind": "exercises",
+   "title": "Unit 1. Welcome to School! — Look Back",
+   "points": [
+    "Блок повторення Look Back до Unit 1. Впр. 1: обрати правильне слово — adverbs of degree («a bit/completely», «hardly/totally», «somewhat/absolutely», «a little»).",
+    "Впр. 2: вибрати a або b — модальні дієслова «have to/had to», «can/could», «may/might».",
+    "Впр. 3: доповнити речення словами з рамки («freedom, manners, neighbourhood, stripes, analyse, fashionable, strict, afterwards»).",
+    "Впр. 4: вгадати слова за означеннями (напр. «a private teacher», «ways of behaviour») і скласти власні речення з ними."
+   ]
+  },
+  "27": {
+   "kind": "exercises",
+   "title": "Unit 1. Welcome to School! — Look Back",
+   "points": [
+    "Впр. 5: прочитати коментарі учнів (James, Jane, Michael, Liz, Tom, Greg, Annie) і здогадатися, до якої школи ходить кожен («My school is free for everyone», «I study and live at my school»).",
+    "Впр. 6: двічі прослухати розмову Emma і Stella; визначити, які з 8 тверджень (про день у школі, старе й нове крило, кімнати, їдальню) правдиві, і виправити хибні."
+   ]
+  },
+  "28": {
+   "kind": "exercises",
+   "title": "Unit 1. Welcome to School! — Look Back",
+   "points": [
+    "Впр. 7: гра в парах — описати місце у школі, кажучи, де воно: «It's on the ground floor next to the entrance», партнер відгадує («The canteen?»).",
+    "Впр. 8: сказати, що є в кімнатах (IT room, headteacher's office, gym, music room, hall, library, assembly hall, school lab), за зразком «There are tables and seats in a canteen».",
+    "Впр. 9 a): за малюнками 1–8 сказати, що треба/не треба робити в школі, з «must/mustn't» («Kids must be attentive»); b): назвати інші відомі шкільні правила."
+   ]
+  },
+  "29": {
+   "kind": "text",
+   "title": "Unit 1. Welcome to School! — Look Back: Schools in the USA",
+   "points": [
+    "Текст «Schools in the USA»: діти йдуть до школи у 6 років; початкова — «elementary» (6 років), потім «junior high school» (2 роки), «senior high school» — для віку 14–18 років.",
+    "Школи в США бувають «public», приватні, є й «homeschooled»; більшість без шкільної форми, але є правила (ввічливість, без списування й булінгу).",
+    "Обов'язкові предмети: English, Science, Math, PE, решту можна обирати; популярні позашкільні заняття — спортивні команди, гуртки музики, науки, мистецтва, «cheerleading».",
+    "Випуск (graduation): церемонія й вечірка «prom»; коледж платний, тому дехто спершу працює.",
+    "Впр. 10 a): закінчити 8 речень за текстом; b): відповісти на питання про українські школи (початок і кінець навчання, предмети, форма, правила, гуртки)."
+   ],
+   "terms": [
+    {
+     "term": "elementary school",
+     "def": "початкова школа в США (шість років)"
+    },
+    {
+     "term": "junior high school",
+     "def": "середня ланка школи в США (два роки), «middle school»"
+    },
+    {
+     "term": "senior high school",
+     "def": "старша школа в США для віку 14–18 років"
+    },
+    {
+     "term": "prom",
+     "def": "велика вечірка наприкінці старшої школи після церемонії випуску"
+    }
+   ]
+  },
+  "30": {
+   "kind": "text",
+   "title": "Unit 1. Welcome to School! — Self-Assessment",
+   "points": [
+    "Впр. 1: подумати над підсумком розділу — що вивчено і з чим ще потрібна допомога («What have you learnt?»).",
+    "Впр. 2: скопіювати таблицю й позначити смайликом, наскільки вмієш кожен з аспектів: Vocabulary, Grammar, Reading, Listening, Speaking, Writing.",
+    "Рівні в таблиці: два смайлики — розумію й можу допомогти партнеру; один — розумію й роблю сам; нейтральний — є питання; сумний — не розумію.",
+    "Рамка «Now I can»: говорити про типи шкіл, описувати школу, обговорювати правила, вживати adverbs of degree, «have to, can/could, may/might», писати блог про ідеальну школу."
+   ]
+  },
+  "31": {
+   "kind": "intro",
+   "title": "Unit 2. Friends Forever",
+   "points": [
+    "Початок Unit 2 «Friends Forever» («Вічні друзі»); запитання Lead-in: «Who is a friend?», «How do you communicate with your friends?», «Do you use any social networks?».",
+    "Рамка «What's in this unit?» — мовний матеріал: риси хорошого/поганого друга, засоби спілкування, «reciprocal pronouns» і «reflexive pronouns».",
+    "Уміння: говорити про друзів і соціальні мережі, радити, як підтримувати зв'язок, висловлювати думку про види спілкування, писати коментар про дружбу та листа другові."
+   ]
+  },
+  "32": {
+   "kind": "text",
+   "title": "Unit 2. Friends Forever — Reading: «Sally's Blog. My Friendly Advice»",
+   "points": [
+    "Блог Sally про дружбу: друзі мають спільні хобі, інтереси, думки й почуття; комусь легко знайти друзів, комусь важко.",
+    "Чотири перші поради: бути добрим і толерантним, активним і товариським, розвивати навички й хобі, знайти баланс між розмовою й слуханням.",
+    "Впр. 1: прослухати слова з рамки Words for You і перевірити значення у Vocabulary List в кінці книжки. Впр. 2: вставити слова з рамки в 6 речень.",
+    "Впр. 3 a): за фото в блозі здогадатися, про що він; b): обговорити в парах «Why do we need friends?» і «What makes you a good friend?»."
+   ],
+   "terms": [
+    {
+     "term": "balance",
+     "def": "баланс, рівновага"
+    },
+    {
+     "term": "especially",
+     "def": "особливо"
+    },
+    {
+     "term": "a piece of advice (on/about)",
+     "def": "порада (щодо чогось)"
+    },
+    {
+     "term": "to be easier said than done",
+     "def": "легше сказати, ніж зробити"
+    },
+    {
+     "term": "to keep in touch with smb",
+     "def": "підтримувати зв'язок із кимось"
+    },
+    {
+     "term": "to work on smth",
+     "def": "працювати над чимось"
+    }
+   ]
+  },
+  "33": {
+   "kind": "text",
+   "title": "Unit 2. Friends Forever — Reading: «Sally's Blog. My Friendly Advice»",
+   "points": [
+    "Продовження блогу: поради можуть здаватися простими, але їх важко виконувати. Тож: бути сміливим і не хвилюватися, бо є люди з такою самою думкою.",
+    "Ще поради: подумати про хобі й вступити до гуртків, не забувати про соціальні мережі, більше гуляти й спілкуватися з друзями.",
+    "Впр. 4 a): прослухати й прочитати допис, виправити 8 хибних тверджень («Be a chatterbox — that way you will be more interesting»).",
+    "Впр. 4 b): відповісти, чи корисна стаття, що було новим, що вже знав, які ще поради про дружбу можеш дати."
+   ]
+  },
+  "34": {
+   "kind": "text",
+   "title": "Unit 2. Friends Forever — Reading: Comments to the Blog",
+   "points": [
+    "Коментарі до блогу: Sue (14, Canada) активна, ходить у три гуртки, але трохи «chatterbox»; Vita (14, Croatia) дякує, їй особливо сподобалась друга частина поради.",
+    "Chai Son (15, Thailand): нічого нового, але забули, що важливо підтримувати й допомагати одне одному; Arvo (15, Finland): «Be brave» — легше сказати, ніж зробити, у мережі спілкуватися іноді легше.",
+    "Впр. 5: у парах запитати партнера, що він/вона робить, щоб бути хорошим другом, скільки має друзів, як і де з ними познайомився; занотувати й розповісти класові.",
+    "Впр. 6: з'єднати коментатора (Vita, Chai Son, Sue, Arvo) з описом. Впр. 7: написати власний коментар про дружбу."
+   ]
+  },
+  "35": {
+   "kind": "exercises",
+   "title": "Unit 2. Friends Forever — Vocabulary",
+   "points": [
+    "Впр. 1 a): розподілити прикметники на риси хорошого й поганого друга (GOOD FRIEND / BAD FRIEND); b): додати власні прикметники.",
+    "Впр. 2 a): вставити «should» або «shouldn't» у 8 речень про те, чого чекаємо від друзів («Friends ... keep each other's secrets»); b): що ще друзі мають або не мають робити.",
+    "Впр. 3: тест «Are you a good friend?» з 5 ситуацій (день народження, проблема друга, булінг, сварка, секрет); переважно a) — справжній друг, переважно b) — є над чим працювати."
+   ],
+   "terms": [
+    {
+     "term": "loyal",
+     "def": "відданий"
+    },
+    {
+     "term": "frank",
+     "def": "щирий, відвертий"
+    },
+    {
+     "term": "jealous",
+     "def": "заздрісний, ревнивий"
+    },
+    {
+     "term": "stubborn",
+     "def": "впертий"
+    },
+    {
+     "term": "kind",
+     "def": "добрий"
+    },
+    {
+     "term": "selfish",
+     "def": "егоїстичний"
+    },
+    {
+     "term": "understanding",
+     "def": "той, що розуміє, чуйний"
+    },
+    {
+     "term": "dishonest",
+     "def": "нечесний"
+    }
+   ]
+  },
+  "36": {
+   "kind": "text",
+   "title": "Unit 2. Friends Forever — Reading: «Ways of Communication»",
+   "points": [
+    "Впр. 1: у групах по 3–4 обговорити, що таке спілкування, чому воно важливе і які є його засоби.",
+    "Стаття «Ways of Communication»: комунікація — обмін інформацією, а також думками й почуттями; два головні типи — live (face to face) і virtual (за допомогою пристроїв).",
+    "Історія засобів зв'язку: спершу лише живе спілкування, потім листи й пошта, телефон (будки, офісні та домашні, мобільні).",
+    "Сьогодні смартфони з доступом до Інтернету, e-mail і соцмережі; дзвінки бувають звичайні й відео, повідомлення — текстові або голосові, можна слати фото, відео, файли.",
+    "Впр. 2 a): прочитати статтю й визначити правдиві/хибні твердження (вони на с. 37), хибні виправити."
+   ]
+  },
+  "37": {
+   "kind": "text",
+   "title": "Unit 2. Friends Forever — Reading: «Ways of Communication»",
+   "points": [
+    "Завершення статті: віртуальне спілкування не передає почуттів так, як живе; при зустрічі можна грати, займатися спортом, дивитися фільми.",
+    "Висновок статті: live communication не можна замінити віртуальним — соцмережі допомагають підтримувати зв'язок, але не зближують так, як живі зустрічі.",
+    "Впр. 2 a): 8 тверджень (напр. «Communication means exchanging information»); b): закінчити 7 речень за статтею за зразком «Communication can be live and virtual».",
+    "Впр. 3: відповісти, який тип спілкування віддаєш перевагу — live чи virtual — і чому; якими засобами спілкування користуєшся."
+   ],
+   "terms": [
+    {
+     "term": "communication",
+     "def": "спілкування, комунікація"
+    },
+    {
+     "term": "development",
+     "def": "розвиток"
+    },
+    {
+     "term": "process",
+     "def": "процес"
+    },
+    {
+     "term": "worldwide network",
+     "def": "всесвітня мережа"
+    },
+    {
+     "term": "to download",
+     "def": "завантажувати"
+    },
+    {
+     "term": "to function",
+     "def": "функціонувати, працювати"
+    },
+    {
+     "term": "to replace",
+     "def": "замінювати"
+    },
+    {
+     "term": "to transfer",
+     "def": "передавати"
+    },
+    {
+     "term": "ordinary",
+     "def": "звичайний"
+    },
+    {
+     "term": "virtual",
+     "def": "віртуальний"
+    }
+   ]
+  },
+  "38": {
+   "kind": "exercises",
+   "title": "Unit 2. Friends Forever — Grammar: Reciprocal Pronouns",
+   "points": [
+    "Тема: взаємні займенники «each other» і «one another» («один одного»); довідка для впр. 1–4 — Grammar Focus на с. 168.",
+    "Впр. 1: прочитати 4 речення (напр. «My parents are always polite to each other», «Everybody in this team supports one another») і пояснити різницю між ними.",
+    "Впр. 2: вибрати правильний варіант «each other/one another» у 6 реченнях. Впр. 3: закінчити 6 речень цими займенниками.",
+    "Впр. 4 a): вставити «each other» або «one another» у 6 речень; b): скласти власні шість речень із ними."
+   ],
+   "formulas": [
+    "Reciprocal pronouns: each other, one another (один одного)"
+   ]
+  },
+  "39": {
+   "kind": "exercises",
+   "title": "Unit 2. Friends Forever — Listening",
+   "points": [
+    "Впр. 1: у парах запитати одне одного про соцмережі, як часто пишеш друзям, чи писали незнайомці й що ти зробив(ла) — чи заблокував(ла).",
+    "Впр. 2 a): прослухати й повторити нові слова, перевірити їх у Vocabulary List і доповнити 4 речення; b): скласти власні речення з новими словами.",
+    "Впр. 3 a): прослухати розмову Celia і Sarah, обрати a або b у завданнях (про повідомлення, Muffy, чи правдиві повідомлення); b): ще раз прослухати й відповісти на 4 питання про повідомлення."
+   ],
+   "terms": [
+    {
+     "term": "date",
+     "def": "побачення"
+    },
+    {
+     "term": "dude",
+     "def": "чувак, друже (розмовне)"
+    },
+    {
+     "term": "romantic",
+     "def": "романтичний"
+    },
+    {
+     "term": "to call (smb) back",
+     "def": "передзвонити (комусь)"
+    },
+    {
+     "term": "to have a date",
+     "def": "мати побачення"
+    }
+   ]
+  },
+  "40": {
+   "kind": "exercises",
+   "title": "Unit 2. Friends Forever — Listening",
+   "points": [
+    "Впр. 4 a): прослухати розмову Simon і Jack, обрати a або b у 6 завданнях (куди запрошує Jack, кого має побачити Simon, хто передзвонить).",
+    "Впр. 4 b): прослухати ще раз і відповісти на 4 питання (що Simon має зробити спершу, що Simon і Jill роблять разом, кого бачить Simon, чому Celia і Sarah стурбовані).",
+    "Впр. 5: у групах по четверо обговорити питання про дружбу («Do you have a best friend?», «What should friends always do?», «Do real friends share secrets?»)."
+   ]
+  },
+  "41": {
+   "kind": "exercises",
+   "title": "Unit 2. Friends Forever — Vocabulary: Means of Communication",
+   "points": [
+    "Впр. 1 a): за шістьма фото визначити, що це (повідомлення на телефоні, соцмережі, стаціонарний телефон, e-mail на ноутбуці, лист у поштовій скриньці, розмова віч-на-віч).",
+    "Впр. 1 b): які засоби спілкування сучасні, а які традиційні («old-school»).",
+    "Впр. 2 a): прослухати погляди (Joseph, Mrs Smith, Sarah, Mr Jones), закінчити 4 речення «Joseph prefers to use Messenger on his tablet because ...»; b): що віддаєш перевагу ти."
+   ]
+  },
+  "42": {
+   "kind": "exercises",
+   "title": "Unit 2. Friends Forever — Vocabulary: Phrases for Phone Talk",
+   "points": [
+    "Впр. 3 a): прослухати й прочитати фрази «to catch something», «to drop somebody a line», «to give somebody a call», «to hold on», «to keep somebody posted», «to speak up»; з'єднати з означеннями 1–6.",
+    "Впр. 3 b): доповнити діалог про телефонну розмову цими фразами (запрошення на день народження в суботу), потім прослухати й перевірити; c): розіграти діалог у парах."
+   ]
+  },
+  "43": {
+   "kind": "exercises",
+   "title": "Unit 2. Friends Forever — Grammar: Reflexive Pronouns",
+   "points": [
+    "Тема: зворотні займенники (reflexive pronouns); довідка для впр. 1–4 — Grammar Focus на с. 168.",
+    "Впр. 1: з'єднати 8 речень із продовженнями. Впр. 2: вибрати правильний займенник («myself/yourself», «himself/herself», «ourselves/yourselves», «itself/himself»).",
+    "Впр. 3: доповнити 8 речень доречними reflexive pronouns.",
+    "Впр. 4: гра — скласти речення «I think Anna respects herself» про однокласників, потім запитати їх («Anna, do you respect yourself?»)."
+   ],
+   "formulas": [
+    "Reflexive pronouns: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves"
+   ]
+  },
+  "44": {
+   "kind": "exercises",
+   "title": "Unit 2. Friends Forever — Speaking",
+   "points": [
+    "Впр. 1: у групах по 3–4 обговорити, чому люди заводять друзів і що треба робити, щоб мати друзів.",
+    "Впр. 2 a): прослухати дітей (Thomas, Andrew, Ann, Al) і визначити, хто «bossy», «fun to be with», «very active», «not selfish», «gossipy», «fond of music».",
+    "Тексти розповідей: Thomas — «chatterbox» із багатьма друзями; Andrew і Ian — спільні інтереси (футбол, SF films); Ann — друзі Cindy й Emma; Al і Sally — «music addicts»."
+   ]
+  },
+  "45": {
+   "kind": "exercises",
+   "title": "Unit 2. Friends Forever — Speaking: «My Best Friend»",
+   "points": [
+    "Впр. 2 b): прочитати, що діти кажуть про себе й друзів, і відповісти на 5 питань («Why does Thomas say it is strange that he has many friends?», «Why can Ann rely on Cindy?»).",
+    "Впр. 3, крок 1: подумати над питаннями й зробити нотатки (як давно знайомі, зовнішність, характер, що спільного, чи підводив друг, чи ти хороший друг, чи були сварки).",
+    "Впр. 3, крок 2: розповісти класові про свого найкращого друга («My best friend»)."
+   ]
+  },
+  "46": {
+   "kind": "exercises",
+   "title": "Unit 2. Friends Forever — Writing: e-mail to a friend",
+   "points": [
+    "Впр. 1: подумати, як підтримуєш зв'язок із друзями й якими засобами. Впр. 2 a): прочитати e-mail від Carla до Annie (подяка, новини, запрошення на пікнік у неділю) і відповісти на 4 питання.",
+    "Впр. 2 b): розставити 4 речення про зміст листа в правильному порядку.",
+    "Впр. 3: написати e-mail другові за планом: подякувати й прокоментувати новини, розповісти про себе, запросити погуляти, сказати, що друг може принести чи зробити.",
+    "Рамка фраз: початок («Thanks for keeping in touch»), реакція («I'm glad that you ...»), нова тема («By the way,»), запрошення («I'd like to invite you to ...»), кінець («Bye for now»)."
+   ]
+  },
+  "47": {
+   "kind": "exercises",
+   "title": "Unit 2. Friends Forever — Look Back",
+   "points": [
+    "Впр. 1: вибрати «one another/each other» у 8 реченнях. Впр. 2: доповнити 8 речень відповідними reflexive pronouns.",
+    "Впр. 3 a): доповнити 8 речень словами з рамки («balance, dude, process, keep in touch, replace, romantic, especially, easier said than done»).",
+    "Впр. 3 b): скласти шість власних речень зі словами з другої рамки («a date, pieces of advice, a worldwide network, to function, to work on smth, ordinary»).",
+    "Впр. 4: вгадати й сказати за зразком «Kind people are friendly» — про людей з рисами (думають лише про себе, кажуть неправду, вміють тримати секрети, відкриті з іншими)."
+   ]
+  },
+  "48": {
+   "kind": "exercises",
+   "title": "Unit 2. Friends Forever — Look Back",
+   "points": [
+    "Впр. 5: сказати, що хороший друг робить і чого не робить, за зразком «A good friend helps you and doesn't let you down».",
+    "Впр. 6 a): прочитати 6 реплік («I often text my grandchildren», «I use e-mail at work», «I make video calls» тощо) і здогадатися, якими засобами спілкування користуються люди."
+   ]
+  },
+  "49": {
+   "kind": "exercises",
+   "title": "Unit 2. Friends Forever — Look Back",
+   "points": [
+    "Впр. 6 b): гра — записати якомога більше назв соціальних мереж; перемагає той, хто назвав найбільше.",
+    "Впр. 7: доповнити діалог про вечірку й прикраси пропущеними фразами, потім прослухати й перевірити.",
+    "Впр. 8: написати про близького друга за порадою «Writing a description of a person»: Find ideas (зовнішність, як познайомились, характер), Draft (абзаци), Check and write (фінальна версія).",
+    "Рамка «Describing a friend»: Appearance («He's got straight hair/blue eyes»), How you met («We got on well straight away»), Personality («She looks serious/shy but actually ...»)."
+   ]
+  },
+  "50": {
+   "kind": "text",
+   "title": "Unit 2. Friends Forever — Self-Assessment",
+   "points": [
+    "Впр. 1: подумати над підсумком розділу — що вивчено й із чим потрібна допомога; використати Self-Check в Online Application.",
+    "Впр. 2: скопіювати таблицю й позначити смайликом рівень умінь у Vocabulary, Grammar, Reading, Listening, Speaking, Writing (від «розумію й можу допомогти партнеру» до «не розумію»).",
+    "Рамка «Now I can»: описати найкращого друга, розповісти про друзів і дружбу, обговорити роль спілкування й різні засоби спілкування, вживати reciprocal і reflexive pronouns, писати e-mail другові."
+   ]
+  },
+  "51": {
+   "kind": "text",
+   "title": "Unit 3. Do We Need the Mass Media?",
+   "points": [
+    "Початок Unit 3 «Do We Need the Mass Media?» («Чи потрібні нам ЗМІ?»). Запитання вступу (Lead-in): «Why do we need information?», «What do we do to get it?».",
+    "У рамці «What's in this unit?» — мовний матеріал: види ЗМІ, вебсайти, tag questions і tag questions із модальними дієсловами.",
+    "Вміння: обговорювати види ЗМІ сьогодні й у минулому, розповідати про ЗМІ у своєму житті, описувати вебсайт, писати електронного листа редакторові."
+   ]
+  },
+  "52": {
+   "kind": "text",
+   "title": "Unit 3. Do We Need the Mass Media? — Kids Online: Videos",
+   "points": [
+    "Сайт «Kids Online», розділ VIDEOS: репортер пояснює, що влогінг — це публікація блогів у відеоформаті, а відомі влогери можуть мати понад 300 мільйонів підписників.",
+    "Марія, молода влогерка з України, любила подорожі та фото й відео в «Instagram»; після реєстрації на «Kids Online» створила свій канал на «YouTube» і має понад 50 000 підписників.",
+    "Впр. 1: прослухати нові слова з рамки Words for You, звірити значення зі словником і доповнити 8 речень цими словами.",
+    "Впр. 2 (And You?): відповісти, які відео ти дивишся, чи чув про влогінг, чи сам робив влоги; якщо так — про що, якщо ні — чи хотів би спробувати."
+   ],
+   "terms": [
+    {
+     "term": "channel",
+     "def": "канал"
+    },
+    {
+     "term": "format",
+     "def": "формат"
+    },
+    {
+     "term": "sphere",
+     "def": "сфера"
+    },
+    {
+     "term": "subscriber",
+     "def": "підписник"
+    },
+    {
+     "term": "vlog",
+     "def": "відеоблог"
+    },
+    {
+     "term": "vlogger",
+     "def": "влогер, автор відеоблогу"
+    },
+    {
+     "term": "vlogging",
+     "def": "ведення відеоблогу"
+    },
+    {
+     "term": "to post",
+     "def": "публікувати, розміщувати"
+    },
+    {
+     "term": "as well as",
+     "def": "а також, так само як і"
+    },
+    {
+     "term": "to make money out of smth",
+     "def": "заробляти гроші на чомусь"
+    },
+    {
+     "term": "to sign up for smth",
+     "def": "зареєструватися, записатися на щось"
+    }
+   ]
+  },
+  "53": {
+   "kind": "text",
+   "title": "Unit 3. Do We Need the Mass Media? — Kids Online: Videos",
+   "points": [
+    "Репортер представляє Тоні з США, який займається влогінгом понад 10 років. Спершу це було хобі, а тепер Тоні добре заробляє на цьому; більшість його влогів — про науку та ІТ.",
+    "Тоні показує у відео, як зробити, щоб батарея смартфона трималася довше. Після реєстрації на «Kids Online» отримав більше ідей, хотів дізнатися про інші сфери, напр. спорт.",
+    "Наприкінці репортер питає глядачів, чи надихав їх сайт і чи дав ідею почати свій канал, та просить залишати коментарі.",
+    "Впр. 3a: прослухати й прочитати скрипт відео та обрати a або b у 8 реченнях. Впр. 3b: перечитати скрипт і відповісти на 6 запитань."
+   ]
+  },
+  "54": {
+   "kind": "text",
+   "title": "Unit 3. Do We Need the Mass Media? — Kids Online: Comments",
+   "points": [
+    "Коментарі підлітків під відео: Джесіка (15, Нова Зеландія), Амон (14, Єгипет), Хаою (13, Китай), Вероніка (14, Україна).",
+    "Амон віддає перевагу блогам над влогами; Хаою допомагає старшому братові-влогеру, особливо з відео про подорожі; Вероніка ніколи не влогила, але дивиться багато відео про культуру.",
+    "Впр. 4: a) прочитати коментарі й сказати, хто саме; b) закінчити 4 речення. Впр. 5: у парах підготувати коротку цифрову презентацію про відомого влогера.",
+    "План презентації: хто він/вона й звідки, як почав(ла) кар'єру у влогінгу, про що його/її відеоблоги, 2–3 короткі відео як приклади."
+   ]
+  },
+  "55": {
+   "kind": "exercises",
+   "title": "Unit 3. Do We Need the Mass Media? — Vocabulary",
+   "points": [
+    "Впр. 1: прочитати, вгадати й зіставити 5 виразів (the mass media, a fact, fake, an opinion, fake news) з їхніми англійськими визначеннями.",
+    "Впр. 2: обговорити в групах по 3–4 запитання: що таке ЗМІ, навіщо вони потрібні, які бувають види, різниця між фактом і думкою, для чого використовують фейкові новини.",
+    "Впр. 3: заповнити таблицю словами з рамки за типами: Print Media, Broadcast Media, Outdoor Media, Digital Media («podcasts», «billboards», «magazines» тощо).",
+    "Впр. 4: a) зіставити 5 описів із сайтами («Wikipedia», «Snapchat», «YouTube», «Google», «eBay»); b) назвати інші відомі сайти й для чого вони."
+   ],
+   "terms": [
+    {
+     "term": "the mass media",
+     "def": "засоби масової інформації, ЗМІ"
+    },
+    {
+     "term": "fact",
+     "def": "факт"
+    },
+    {
+     "term": "opinion",
+     "def": "думка"
+    },
+    {
+     "term": "fake news",
+     "def": "фейкові новини"
+    }
+   ]
+  },
+  "56": {
+   "kind": "text",
+   "title": "Unit 3. Do We Need the Mass Media? — Reading & Listening",
+   "points": [
+    "Стаття «Be informed!»: традиційні ЗМІ — газети, журнали, радіо, ТБ. Друковані видання — press; вони daily, weekly, monthly, тобто periodicals.",
+    "Люди надають перевагу онлайн-виданням: quality papers і tabloids. Описано газети «Financial Times», «Daily Express», «The Independent», «The Sun», «The Guardian», «The Times», «Daily Mirror».",
+    "Найпопулярніше джерело інформації нині — Інтернет: це всесвітня мережа сайтів, статей, застосунків, блогів, відео; кожен сам обирає спосіб отримання даних (data).",
+    "Впр. 1: a) подумати, де люди можуть отримувати інформацію; b) прочитати статтю й здогадатися про значення слів, виділених жирним."
+   ],
+   "terms": [
+    {
+     "term": "press",
+     "def": "преса, друковані видання (газети й журнали)"
+    },
+    {
+     "term": "periodicals",
+     "def": "періодичні видання (щоденні, щотижневі, щомісячні)"
+    },
+    {
+     "term": "quality papers",
+     "def": "якісні газети (один з двох видів, на які діляться онлайн-видання)"
+    },
+    {
+     "term": "tabloids",
+     "def": "таблоїди (другий вид)"
+    },
+    {
+     "term": "rather",
+     "def": "радше, досить"
+    },
+    {
+     "term": "biggest-selling",
+     "def": "той, що найкраще продається, має найбільший попит"
+    }
+   ]
+  },
+  "57": {
+   "kind": "exercises",
+   "title": "Unit 3. Do We Need the Mass Media? — Reading & Listening",
+   "points": [
+    "Впр. 2: прослухати слова з Words for You, звірити значення у Vocabulary List. Впр. 3: a) прослухати статтю про британські газети й журнали, назвати дві групи; b) закінчити 8 речень.",
+    "Впр. 4: перечитати статтю з впр. 1 і поділити згадані газети на quality papers і tabloids за описами. Впр. 5: доповнити 7 речень словами з рамки («politics», «sources», «editions», «tablets» тощо).",
+    "Впр. 6: у групах по 3–4 розпитати одне одного про ЗМІ у житті: чи подобаються онлайн-видання, як часто читають periodicals, улюблені новинні сайти, які види ЗМІ воліють."
+   ],
+   "terms": [
+    {
+     "term": "daily",
+     "def": "щоденне видання, щоденний"
+    },
+    {
+     "term": "data",
+     "def": "дані"
+    },
+    {
+     "term": "edition",
+     "def": "видання"
+    },
+    {
+     "term": "monthly",
+     "def": "щомісячник, щомісячний"
+    },
+    {
+     "term": "periodical",
+     "def": "періодичне видання"
+    },
+    {
+     "term": "politics",
+     "def": "політика"
+    },
+    {
+     "term": "press",
+     "def": "преса"
+    },
+    {
+     "term": "source",
+     "def": "джерело"
+    },
+    {
+     "term": "tablet",
+     "def": "планшет"
+    },
+    {
+     "term": "tabloid",
+     "def": "таблоїд"
+    },
+    {
+     "term": "weekly",
+     "def": "тижневик, щотижневий"
+    },
+    {
+     "term": "to inform",
+     "def": "інформувати"
+    },
+    {
+     "term": "quality",
+     "def": "якість"
+    }
+   ]
+  },
+  "58": {
+   "kind": "exercises",
+   "title": "Unit 3. Do We Need the Mass Media? — Grammar: Tag Questions",
+   "points": [
+    "Тема граматики — Tag Questions («розділові запитання»). Для впр. 1–3 є відсилка до Grammar Focus на с. 169; у кінці — відсилка до Grammar Book.",
+    "Впр. 1: зіставити 10 початків речень («Jessica often vlogs, …») із закінченнями-tag («…won't he?», «…do you?» тощо).",
+    "Впр. 2: поставити дієслова в дужках у правильну форму в 8 реченнях з tag, напр. «Vlogging … (be) extremely popular, isn't it?».",
+    "Впр. 3: a) дописати tag questions до 10 речень («You post blogs, …?»); b) придумати власні вісім tag questions у різних часах."
+   ]
+  },
+  "59": {
+   "kind": "exercises",
+   "title": "Unit 3. Do We Need the Mass Media? — Listening",
+   "points": [
+    "Впр. 1: прослухати нові слова з рамки Words for You («ad», «version»). Впр. 2: у парах обговорити, що добре в користуванні Інтернетом, телевізором, радіо та друкованими виданнями.",
+    "Приклад із підручника: «Using the Internet is good because there are all kinds of information there.»",
+    "Впр. 3: a) двічі прослухати розмову Майка й Аманди та виправити 6 хибних речень; b) прослухати решту розмови й відповісти на 4 запитання.",
+    "Впр. 4: прослухати діалог ще раз і заповнити таблицю «Person — Type of mass media» (Mike, Amanda, їхні бабусі). Впр. 5 (And You?): який вид ЗМІ ти віддаєш перевагу і чому."
+   ],
+   "terms": [
+    {
+     "term": "ad",
+     "def": "реклама (скорочено від advertisement)"
+    },
+    {
+     "term": "version",
+     "def": "версія"
+    }
+   ]
+  },
+  "60": {
+   "kind": "exercises",
+   "title": "Unit 3. Do We Need the Mass Media? — Vocabulary",
+   "points": [
+    "Впр. 1: a) за потреби зі словником пояснити, що таке «a blog», «a vlog», «online shopping», «to download»; b) скласти власні речення з цими словами.",
+    "Впр. 2: зіставити 8 слів із визначеннями (an account, a blogger, a chat room, a password, a website, to blog, to log in/out, to surf the Net).",
+    "Впр. 3: a) використати слова з впр. 2, щоб заповнити діалог про новий сайт з новинами про фільми, потім прослухати й перевірити; b) розіграти діалог у парах.",
+    "Впр. 4 (And You?): подумати про сайт чи соцмережу, якою користуєшся найчастіше, і розповісти, що це, що там можна робити, як часто заходиш і чому подобається."
+   ],
+   "terms": [
+    {
+     "term": "account",
+     "def": "обліковий запис, акаунт"
+    },
+    {
+     "term": "blogger",
+     "def": "блогер"
+    },
+    {
+     "term": "chat room",
+     "def": "чат, кімната для спілкування"
+    },
+    {
+     "term": "password",
+     "def": "пароль"
+    },
+    {
+     "term": "website",
+     "def": "вебсайт"
+    },
+    {
+     "term": "to blog",
+     "def": "вести блог"
+    },
+    {
+     "term": "to log in/out",
+     "def": "входити в систему / виходити з системи"
+    },
+    {
+     "term": "to surf the Net",
+     "def": "«серфити» в Інтернеті, бродити мережею"
+    }
+   ]
+  },
+  "61": {
+   "kind": "exercises",
+   "title": "Unit 3. Do We Need the Mass Media? — Grammar: Tag Questions with Modal Verbs",
+   "points": [
+    "Тема граматики — Tag Questions with Modal Verbs («розділові запитання з модальними дієсловами»). Для впр. 1–3 — відсилка до Grammar Focus на с. 170.",
+    "Впр. 1: зіставити 8 початків («You can come, …», «We must be on time, …», «I needn't download it, …») із закінченнями tag.",
+    "Впр. 2: розставити слова у правильному порядку, щоб утворити 8 розділових запитань, напр. «can't he / can fix my tablet / George?».",
+    "Впр. 3: a) закінчити 12 речень tag-запитаннями (з «must», «needn't», «have to», «could», «should», «may»); b) скласти власні вісім tag questions із різними модальними дієсловами."
+   ]
+  },
+  "62": {
+   "kind": "exercises",
+   "title": "Unit 3. Do We Need the Mass Media? — Speaking",
+   "points": [
+    "Впр. 1: a) двічі прослухати Келлі й відповісти на запитання (що робить у телефоні, що злить, що роблять батьки); b) що ти робиш у (смарт)фоні, якими ЗМІ користуються рідні.",
+    "Впр. 2 (And You?): сказати, яким видом ЗМІ користуєшся, щоб слухати музику, дивитися відео й фільми, дізнаватися погоду й новини, робити домашнє завдання.",
+    "Приклад із підручника: «I use books and 'Wikipedia' to do my school work.»",
+    "Впр. 3: у парах взяти інтерв'ю про ЗМІ в житті партнера (як часто Інтернет, periodicals, ТБ, радіо; який вид ЗМІ найбільше любить і чому) і розповісти класу."
+   ]
+  },
+  "63": {
+   "kind": "text",
+   "title": "Unit 3. Do We Need the Mass Media? — Writing",
+   "points": [
+    "Лист Мії Гарріс до редактора онлайн-газети: їй сподобалась стаття про роль книжок, вона згодна, що книжки розвивають навички й уяву, та просить більше даних про історію книжок.",
+    "Впр. 1: a) прочитати лист; b) визначити 6 тверджень як true або false.",
+    "Впр. 2: обрати статтю в Інтернеті й написати листа редакторові за зразком, за порадою Tip: привітання, причина листа, з чим згоден, що подобається найбільше, що ні, завершення."
+   ],
+   "terms": [
+    {
+     "term": "I am writing to say …",
+     "def": "Пишу, щоб сказати … (пояснення причини листа)"
+    },
+    {
+     "term": "I agree with …",
+     "def": "Я згоден(на) з … (вираження згоди)"
+    },
+    {
+     "term": "What I like the most …",
+     "def": "Що мені подобається найбільше …"
+    },
+    {
+     "term": "It was also very interesting for me …",
+     "def": "Мені також було дуже цікаво …"
+    },
+    {
+     "term": "However, …",
+     "def": "Проте, однак … (щоб висловити зауваження)"
+    },
+    {
+     "term": "I am looking forward to hearing from you.",
+     "def": "Чекаю на вашу відповідь (завершення листа)"
+    }
+   ]
+  },
+  "64": {
+   "kind": "exercises",
+   "title": "Unit 3. Do We Need the Mass Media? — Look Back",
+   "points": [
+    "Підсумок Unit 3 (Look Back). Впр. 1: розставити слова в правильному порядку, щоб утворити 8 tag questions. Впр. 2: закінчити 8 речень tag-запитаннями («You can use this, …?»).",
+    "Впр. 3: зіставити 10 початків («I am smiling, …») із закінченнями tag. Впр. 4: a) вгадати слова за літерами й доповнити 10 речень; b) розшифрувати слова з рамки, скласти речення.",
+    "Впр. 5: у чотирьох рядах слів знайти зайве й сказати, до якого виду ЗМІ належить ряд («Films, postcards, websites, cartoons» тощо)."
+   ]
+  },
+  "65": {
+   "kind": "text",
+   "title": "Unit 3. Do We Need the Mass Media? — Look Back: What Newspapers and Magazines We Read in Ukraine",
+   "points": [
+    "Впр. 6: прочитати текст «What newspapers and magazines we read in Ukraine» і дізнатися назви перших видань і дату, головних газет і медіа, журналів та кількість видань.",
+    "Серед перших газет України — «Lviv Courier» (з 1749) і «Kharkiv Weekly» (з 1812). У 2024 р. в Україні виходило понад 500 назв газет і понад 800 журналів.",
+    "Національні газети: «Holos Ukrainy», «Silski Visti», «Ukraina Moloda», Онлайн-медіа: «Ukrainska Pravda», «Suspilne», «Dzerkalo Tyzhnia», «Radio Svoboda». Журнали: «Forbes Ukraine».",
+    "Українські видання сьогодні незалежні, держава гарантує їх економічну незалежність, але журналісти іноді стикаються з проблемами. У демократичному суспільстві преса — «четверта влада»."
+   ],
+   "terms": [
+    {
+     "term": "to appeal (to)",
+     "def": "звертатися, тут — приваблювати"
+    },
+    {
+     "term": "to guarantee",
+     "def": "гарантувати"
+    },
+    {
+     "term": "fourth estate",
+     "def": "преса, тут «четверта гілка влади» (поряд із законодавчою, виконавчою й судовою)"
+    }
+   ]
+  },
+  "66": {
+   "kind": "exercises",
+   "title": "Unit 3. Do We Need the Mass Media? — Look Back",
+   "points": [
+    "Впр. 7: у тексті на с. 65 знайти назви газет і журналів та зіставити їх з англійськими перекладами («Rural News», «Voice of Ukraine», «Local History», «Life» тощо).",
+    "Впр. 8: обрати варіант a, b або c і закінчити 7 речень за текстом про українські газети й журнали.",
+    "Впр. 9: відповісти на лист друга по листуванню, який цікавиться українськими газетами та журналами. Впр. 10: гра в парах — скласти список якомога більше соцмереж, найдовший список перемагає."
+   ]
+  },
+  "67": {
+   "kind": "exercises",
+   "title": "Unit 3. Do We Need the Mass Media? — Look Back",
+   "points": [
+    "Впр. 11: вгадати й назвати 10 слів за англійськими визначеннями (напр. «A secret group of letters or numbers used to log in»), потім скласти з ними власні речення.",
+    "Впр. 12: двічі прослухати аудіо про роботу редакції газети й доповнити 9 речень («A newspaper office gets …», «Editors send out …», «Compositors …»).",
+    "Впр. 13: у групах по 3–4 обговорити, чи варто користуватися різними видами ЗМІ чи лише Інтернетом, і чому (не)."
+   ]
+  },
+  "68": {
+   "kind": "text",
+   "title": "Unit 3. Do We Need the Mass Media? — Self-Assessment",
+   "points": [
+    "Самооцінювання після Unit 3. Впр. 1: подумати, що ти вивчив(ла) і з чим ще потрібна допомога; для цього є розділ Self-Check в Online Application.",
+    "Впр. 2: скопіювати таблицю й відмітити, як добре ти володієш Vocabulary, Grammar, Reading, Listening, Speaking, Writing (смайлики: від «розумію й можу допомогти» до «не розумію»).",
+    "Now I can: назвати різні види ЗМІ; описати вебсайт; розповісти про використання ЗМІ у своєму житті; користуватися різними tag questions; написати листа редакторові про статтю."
+   ]
+  },
+  "69": {
+   "kind": "text",
+   "title": "Unit 4. Music Is Everywhere!",
+   "points": [
+    "Початок Unit 4 «Music Is Everywhere!» («Музика скрізь!»). Запитання вступу: «Why do people listen to music?», «What kinds of music are there?».",
+    "Мовний матеріал (Language): музичні інструменти, професії в музиці, види музики, виконавці, Present Perfect із «for» і «since», Past Perfect.",
+    "Вміння (Skills): обговорювати музичні жанри, говорити про музику в житті, описувати професії в музиці, розповідати про концерти, писати біографію співака."
+   ]
+  },
+  "70": {
+   "kind": "text",
+   "title": "Unit 4. Music Is Everywhere! — Kids Online: Blogs (Greatest Band)",
+   "points": [
+    "Блог «Greatest Band of All Time» про гурт «Queen» — відомий британський рок-гурт, створений 1971 року; його пісні «We Are the Champions» і «We Will Rock You» стали гімнами спортивних змагань.",
+    "Брайан Мей — соло-гітарист і співак; грає на гітарі «Red Special», яку зробив із батьком. Спершу цікавився астрофізикою: Імперіал-коледж Лондона закінчив 1968 р., пізніше став ректором.",
+    "Кар'єра в музиці почалася невдовзі після випуску: він створив гурт «Smile», згодом «Queen»; перший альбом «Queen» вийшов на світову аудиторію 1973 р.",
+    "Впр. 1: за фото вгадати, про кого блог. Впр. 2: a) прослухати слова з Words for You; b) зіставити слова з рамки з 8 визначеннями й скласти з ними речення."
+   ],
+   "terms": [
+    {
+     "term": "anthem",
+     "def": "гімн"
+    },
+    {
+     "term": "astrophysics",
+     "def": "астрофізика"
+    },
+    {
+     "term": "audience",
+     "def": "публіка, глядачі, слухачі"
+    },
+    {
+     "term": "chancellor",
+     "def": "ректор, канцлер (очільник коледжу чи університету)"
+    },
+    {
+     "term": "drummer",
+     "def": "барабанщик"
+    },
+    {
+     "term": "lead guitarist",
+     "def": "соло-гітарист"
+    },
+    {
+     "term": "lead singer",
+     "def": "соліст, вокаліст гурту"
+    },
+    {
+     "term": "to tour",
+     "def": "гастролювати, їздити з концертами"
+    }
+   ]
+  },
+  "71": {
+   "kind": "text",
+   "title": "Unit 4. Music Is Everywhere! — Kids Online: Blogs (Of All Time)",
+   "points": [
+    "Продовження блогу: американський співак Адам Ламберт гастролює з «Queen» з 2009 р., але не замінює вокаліста Фредді Мерк'юрі, який помер 1991 р.",
+    "Брайан Мей досі грає на гітарі, барабанщик — Роджер Тейлор; гітарист Джон Дікон більше не хоче грати в гурті. Є документальний фільм 2019 р. про приєднання Ламберта до «Queen» (є посилання й QR-код).",
+    "Впр. 3: a) прослухати й прочитати текст блогу, визначити 8 речень як true або false та виправити хибні; b) перечитати блог і закінчити 7 речень."
+   ]
+  },
+  "72": {
+   "kind": "exercises",
+   "title": "Unit 4. Music Is Everywhere! — Kids Online: Comments",
+   "points": [
+    "Коментарі: Джей Саллівен (13, Шотландія), Ліна (14, Німеччина), Тім Скан (14, Англія), Алара (15, Туреччина) — про «Queen», фільм «The Show Must Go On», гурти «Scorpions» і «Kiss».",
+    "Впр. 4: прочитати коментарі й сказати, хто (8 тверджень: хто дивився фільм, хто ділиться любов'ю до «Queen» з татом, хто згадує інший гурт тощо).",
+    "Впр. 5 (And You?): чи подобається «Queen», які ще їхні пісні й рок-гурти знаєш. Впр. 6: у парах вибрати гурт і підготувати цифрову презентацію: назва, учасники, жанр, початок, відомі пісні, де зараз."
+   ]
+  },
+  "73": {
+   "kind": "exercises",
+   "title": "Unit 4. Music Is Everywhere! — Vocabulary: Musical Instruments, Jobs in Music",
+   "points": [
+    "Музичні інструменти. Впр. 1: a) прослухати й прочитати слова з рамки; b) зіставити їх з малюнками; c) назвати інші інструменти, які знаєш.",
+    "Vocabulary Point: «to play» a musical instrument (the piano/violin/harp); «to perform» music (rock/jazz/pop), a song/dance/concert.",
+    "Впр. 2: a) прослухати назви музикантів (drummer, guitarist, violinist, pianist, trombonist тощо); b) сказати, хто на чому грає: «A drummer plays the drums.»; c) назвати відомих музикантів."
+   ],
+   "terms": [
+    {
+     "term": "accordion",
+     "def": "акордеон"
+    },
+    {
+     "term": "cymbals",
+     "def": "тарілки (ударний інструмент)"
+    },
+    {
+     "term": "drums",
+     "def": "барабани"
+    },
+    {
+     "term": "trombone",
+     "def": "тромбон"
+    },
+    {
+     "term": "electric guitar",
+     "def": "електрогітара"
+    },
+    {
+     "term": "harp",
+     "def": "арфа"
+    },
+    {
+     "term": "piano",
+     "def": "фортепіано"
+    },
+    {
+     "term": "saxophone",
+     "def": "саксофон"
+    },
+    {
+     "term": "guitar",
+     "def": "гітара"
+    },
+    {
+     "term": "violin",
+     "def": "скрипка"
+    }
+   ],
+   "formulas": [
+    "to play + the + інструмент: «to play the piano»",
+    "to perform + музика / пісня / танець / концерт: «to perform a concert»"
+   ]
+  },
+  "74": {
+   "kind": "exercises",
+   "title": "Unit 4. Music Is Everywhere! — Vocabulary: Jobs in Music",
+   "points": [
+    "Впр. 3: a) доповнити 6 речень-визначень словами з рамки (composer, conductor, DJ, music producer, songwriter, tour manager); b) назвати інші професії в музиці.",
+    "Впр. 4: a) прочитати підписи до 6 фото зі словами жирним (orchestra, conductor, violinist, songwriter, opera singer, cellist); b) прикрити тексти й сказати, що видно на фото."
+   ],
+   "terms": [
+    {
+     "term": "composer",
+     "def": "композитор"
+    },
+    {
+     "term": "conductor",
+     "def": "диригент"
+    },
+    {
+     "term": "DJ",
+     "def": "діджей"
+    },
+    {
+     "term": "music producer",
+     "def": "музичний продюсер"
+    },
+    {
+     "term": "songwriter",
+     "def": "автор пісень"
+    },
+    {
+     "term": "tour manager",
+     "def": "менеджер туру"
+    },
+    {
+     "term": "orchestra",
+     "def": "оркестр"
+    },
+    {
+     "term": "cellist",
+     "def": "віолончеліст"
+    }
+   ]
+  },
+  "75": {
+   "kind": "text",
+   "title": "Unit 4. Music Is Everywhere! — Reading: Music in Our Lives",
+   "points": [
+    "Текст «Music in Our Lives»: музика може бути хобі, роботою чи способом життя; музиканти співають, танцюють і грають, тому існують різні жанри — одні радують, інші допомагають розслабитися.",
+    "Рок-н-рол дає енергію. Heavy metal — дуже гучна й швидка музика з електрогітарами; розвинувся наприкінці 1960-х, назва походить від пісні «Born to Be Wild» гурту «Steppenwolf».",
+    "Джаз — спокійніший; його започаткували афроамериканці на початку XX ст.; ознаки — блюзові ноти й складні акорди; Елла Фітцджеральд — королева джазу.",
+    "Реп — слова, які швидко промовляють під інструментальні записи; частина хіп-хопу (з брейкдансом), початок 1970-х; батько хіп-хопу — DJ Kool Herc з Ямайки. Впр. 1: чи любиш музику, який жанр."
+   ],
+   "terms": [
+    {
+     "term": "heavy metal",
+     "def": "хеві-метал: дуже гучна й швидка музика з електрогітарами"
+    },
+    {
+     "term": "jazz",
+     "def": "джаз: спокійніший жанр афроамериканців із блюзовими нотами й складними акордами"
+    },
+    {
+     "term": "rap",
+     "def": "реп: слова, які не співають, а швидко промовляють під інструментальні записи"
+    },
+    {
+     "term": "hip-hop",
+     "def": "хіп-хоп: культура, що включає реп і брейкданс"
+    }
+   ]
+  },
+  "76": {
+   "kind": "text",
+   "title": "Unit 4. Music Is Everywhere! — READING",
+   "points": [
+    "Завдання до статті «Music in Our Lives» (с. 75): учень вивчає нову лексику про музичні жанри й перевіряє розуміння тексту.",
+    "Впр. 2: прослухати й повторити слова з рамки Words for You, потім добудувати 8 речень цими словами (напр. «There are seven basic …»).",
+    "Впр. 3a–b: у 8 реченнях вибрати правильне слово за статтею (напр. «relaxed/energetic», «early/late»), потім відповісти на 8 питань до тексту.",
+    "Впр. 4: у парах розпитати партнера про музику в його житті, занотувати й розповісти класові.",
+    "Впр. 5: у парах обрати музичний жанр і підготувати коротку презентацію: назва й походження, хто й коли створив, особливості, найкращі виконавці."
+   ],
+   "terms": [
+    {
+     "term": "blue note",
+     "def": "блюзова нота"
+    },
+    {
+     "term": "breakdancing",
+     "def": "брейк-данс"
+    },
+    {
+     "term": "chord",
+     "def": "акорд"
+    },
+    {
+     "term": "feature",
+     "def": "особливість, риса"
+    },
+    {
+     "term": "genre",
+     "def": "жанр"
+    },
+    {
+     "term": "musical note",
+     "def": "музична нота"
+    },
+    {
+     "term": "record",
+     "def": "звукозапис"
+    },
+    {
+     "term": "complex",
+     "def": "складний"
+    },
+    {
+     "term": "instrumental",
+     "def": "інструментальний"
+    },
+    {
+     "term": "powerful",
+     "def": "потужний, сильний"
+    }
+   ]
+  },
+  "77": {
+   "kind": "text",
+   "title": "Unit 4. Music Is Everywhere! — GRAMMAR: Present Perfect with «for» and «since»",
+   "points": [
+    "Тема уроку: Present Perfect з прийменниками «for» (період часу) і «since» (момент початку). Правила — у Grammar Focus на с. 170.",
+    "Впр. 1: поставити дієслова в дужках у Present Perfect за зразком, 10 речень (напр. «We (live) … in the USA since 1995»).",
+    "Впр. 2: вставити «for» або «since» у 8 виразів («… 1996», «… two months», «… last night»).",
+    "Впр. 3a–b: поставити дієслово в Present Perfect і вставити «for»/«since» (10 речень); потім скласти 6 власних речень із «for» і «since»."
+   ],
+   "formulas": [
+    "Present Perfect: have/has + V3 (have been, has known)"
+   ],
+   "example": "I (be) have been his fan for thirty years. Ned (know) has known me since school."
+  },
+  "78": {
+   "kind": "text",
+   "title": "Unit 4. Music Is Everywhere! — LISTENING",
+   "points": [
+    "Урок аудіювання на тему концертів: нова лексика, обговорення й діалог Єви та Діно про концерти.",
+    "Впр. 1: прослухати слова з рамки Words for You і добудувати ними 6 речень (напр. «The … at this new club is great!»).",
+    "Впр. 2: обговорити в групах по 3–4: що таке концерт, навіщо вони потрібні, чи були ви на концерті, чи любите ходити.",
+    "Впр. 3a–b: прослухати Єву й Діно та вибрати варіант a або b у 6 питаннях; прослухати ще раз і виправити 6 хибних речень.",
+    "Впр. 4: відповісти про себе: на яких концертах були й коли, з ким, яка була атмосфера, що сподобалось, які концерти хочете відвідати."
+   ],
+   "terms": [
+    {
+     "term": "atmosphere",
+     "def": "атмосфера"
+    },
+    {
+     "term": "cello",
+     "def": "віолончель"
+    },
+    {
+     "term": "combination",
+     "def": "поєднання"
+    },
+    {
+     "term": "crossover",
+     "def": "кросовер, змішування стилів"
+    },
+    {
+     "term": "for your information",
+     "def": "до вашого відома"
+    },
+    {
+     "term": "my/his/her thing",
+     "def": "моя/його/її улюблена справа"
+    }
+   ]
+  },
+  "79": {
+   "kind": "text",
+   "title": "Unit 4. Music Is Everywhere! — VOCABULARY: Musical Genres",
+   "points": [
+    "Тема: музичні жанри та їхні виконавці. Приклади жанрів на сторінці: «classical music», «disco», «hip-hop», «jazz», «pop», «K-pop», «rock-n-roll», «rap».",
+    "Впр. 1a–b: продовжити список жанрів, які ви знаєте; сказати, які інструменти чи пристрої використовують у різних жанрах («Violins and pianos are used in classical music»).",
+    "Впр. 2a–b: у 6 групах виконавців знайти зайвого й назвати жанр (напр. «Frank Sinatra, Ella Fitzgerald, Eminem, Louis Armstrong»); назвати інших відомих виконавців цих жанрів.",
+    "Впр. 3: у парах розпитати партнера про улюблений жанр і чому, улюбленого співака чи гурт, чи був на їхньому концерті й коли; розповісти класові."
+   ]
+  },
+  "80": {
+   "kind": "text",
+   "title": "Unit 4. Music Is Everywhere! — GRAMMAR: Past Perfect",
+   "points": [
+    "Тема уроку: Past Perfect (давноминулий час) — дія, що завершилась до певного моменту в минулому. Правила — у Grammar Focus на с. 171.",
+    "Впр. 1a–b: поставити дієслова в Past Perfect за зразком (8 речень, напр. «You (return) … by the time I left»); скласти по три власні ствердні й заперечні речення.",
+    "Впр. 2a–b: дати короткі відповіді на питання за зразком («Had he found the link by then? (Yes) — Yes, he had»); потім відповісти на 4 питання про себе.",
+    "Впр. 3: скласти питання до 6 відповідей за зразком («Had you left by the time they came back?»)."
+   ],
+   "formulas": [
+    "Past Perfect: had + V3 (had seen, had left, had picked)",
+    "Коротка відповідь: Yes, he had. / No, he hadn't."
+   ],
+   "example": "I (see) had seen this music video by then."
+  },
+  "81": {
+   "kind": "text",
+   "title": "Unit 4. Music Is Everywhere! — SPEAKING",
+   "points": [
+    "Урок говоріння про улюблену музику: аудіювання, інтерв'ю в парах і вікторина.",
+    "Впр. 1a–b: послухати Еліс, Тіма й Ліллі, закінчити 8 речень (напр. «Alice often listens to music when she travels by …»), потім відповісти на 6 питань.",
+    "Впр. 2: у парах розпитати партнера про улюблений тип музики, які емоції вона викликає, чи любить підспівувати; розповісти класові.",
+    "Впр. 3: пройти вікторину «Are You a Music Addict?» (5 питань з варіантами a/b) і за результатом дізнатися, чи ви меломан."
+   ]
+  },
+  "82": {
+   "kind": "text",
+   "title": "Unit 4. Music Is Everywhere! — WRITING",
+   "points": [
+    "Урок письма: біографія співака. Зразок — текст про Андрія Кузьменка (Кузьму): співак, поет, письменник, соліст гурту «Скрябін», народився 1968 р., помер 2015 р.",
+    "Впр. 1: прочитати біографію й відповісти на 10 питань (хто це, де й коли народився, батьки, навчання, сім'я, робота, гурт, книжка, смерть).",
+    "Впр. 2: за порадою Tip «Writing a Biography» проаналізувати текст про Кузьму; план із 5 пунктів — хто це, ранні роки й сім'я, кар'єра, смерть, висновок."
+   ],
+   "formulas": [
+    "План біографії: 1) хто це; 2) ранні роки й сім'я; 3) кар'єра; 4) смерть (якщо доречно); 5) чи популярний сьогодні"
+   ],
+   "terms": [
+    {
+     "term": "Writing a Biography",
+     "def": "поради до написання біографії за планом із п'яти пунктів"
+    }
+   ]
+  },
+  "83": {
+   "kind": "exercises",
+   "title": "Unit 4. Music Is Everywhere! — Look Back",
+   "points": [
+    "Впр. 1: вставити «for» або «since» у 10 реченнях (Present Perfect: «I have been a musician … twenty years»).",
+    "Впр. 2: поставити 8 дієслів у Past Perfect («We (go) … to the concert before you arrived»).",
+    "Впр. 3: відповісти про себе на 6 питань у Past Perfect («Had you finished all your tasks by 3 pm yesterday?»).",
+    "Впр. 4: скласти питання до 6 коротких відповідей («Yes, he had. Tod had watched that video»)."
+   ]
+  },
+  "84": {
+   "kind": "exercises",
+   "title": "Unit 4. Music Is Everywhere! — Look Back",
+   "points": [
+    "Впр. 5a–b: добудувати 8 речень словами з рамки («audience», «blue notes», «chancellor», «lead guitarist» та ін.); скласти власні речення зі словами «anthem», «crossover», «feature» тощо.",
+    "Впр. 6a–b: за фото назвати музичні інструменти; назвати музикантів, що на них грають («A drummer plays the drums»).",
+    "Впр. 7a: описати професії в музиці за зразком («A composer is a person who writes music»): «composer», «conductor», «DJ», «music producer», «songwriter», «tour manager»."
+   ]
+  },
+  "85": {
+   "kind": "exercises",
+   "title": "Unit 4. Music Is Everywhere! — Look Back",
+   "points": [
+    "Впр. 7b (закінчення): назвати відомих людей цих професій, можна скористатися інтернетом («Frederic Chopin and Mykola Leontovych were famous composers»).",
+    "Впр. 8: з'ясувати в інтернеті, чи є «Carol of the Bells» українською піснею, хто такий Микола Леонтович і коли він написав «Щедрик»; розповісти класові.",
+    "Впр. 9–10: у парах скласти список жанрів (виграє найдовший); сказати, що ви відчуваєте, слухаючи jazz, rock, pop, R&B, rap, classical music, і назвати виконавців.",
+    "Впр. 11–12: прослухати Шейлу й Дюка двічі та відповісти на 8 питань; відповісти про себе на питання про концерти (чи були, коли, які плануєте відвідати)."
+   ]
+  },
+  "86": {
+   "kind": "exercises",
+   "title": "Unit 4. Music Is Everywhere! — Self-Assessment",
+   "points": [
+    "Самооцінка після юніту: подумати, що ви вивчили й з чим потрібна допомога; Self-Check — в онлайн-додатку.",
+    "Впр. 2: переписати таблицю й позначити рівень умінь (від «розумію й можу допомогти партнеру» до «не розумію») для Vocabulary, Grammar, Reading, Listening, Speaking, Writing.",
+    "Блок «Now I Can»: говорити про музику, виконавців і концерти, описувати професії в музиці, вживати Present Perfect із «for»/«since» і Past Perfect, писати біографію співака."
+   ]
+  },
+  "87": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — вступ",
+   "points": [
+    "Початок юніту 5 «Do You Need a Book?»; вступні питання (Lead-in): чи читали ви казки в дитинстві, чи любите читати, чи є улюблена книжка.",
+    "Мова юніту: жанри книжок, імена відомих авторів і популярних персонажів, «defining relative clauses» і «non-defining relative clauses».",
+    "Уміння: розуміти тексти про книжки й авторів, описувати персонажа, обирати книжку, розмовляти з бібліотекарем, брати інтерв'ю про читання, створити «blurb» і написати короткий відгук."
+   ],
+   "terms": [
+    {
+     "term": "defining relative clause",
+     "def": "означальне підрядне речення (потрібне для ідентифікації)"
+    },
+    {
+     "term": "non-defining relative clause",
+     "def": "неозначальне підрядне речення (додаткова інформація)"
+    }
+   ]
+  },
+  "88": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — Kids Online",
+   "points": [
+    "Відео-інтерв'ю «Kids Online»: Нікі й Бен дивляться репортаж; у деяких школах Америки перестали купувати підручники й дають учням iPad.",
+    "Репортер Алекс розмовляє з чотирма лондонськими школярами (Josh, Asha, Victor, Caitlin) і запитує Джоша, чи хотів би він користуватись iPad у школі.",
+    "Впр. 1: з'ясувати, скільки однокласників ще читають паперові книжки, користуються камерою й дивляться ТБ із родиною.",
+    "Впр. 2–3: повторити слова з рамки Words for You; прослухати відео, прочитати текст і здогадатися про значення слів, виділених жирним."
+   ],
+   "terms": [
+    {
+     "term": "library",
+     "def": "бібліотека"
+    },
+    {
+     "term": "to steal",
+     "def": "красти"
+    },
+    {
+     "term": "complicated",
+     "def": "складний, заплутаний"
+    },
+    {
+     "term": "generally",
+     "def": "загалом"
+    },
+    {
+     "term": "in favour of smth",
+     "def": "за щось, на підтримку чогось"
+    }
+   ]
+  },
+  "89": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — Kids Online",
+   "points": [
+    "Джош за iPad: комп'ютер швидший, цікавіший, сучасніший. Аша проти: iPad коштує £500, краще купувати звичайні комп'ютери для всіх; діти необережні, і iPad зламаються.",
+    "Віктор загалом за: йому зручніше читати з екрана; він не згоден з Ашею щодо вартості й вважає, що iPad буде дешевшим за книжки.",
+    "Впр. 4: прослухати й поєднати імена (Josh, Asha, Victor, Caitlin) з фразами про планшети («It's more expensive», «It's cheaper», «It's faster», «It's lighter» та ін.).",
+    "Впр. 5: прочитати текст ще раз і розіграти інтерв'ю в групах по семеро."
+   ]
+  },
+  "90": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — Kids Online",
+   "points": [
+    "Віктор: книжки старіють, через 2–3 роки потрібні нові; застарівають і теми, а з iPad нові сторінки й картинки з'являються за секунди.",
+    "Віктор боїться носити дорогий iPad: його можуть вкрасти. Кейтлін хотіла б iPad: цікавіше вчитись, а в сумці лише одна річ, тож легше носити.",
+    "Алекс підсумовує: загалом школярі за iPad у школі.",
+    "Впр. 6: у групах обговорити, чи ви за планшети в школі і чи перестанемо користуватися книжками за 10 років; вжити вирази з інтерв'ю («I think…», «I am mostly in favour of…»)."
+   ]
+  },
+  "91": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — VOCABULARY",
+   "points": [
+    "Тема: види книжок і їхній зміст. Книжки діляться на дві основні групи: «fiction» (вигадані історії) і «non-fiction» (факти).",
+    "Впр. 1: прослухати й прочитати речення, здогадатися про значення виділених слів: «fiction/non-fiction», «contents», «a table of contents», «an atmosphere», «a blurb».",
+    "Впр. 2: поєднати 5 видів книжок («fantasy novel», «autobiography», «cookbook», «science fiction novel», «historical novel») із можливим змістом.",
+    "Впр. 3: у парах здогадатися, яких книжкових персонажів описують характеристики a–e (напр. «brave and strong, clever and honest, fond of nature»)."
+   ],
+   "terms": [
+    {
+     "term": "fiction",
+     "def": "художня література, вигадані історії"
+    },
+    {
+     "term": "non-fiction",
+     "def": "нехудожня література, книжки з фактами"
+    },
+    {
+     "term": "contents",
+     "def": "зміст, вміст книжки чи статті"
+    },
+    {
+     "term": "a table of contents",
+     "def": "зміст: порядок тем із назвами розділів і сторінками"
+    },
+    {
+     "term": "an atmosphere",
+     "def": "атмосфера, особлива настроєвість"
+    },
+    {
+     "term": "a blurb",
+     "def": "короткий рекламний опис книжки від автора чи видавця"
+    }
+   ]
+  },
+  "92": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — READING: Our Friends and Teachers",
+   "points": [
+    "Вірш Б. Волкера «Books Are Our Friends»: книжки — друзі, їх треба берегти, користуватися закладками й не класти розгорнуту книжку обличчям донизу.",
+    "Стаття «Our Friends and Teachers»: книжка — і друг, і вчитель; вона вчить жити, є книжки, що допомагають з уроками. Давніше книжки переписували вручну, їх було мало.",
+    "Винахід друкарства змінив історію й відіграв велику роль у розвитку культури, науки й літератури.",
+    "Сьогодні в Україні тисячі публічних бібліотек; бібліотекарі допомагають знайти книжку, а в бібліотеках проходять конференції, виставки й тематичні добірки.",
+    "Впр. 1: відповісти на питання до вірша. Впр. 2: прослухати й прочитати статтю та закінчити речення 1–8 (вони на с. 93)."
+   ]
+  },
+  "93": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — READING",
+   "points": [
+    "Закінчення статті: у багатьох бібліотеках є читальні зали й кімнати з комп'ютерами та інтернетом, а також кімнати для практики говоріння й аудіювання іноземною мовою.",
+    "Впр. 2 (закінчення): закінчити 8 речень за статтею («By reading books we …», «In ancient times …», «Printing played …»).",
+    "Впр. 3: назвати улюблений жанр і пояснити чому: біографія й мемуари, історичний роман, детектив, романтика, SF, фентезі, young adult.",
+    "Впр. 4–5: розповісти, як ви обираєте книжки; у парах відповісти, чи любите читати, і що думаєте про цитати на малюнках («Never judge a book by its cover»)."
+   ],
+   "terms": [
+    {
+     "term": "catalogue",
+     "def": "каталог"
+    },
+    {
+     "term": "invention",
+     "def": "винахід"
+    },
+    {
+     "term": "librarian",
+     "def": "бібліотекар"
+    },
+    {
+     "term": "title",
+     "def": "назва (книжки)"
+    },
+    {
+     "term": "to consult",
+     "def": "радитися, звертатися до"
+    },
+    {
+     "term": "to contain",
+     "def": "містити"
+    }
+   ]
+  },
+  "94": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — GRAMMAR: Defining Relative Clauses",
+   "points": [
+    "Тема: означальні підрядні речення («defining relative clauses»). Означальне речення вказує, про яку саме особу чи річ ідеться, а неозначальне додає додаткову інформацію й виділяється комами.",
+    "Порівняння: «My sister who lives in England has a pet kangaroo» (може бути кілька сестер) і «My sister, who lives in England, has a pet kangaroo» (сестра одна).",
+    "Keep in Mind: вживати правильні відносні займенники — для людей, місць і речей (див. схему).",
+    "Впр. 2–4: поєднати половини 5 речень; вставити «whose», «where» або «when» (5 речень); об'єднати речі в одне речення за зразком, використовуючи означальні підрядні речення (5 пар)."
+   ],
+   "formulas": [
+    "People → who, whose, that",
+    "Places → where, that",
+    "Things → which, whose, that"
+   ],
+   "example": "Lewis Carroll was a wonderful children's writer who understood children."
+  },
+  "95": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — LISTENING",
+   "points": [
+    "Впр. 1: поєднати 6 британських письменників (Arthur Conan Doyle, Roald Dahl, Agatha Christie, A.A. Milne, J.K. Rowling, Beatrix Potter) з їхніми відомими книжками.",
+    "Впр. 2a–c: прослухати інтерв'ю Террі Томліна з Джеммою про читацькі звички підлітків і розставити 8 питань у порядку звучання; прослухати ще раз і відповісти; гра: за відповіддю назвати питання.",
+    "Впр. 3: підготувати двохвилинну розповідь, використовуючи питання з впр. 2a."
+   ]
+  },
+  "96": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — VOCABULARY",
+   "points": [
+    "Впр. 1: скласти речення за таблицею: «Books about great people / fables / poems … teach us to be noble / brave and honest / to love our motherland…».",
+    "Keep in Mind: «historic» означає «важливий в історії» (a historic battle, place, building), а «historical» — «заснований на історії» (a historical novel, drama, museum).",
+    "Впр. 2a–b: за іменами персонажів закінчити 6 речень («are the characters in …»); здогадатися, хто це й чим відомі, за зразком («Mary Poppins is famous for her magic»)."
+   ],
+   "terms": [
+    {
+     "term": "historic",
+     "def": "важливий в історії (a historic battle)"
+    },
+    {
+     "term": "historical",
+     "def": "заснований на історії, пов'язаний з минулим (a historical novel)"
+    }
+   ]
+  },
+  "97": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — GRAMMAR: Non-Defining Relative Clauses",
+   "points": [
+    "Тема: неозначальні підрядні речення («non-defining relative clauses»); правила — у Grammar Focus на с. 172.",
+    "Впр. 1: вставити «who» або «which» у 7 речень («Matilda, … was written by Roald Dahl, is the book about a very special girl»).",
+    "Впр. 2: переписати 5 означальних речень, додавши коми, щоб зробити їх неозначальними.",
+    "Впр. 3: поставити D (означальне) або N (неозначальне) біля 10 речень.",
+    "Впр. 4: дописати підрядні речення, щоб вони були правдивими про вас («I enjoy reading books that…», «I like visiting places where…», «I love meeting people whose…»)."
+   ],
+   "example": "I enjoy watching films which are based on love stories."
+  },
+  "98": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — SPEAKING",
+   "points": [
+    "Впр. 1: прослухати й прочитати діалог Емми з міс Гевілленд, яка записується до бібліотеки; розіграти його в парах.",
+    "Впр. 2a–b: прочитати анкету, яку заповнює Емма: питання про те, як часто вона бере книжки, читає журнали, комікси, дарує й отримує книжки, сидить в інтернеті.",
+    "Впр. 2b: переписати й відповісти на питання анкети; у парах поставити ті самі питання партнеру. Варіанти частоти в анкеті: «rarely», «sometimes», «often», «always»."
+   ]
+  },
+  "99": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — SPEAKING",
+   "points": [
+    "Впр. 3a–b: прослухати розповідь хлопця про читання; виписати вирази «flick through», «find out», «pick out», «borrow», «look at», «be fond of» з наступними словами.",
+    "Впр. 4: розсортувати книжки, які згадує хлопець, на дві групи — «fiction» і «non-fiction» — і додати свої.",
+    "Впр. 5: у парах обговорити, що допомагає обрати книжку (картинки, обкладинка, зміст, порада бібліотекаря чи однокласника), навіщо читацький квиток і каталог, які книжки корисні для навчання."
+   ]
+  },
+  "100": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — WRITING",
+   "points": [
+    "Впр. 1: пригадати, що таке «blurb» (опис книжки на 100–200 слів); прочитати зразок про Easter Ann Peters («Operation Cool») і створити blurb для улюбленої книжки.",
+    "Впр. 2: написати короткий відгук про улюблену книжку за підказками (про що книжка, чим особливий головний герой, де відбувається дія, сюжет, кінець, чому подобається).",
+    "Tip «How to Write a Book Review»: знайти інформацію в інтернеті, записати нотатки за темами, оформити ідеї в абзаци, в останньому абзаці висловити свою думку."
+   ],
+   "formulas": [
+    "Схема відгуку: TITLE → AUTHOR → PLOT: First, … Then … In the end, …"
+   ],
+   "terms": [
+    {
+     "term": "blurb",
+     "def": "короткий (100–200 слів) опис книжки, що має привернути увагу читачів"
+    }
+   ]
+  },
+  "101": {
+   "kind": "exercises",
+   "title": "Unit 5. Do You Need a Book? — Look Back",
+   "points": [
+    "Впр. 1: доповнити речення словами з рамки («ending», «cover», «characters», «setting», «author», «title», «part», «interesting») — лексика про книжку.",
+    "Впр. 2–3: вставити «who, which, where, whose» і поєднати два речення, зробивши друге означальним підрядним (relative clause).",
+    "Впр. 4: прочитати речення, послухати дівчину й вибрати правильне прислівник частоти («sometimes / rarely», «always / never», «usually / often»)."
+   ]
+  },
+  "102": {
+   "kind": "exercises",
+   "title": "Unit 5. Do You Need a Book? — Look Back",
+   "points": [
+    "Впр. 5: прочитати анотації (a–d) і зіставити їх з обкладинками чотирьох книжок (1–4): sci-fi, romance, crime, young adult historical novel.",
+    "На обкладинках: «Children of Time» (Adrian Tchaikovsky), «Rehearsal: A Different Drummer» (L.K. Hunsaker), «The Pyramid of Mud» (Andrea Camilleri), «The Book Thief» (Markus Zusak).",
+    "Впр. 6: у парах запитати й відповісти — «What are you reading now?», хто автор, скільки сторінок, хто герої, скільки їм років, чи подобається книжка і чому."
+   ]
+  },
+  "103": {
+   "kind": "exercises",
+   "title": "Unit 5. Do You Need a Book? — Look Back",
+   "points": [
+    "Впр. 7: описати книжку як видання — за обкладинкою, титулом і змістом сказати про автора, видавця, рік видання, теми; оцінити цінність цієї інформації.",
+    "Впр. 8: обговорити в групах, що краще — електронна («e-book») чи паперова («print book») книжка, і чому.",
+    "Впр. 9 a): у парах — A розповідає другові про цікаву книжку з бібліотеки й запрошує піти по неї, B радо погоджується.",
+    "Впр. 9 b): група з трьох — A і B обирають книжку, C — бібліотекар, що показує книжки й коротко розповідає про них.",
+    "Підказки в рамці: «funny», «amusing», «exciting adventure», «to have fun», «full of love/sorrow», «to improve human nature», «rich imagination»."
+   ],
+   "terms": [
+    {
+     "term": "to bring up feelings and emotions",
+     "def": "пробуджувати почуття й емоції"
+    },
+    {
+     "term": "to develop somebody's mind",
+     "def": "розвивати чийсь розум"
+    },
+    {
+     "term": "rich imagination",
+     "def": "багата уява"
+    }
+   ]
+  },
+  "104": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — Look Back",
+   "points": [
+    "Впр. 10: знайти в інтернеті анотації до 3–4 книжок, вибрати ту, що приваблює найбільше, і пояснити вибір.",
+    "Впр. 11: прочитати звіт про опитування читацьких звичок молоді (розділи «Purpose», «Results», «Conclusion»), назвати вид тексту й відповісти в парах на запитання.",
+    "У звіті: 90% опитаних читають часто, найпопулярніший жанр — трилер (35%); висновок — молодь і сьогодні читає досить багато.",
+    "Підказка «Survey report»: вступ, 2–3 основні абзаци з результатами й заключний абзац з підсумком, особистим ставленням і/або рекомендаціями."
+   ],
+   "terms": [
+    {
+     "term": "a survey report",
+     "def": "звіт, що подає інформацію, зібрану під час опитування"
+    },
+    {
+     "term": "in spite of",
+     "def": "незважаючи на"
+    }
+   ],
+   "formulas": [
+    "Useful Language: відсотки («11 per cent», «one in four», «eight out of ten»)",
+    "Узагальнення: «This shows/suggests/indicates that…», «In general/Generally speaking, …»",
+    "Частки: «the majority», «a large/small number of», «a high proportion of»"
+   ]
+  },
+  "105": {
+   "kind": "exercises",
+   "title": "Unit 5. Do You Need a Book? — Look Back (проєкт «Our Reading Preferences»)",
+   "points": [
+    "Впр. 12: проєкт «Our Reading Preferences» — скласти анкету про читацькі вподобання однокласників за зразком і додати власні питання.",
+    "У зразку анкети питання: чому читаєш, які книжки любиш («fiction», «non-fiction», «memoirs», «detective stories», «biographies»…), чи можна обійтися без бібліотеки, де береш книжки.",
+    "Далі: обговорити в групах по четверо вподобання й причини популярності улюблених книжок, скласти звіт про опитування й представити результати в класі."
+   ]
+  },
+  "106": {
+   "kind": "text",
+   "title": "Unit 5. Do You Need a Book? — Self-Assessment",
+   "points": [
+    "Впр. 1: подумати, чого навчився в розділі й із чим ще потрібна допомога; є відсилка на Self-Check в онлайн-застосунку.",
+    "Впр. 2: перемалювати таблицю й позначити рівень уміння смайликами — від «розумію й можу допомогти партнеру» до «не розумію».",
+    "Таблиця: Vocabulary, Grammar, Reading, Listening, Speaking, Writing.",
+    "«Now I can»: говорити про жанри книжок, ставлення до читання, вибір книжок, розмову з бібліотекарем, інтерв'ю про читацькі вподобання.",
+    "«Now I can» (далі): вживати defining і non-defining relative clauses, створити анотацію («blurb»), написати короткий відгук на книжку."
+   ]
+  },
+  "107": {
+   "kind": "intro",
+   "title": "Unit 6. Different Choices, Different Lives",
+   "points": [
+    "Початок розділу 6 «Different Choices, Different Lives» (різні вибори — різне життя); лід-ін: скільки ти спиш, чи снідаєш щоранку, чи любиш спорт, куди йдеш у вихідні.",
+    "Мовний зміст: різні стилі життя, здорові й шкідливі звички, щоденний розпорядок, заняття у вільний час, «First Conditional», «Used to» і «Be used to».",
+    "Уміння: описувати стилі життя, обговорювати звички, розповідати про свій розпорядок і дозвілля, писати про життя мрії."
+   ]
+  },
+  "108": {
+   "kind": "text",
+   "title": "Unit 6. Different Ways of Living — блог Kids Online (початок)",
+   "points": [
+    "Блог «Different Ways of Living»: стиль життя («lifestyle») — це спосіб мислення, дій і життя загалом, що включає наші погляди й щоденний розпорядок.",
+    "«Active lifestyle»: багато руху, спілкування й улюблених справ; такі люди повні енергії, мають багато друзів і хобі, ненавидять бути самі чи без діла.",
+    "«Healthy lifestyle»: схожий на активний, але тримає баланс між рухом і сидінням; регулярні вправи, робота, час на відпочинок, вчасний сон і дієта.",
+    "Впр. 1: a) прослухати й повторити слова з рамки «Words for You»; b) доповнити 9 речень цими словами."
+   ],
+   "terms": [
+    {
+     "term": "daily routine",
+     "def": "щоденний розпорядок"
+    },
+    {
+     "term": "folk",
+     "def": "люди"
+    },
+    {
+     "term": "lifestyle",
+     "def": "спосіб життя"
+    },
+    {
+     "term": "to focus (on)",
+     "def": "зосереджуватися (на чомусь)"
+    },
+    {
+     "term": "to involve",
+     "def": "включати, залучати"
+    },
+    {
+     "term": "to socialise",
+     "def": "спілкуватися з людьми"
+    },
+    {
+     "term": "fast-paced",
+     "def": "стрімкий, з високим темпом"
+    },
+    {
+     "term": "rural",
+     "def": "сільський"
+    },
+    {
+     "term": "urban",
+     "def": "міський"
+    }
+   ]
+  },
+  "109": {
+   "kind": "text",
+   "title": "Unit 6. Different Ways of Living — блог Kids Online (продовження)",
+   "points": [
+    "«Rural lifestyle»: життя в сільській місцевості, ближче до природи; люди люблять тишу й спокій, рано встають, багато працюють на фермі й по господарству, віддають перевагу домашній їжі.",
+    "«Urban lifestyle»: швидке й складне, але цікаве життя в місті; люди люблять виклики, зосереджені на кар'єрі чи навчанні, часто не висипаються й не їдять здорово.",
+    "«Digital lifestyle»: багато часу з гаджетами для роботи, навчання й спілкування; зручно, але мало рухаємось і їмо фастфуд.",
+    "Впр. 2: a) прослухати, прочитати й вибрати a або b (6 речень); b) відповісти на 6 запитань до блогу."
+   ]
+  },
+  "110": {
+   "kind": "text",
+   "title": "Unit 6. Different Ways of Living — коментарі до блогу",
+   "points": [
+    "Ricky, 13, USA — життя в місті важке, але веселе; Mike, 14, Ireland — сільське життя не нудне, бо завжди є робота.",
+    "Wolfgang, 14, Germany — активний (спортзал щодня, футбол тричі на тиждень), але не уявляє життя без телефона.",
+    "Ami, 12, Japan — любить комп'ютерні ігри, але життя не лише цифрове: щовихідних із друзями, їсть домашню їжу.",
+    "Впр. 3: виправити 4 хибні речення за коментарями. Впр. 4: відповісти на запитання про власний стиль життя.",
+    "Впр. 5: знайти в інтернеті інший стиль життя й розповісти класу — назва, звички, плюси, мінуси, хто так живе."
+   ]
+  },
+  "111": {
+   "kind": "exercises",
+   "title": "Unit 6. Different Choices, Different Lives — Vocabulary",
+   "points": [
+    "Впр. 1 a): зіставити малюнки з виразами: «follow a diet», «go to bed late», «eat junk food», «stay calm», «do exercise».",
+    "Решта виразів: «overwork», «smoke», «spend a lot of time on gadgets», «drink enough water», «get enough sleep».",
+    "Впр. 1 b): розподілити звички на «Healthy» і «Unhealthy», додати інші, які знаєш.",
+    "Впр. 2: сказати, до чого можуть привести шкідливі звички, за зразком «If you eat junk food, you may put on weight».",
+    "Впр. 3: розповісти класу, які звички з впр. 1 маєш («I follow a diet and eat a lot of fruit and vegetables»)."
+   ],
+   "terms": [
+    {
+     "term": "follow a diet",
+     "def": "дотримуватися дієти"
+    },
+    {
+     "term": "eat junk food",
+     "def": "їсти шкідливу їжу"
+    },
+    {
+     "term": "overwork",
+     "def": "перепрацьовувати"
+    },
+    {
+     "term": "get enough sleep",
+     "def": "достатньо спати"
+    }
+   ]
+  },
+  "112": {
+   "kind": "text",
+   "title": "Unit 6. Different Choices, Different Lives — Reading: 6 Keys to a Longer and Happier Life",
+   "points": [
+    "Впр. 1–2: повторити слова з «Words for You»; відповісти, чому важливо вести здоровий спосіб життя і що ми робимо, щоб бути здоровими.",
+    "Впр. 3: прослухати й прочитати статтю «6 Keys to a Longer and Happier Life», потім визначити 8 тверджень як true або false (твердження — на с. 113).",
+    "Вступ статті: через гаджети, шкідливу їжу, куріння й брак руху люди набирають вагу, хворіють; девіз — «where there's a will, there's a way».",
+    "Ключ 1: достатньо спати — мелатонін, гормон сну, виробляється, коли темно, найвищий рівень близько 2 ночі. Ключ 2: правильно розподіляти час — перепрацювання дає стрес, а надмір дозвілля веде до ліні.",
+    "Ключ 3 (початок): аналізувати, що й скільки їси — фастфуд і великі порції дають проблеми з травленням і надмірну вагу, а нездорова їжа не дає поживних речовин і енергії."
+   ],
+   "terms": [
+    {
+     "term": "digestive system",
+     "def": "травна система"
+    },
+    {
+     "term": "hormone",
+     "def": "гормон"
+    },
+    {
+     "term": "melatonin",
+     "def": "мелатонін"
+    },
+    {
+     "term": "nutrient",
+     "def": "поживна речовина"
+    },
+    {
+     "term": "to overcome",
+     "def": "долати"
+    },
+    {
+     "term": "to produce",
+     "def": "виробляти"
+    },
+    {
+     "term": "overweight",
+     "def": "надмірна вага"
+    },
+    {
+     "term": "productive",
+     "def": "продуктивний"
+    },
+    {
+     "term": "therefore",
+     "def": "тому, отже"
+    }
+   ]
+  },
+  "113": {
+   "kind": "text",
+   "title": "Unit 6. Different Choices, Different Lives — Reading: 6 Keys to a Longer and Happier Life (закінчення)",
+   "points": [
+    "Ключ 4: обмежити гаджети й більше бути з друзями — віртуальне спілкування передає менше почуттів, ніж живе, і ми стаємо менш активними.",
+    "Ключ 5: щоранку робити зарядку й більше ходити пішки — будеш у формі, матимеш свіже повітря й гарний вигляд.",
+    "Ключ 6: бути активним — спорт, спортзал, велосипед, походи; активні люди сповнені життя й енергії.",
+    "Впр. 3 (закінчення): 8 тверджень для позначення true/false (виправити хибні), напр. «Our body produces melatonin from 9 pm to midnight only».",
+    "Впр. 4: закінчити 8 речень за статтею. Впр. 5: у парах обговорити, що означає «Where there's a will, there's a way», і чи важко вести здоровий спосіб життя сьогодні."
+   ]
+  },
+  "114": {
+   "kind": "exercises",
+   "title": "Unit 6. Different Choices, Different Lives — Grammar: First Conditional",
+   "points": [
+    "Граматика «First Conditional»: для впр. 1–4 є відсилка до Grammar Focus на с. 173.",
+    "Впр. 1: з'єднати початки й кінці умовних речень (6 пар). Впр. 2: вибрати правильну форму («be / will be», «don't / won't»).",
+    "Впр. 3: розкрити дужки в 12 реченнях — Present Simple або Future Simple. Впр. 4: a) закінчити речення власними ідеями; b) відповісти на запитання за зразком «If it gets hot, I will put on my T-shirt»."
+   ],
+   "example": "What will you do if it gets hot? — If it gets hot, I will put on my T-shirt."
+  },
+  "115": {
+   "kind": "exercises",
+   "title": "Unit 6. Different Choices, Different Lives — Listening",
+   "points": [
+    "Впр. 1: a) прослухати й повторити слова з «Words for You»; b) доповнити 5 речень цими словами.",
+    "Впр. 2: відповісти на запитання про себе (коли прокидаєшся, що вдягаєш до школи, що робиш після школи, що їси на вечерю).",
+    "Впр. 3: a) послухати голосове повідомлення від мами Емі й визначити 8 тверджень як true або false; b) послухати ще раз і відповісти на 8 запитань.",
+    "Впр. 4: розповісти, чи залишали тобі батьки записки чи голосові повідомлення перед школою, і що в них було."
+   ],
+   "terms": [
+    {
+     "term": "cardigan",
+     "def": "кардиган"
+    },
+    {
+     "term": "neighbour",
+     "def": "сусід"
+    },
+    {
+     "term": "sleepyhead",
+     "def": "соня"
+    },
+    {
+     "term": "pale",
+     "def": "блідий"
+    },
+    {
+     "term": "to go crazy (about smth)",
+     "def": "шаленіти, з'їжджати з глузду (від чогось)"
+    }
+   ]
+  },
+  "116": {
+   "kind": "exercises",
+   "title": "Unit 6. Different Choices, Different Lives — Vocabulary: Everyday Activities",
+   "points": [
+    "Впр. 1: подивитися на малюнки, назвати щоденні заняття й сказати, коли їх робиш, за зразком «I brush my teeth in the morning».",
+    "Впр. 2: прослухати розповідь Еріка й розставити речення в правильному порядку («Eric wakes up at 6 am», «He has breakfast», «He does his homework» тощо).",
+    "Впр. 3: у парах розповісти про свій розпорядок, вживаючи «First, then, after that, in the end/finally».",
+    "Впр. 4: послухати Мію й вибрати правильний варіант у 8 реченнях про її вихідні. Впр. 5: з іншим партнером розповісти, що зазвичай робиш у вихідні."
+   ]
+  },
+  "117": {
+   "kind": "exercises",
+   "title": "Unit 6. Different Choices, Different Lives — Grammar: Used to, Be used to",
+   "points": [
+    "Граматика «used to» і «be used to»: для впр. 1–4 є відсилка до Grammar Focus на с. 173.",
+    "Впр. 1: вибрати a або b («used to» / «am used to» / «is used to» тощо) у 8 реченнях. Впр. 2: переписати речення з «used to» або «didn't use to» за зразком.",
+    "Впр. 3: доповнити речення формою «be used to + дієслово з -ing» за зразком (дієслово в дужках).",
+    "Впр. 4: у парах ставити запитання й відповідати, напр. «Did you use to wear glasses?»."
+   ],
+   "formulas": [
+    "used to + V — минула звичка: «I used to play basketball»",
+    "be used to + V-ing — бути звичним: «I am used to hearing all that noise»"
+   ]
+  },
+  "118": {
+   "kind": "exercises",
+   "title": "Unit 6. Different Choices, Different Lives — Speaking",
+   "points": [
+    "Впр. 1: прослухати й прочитати діалог учительки з Еліссон («I have a headache») і обговорити в класі, що сталося; в діалозі поради «You should…», «You shouldn't…», «Why don't you…?», «You'd better…».",
+    "Впр. 2: двічі послухати розмову Неда й Люка й закінчити 8 речень («Ned is not used to …», «They will swim if …»).",
+    "Впр. 3: у парах взяти інтерв'ю про спорт у житті партнера (чи звик до спорту у вільний час, які види й як часто, у що грав раніше) і розповісти класу.",
+    "Впр. 4: відповісти на запитання «Is it good to be active in your free time?» і «Will you do sport if you are free? Why (not)?»."
+   ]
+  },
+  "119": {
+   "kind": "exercises",
+   "title": "Unit 6. Different Choices, Different Lives — Writing: My Dream Lifestyle",
+   "points": [
+    "Впр. 1: a) прочитати блог Вероніки «My Dream Lifestyle» і визначити, що з переліку вона згадує (дім, хобі, розпорядок, їжа, друзі тощо); b) знайти відмінності між її справжнім життям і життям мрії.",
+    "У блозі: насправді Вероніка живе з батьками в Йорку (Англія), рано встає й іде до школи на 7:30; у мрії — великий будинок біля пляжу на Гаваях, онлайн-уроки з 11:00, тенісний корт, пляж щодня.",
+    "Впр. 2: написати схожий блог про свій стиль життя мрії — де хочеш жити, який твій дім мрії, який розпорядок, які розваги."
+   ]
+  },
+  "120": {
+   "kind": "exercises",
+   "title": "Unit 6. Different Choices, Different Lives — Look Back",
+   "points": [
+    "Впр. 1: розкрити дужки в 12 реченнях — Present Simple або Future Simple (умовні речення First Conditional).",
+    "Впр. 2: вставити «used to» або «be used to» у 12 речень, у заперечних — з «not».",
+    "Впр. 3 a): доповнити 8 речень словами з рамки: «cardigan», «daily routine», «nutrients», «neighbours», «to socialise», «to overcome», «fast-paced», «rural».",
+    "Впр. 3 b): скласти власні речення зі словами «lifestyle», «digestive system», «melatonin», «to go crazy», «to involve», «overweight», «pale», «urban»."
+   ]
+  },
+  "121": {
+   "kind": "exercises",
+   "title": "Unit 6. Different Choices, Different Lives — Look Back",
+   "points": [
+    "Впр. 4 a): назвати протилежні звички до «go to bed late», «eat junk food», «smoke», «overwork», «be stressed», «spend a lot of time on gadgets».",
+    "Впр. 4 b): гра в парах — скласти список здорових звичок і поділитися з класом; виграє пара з найдовшим списком.",
+    "Впр. 5: a) за 8 малюнками назвати щоденні заняття за зразком «1 — brush your teeth»; b) назвати інші щоденні заняття.",
+    "Впр. 6: у парах обговорити життя спортсмена — чи важке воно, його розклад і звички, чи хочеш стати професіоналом; нотатки розповісти класу."
+   ]
+  },
+  "122": {
+   "kind": "exercises",
+   "title": "Unit 6. Different Choices, Different Lives — Look Back",
+   "points": [
+    "Впр. 7 a): прочитати статтю «Life of a Celebrity» про розпорядок співачки Ріанни й визначити 8 тверджень як true або false.",
+    "У статті: бути знаменитістю нелегко; Ріанна прокидається о 7, бігає, репетирує в студії, 4–5 разів на тиждень ходить у спортзал.",
+    "Також у статті: вона вечеряє рибою й салатом о 18:00, лягає близько опівночі й тримається розпорядку, де б не була.",
+    "Впр. 7 b): відповісти на 8 запитань до статті (секрет успіху, сніданок, чому не набирає вагу, які звички здорові чи ні).",
+    "Впр. 8: у парах обрати іншого співака, танцюриста, актора чи спортсмена й зробити цифрову презентацію про його стиль життя."
+   ],
+   "terms": [
+    {
+     "term": "celebrity",
+     "def": "знаменитість"
+    }
+   ]
+  },
+  "123": {
+   "kind": "exercises",
+   "title": "Unit 6. Different Choices, Different Lives — Look Back (проєкт «My class survey: Healthy Eaters»)",
+   "points": [
+    "Впр. 9: запитати друга й розповісти класу (6 запитань про пізнє лягання, важкий підйом уранці, соцмережі ввечері, настрій, початок уроків).",
+    "Впр. 10: погодитися чи не погодитися з 5 твердженнями про харчування підлітків і сімейну вечерю й навести приклади (напр. «Teenagers eat too many unhealthy snacks»).",
+    "Впр. 11: у парах скласти й представити список «The Rules of a Healthy Lifestyle» для здорового, щасливого й довгого життя.",
+    "Впр. 12: проєкт «My class survey: Healthy Eaters» — підготувати анкету про те, що однокласники їдять протягом дня, опитати їх і подати результати цифровою презентацією."
+   ]
+  },
+  "124": {
+   "kind": "text",
+   "title": "Unit 6. Different Choices, Different Lives — Self-Assessment",
+   "points": [
+    "Впр. 1: подумати, чого навчився в розділі й із чим ще потрібна допомога; є відсилка на Self-Check в онлайн-застосунку.",
+    "Впр. 2: перемалювати таблицю й позначити рівень уміння смайликами для Vocabulary, Grammar, Reading, Listening, Speaking, Writing.",
+    "«Now I can»: описувати стилі життя, обговорювати здорові й шкідливі звички, розповідати про розпорядок і дозвілля.",
+    "«Now I can» (далі): вживати «First Conditional», «used to» і «be used to», писати блог про стиль життя мрії."
+   ]
+  },
+  "125": {
+   "kind": "intro",
+   "title": "Unit 7. Ukraine Profile",
+   "points": [
+    "Початок розділу 7 «Ukraine Profile» (профіль України); лід-ін: де розташована Україна, яка її столиця, скільки в ній областей, яких відомих українців ти знаєш.",
+    "Мовний зміст: географічні назви, типи клімату, національні символи, національності, «Passive Voice» (Future Simple, Present Perfect).",
+    "Уміння: описувати географічне положення України, брати інтерв'ю про погоду й клімат, радити мандрівникам, презентувати Україну іноземцям, створювати вікторину, писати коротку статтю про свою країну."
+   ]
+  },
+  "126": {
+   "kind": "text",
+   "title": "Unit 7. Ukraine Profile — What's So Special About Ukraine?",
+   "points": [
+    "Початок статті з сайту: Україна здавна відома золотими пшеничними полями й має назву «the breadbasket of Europe» (комора Європи).",
+    "Щедра земля й багатство, зібране працьовитим народом, постійно вабили загарбників; історія країни — боротьба за свободу й незалежність (текст продовжується на с. 127).",
+    "Впр. 1–2: прослухати й повторити слова з рамки Words for You; прочитати статтю, здогадатися про значення нових слів і перевірити за Vocabulary List.",
+    "Впр. 3: вибрати a, b або c, щоб завершити 5 речень (наприклад, «national identity», «hospitable»)."
+   ],
+   "terms": [
+    {
+     "term": "dignity",
+     "def": "гідність"
+    },
+    {
+     "term": "freedom",
+     "def": "свобода"
+    },
+    {
+     "term": "identity",
+     "def": "самобутність, ідентичність"
+    },
+    {
+     "term": "invader",
+     "def": "загарбник"
+    },
+    {
+     "term": "pearl",
+     "def": "перлина"
+    },
+    {
+     "term": "struggle / to struggle",
+     "def": "боротьба / боротися"
+    },
+    {
+     "term": "wheat",
+     "def": "пшениця"
+    },
+    {
+     "term": "to tempt",
+     "def": "вабити, спокушати"
+    },
+    {
+     "term": "evil",
+     "def": "зло"
+    },
+    {
+     "term": "hospitable",
+     "def": "гостинний"
+    },
+    {
+     "term": "industrial",
+     "def": "промисловий"
+    },
+    {
+     "term": "picturesque",
+     "def": "мальовничий"
+    },
+    {
+     "term": "soulful",
+     "def": "душевний, сповнений почуття"
+    }
+   ]
+  },
+  "127": {
+   "kind": "text",
+   "title": "Unit 7. Ukraine Profile — What's So Special About Ukraine?",
+   "points": [
+    "Закінчення статті: нація не впала на коліна, зберегла національну ідентичність і гідність та бореться за право розбудовувати власну державу.",
+    "Запрошення подорожувати: Львів — центр Галичини, Київ — столиця, Чернігів — старовинні пам'ятки, Харків — промисловий центр, Дніпро й Запоріжжя — козацькі традиції, Одеса — перлина, Крим — курорти.",
+    "За давнім звичаєм гостей зустрічають хлібом і сіллю; за гостинним столом думки обмінюються так само легко, як тости.",
+    "Впр. 4: у парах поставити й відповісти на 5 запитань за статтею (чим відома Україна, історія, що збережено, за що бореться).",
+    "Впр. 5: з'єднати міста й регіони (Kyiv, Lviv, Chernihiv, Dnipro and Zaporizhzhia, Odesa, Kharkiv, Crimea) з характеристиками a–g."
+   ]
+  },
+  "128": {
+   "kind": "text",
+   "title": "Unit 7. Ukraine Profile — Comments",
+   "points": [
+    "Волонтери GoCamp з різних країн мають дуже різні асоціації з Україною — від приємних до зовсім несподіваних.",
+    "Типові відгуки: «brave people», «IT sector», «country of friends», «the importance of family», «blue and yellow», «Ukrainian borscht», «people are open and ready to help».",
+    "Авторів відгуків названо за іменами й країнами (Lithuania, Ireland, UK, USA, Turkey, Pakistan, Canada).",
+    "Впр. 6: уявити, що працюєш у турагенції, і завершити 6 речень за статтею (с. 127–128).",
+    "Впр. 7: в групах обговорити, чи варто дивитися на країну «з іншого боку». Впр. 8: знайти ще 3–4 думки іноземців про Україну й розповісти класу."
+   ]
+  },
+  "129": {
+   "kind": "text",
+   "title": "Unit 7. Ukraine Profile — Vocabulary",
+   "points": [
+    "Тема: географічні назви — сусіди України, річки, гори, народи; урок вчить описувати географічне положення країни.",
+    "Впр. 1–2: мозковий штурм слів до «Ukraine»; прослухати й прочитати назви: «Belarus», «Hungary», «Moldova», «Poland», «Romania», «Russia», «Slovakia».",
+    "У списку також річки й гори («the Dnipro», «the Dniester», «the Buh», «the Donets», «the Carpathian Mountains», «the Crimean Mountains») і народи («Bulgarian», «Jew», «Pole», «Tatar»).",
+    "Впр. 3: за контекстом здогадатися про значення слів жирним шрифтом (area, border, to occupy, to stretch, mountainous, population, to inhabit).",
+    "Впр. 4: вставити слова з рамки в текст про територію, кордони, моря, гори, ріки й населення України."
+   ],
+   "terms": [
+    {
+     "term": "area",
+     "def": "площа; територія"
+    },
+    {
+     "term": "border / to border",
+     "def": "кордон; межувати"
+    },
+    {
+     "term": "to occupy",
+     "def": "займати"
+    },
+    {
+     "term": "to stretch",
+     "def": "простягатися"
+    },
+    {
+     "term": "mountainous",
+     "def": "гористий"
+    },
+    {
+     "term": "population",
+     "def": "населення"
+    },
+    {
+     "term": "to inhabit",
+     "def": "населяти, мешкати"
+    }
+   ]
+  },
+  "130": {
+   "kind": "text",
+   "title": "Unit 7. Ukraine Profile — Reading",
+   "points": [
+    "Впр. 1–2a: мозковий штурм головних фактів про Україну; спробувати відповісти на 8 запитань (територія, народ, багатства, Полісся, Поділля й Гуцульщина, степ, Дніпро, флора й фауна).",
+    "Текст «Ukraine Guide»: Україна лежить у географічному центрі Європи; її населення — друге за чисельністю серед слов'янських народів; клімат сприятливий, ґрунт родючий.",
+    "Рельєф і природа: Карпати, луки Гуцульщини, пагорби Поділля, Полісся з гаями й лісами, рівнинний степ до Чорного й Азовського морів; ріки Дніпро, Буг, Десна, Тетерів, Черемош.",
+    "Клімат м'який на заході й у центрі, теплий і сухий на сході, гарячий на півдні; рослин налічується до 30000. Впр. 2b–c: повторити слова з рамки й прочитати уривок."
+   ],
+   "terms": [
+    {
+     "term": "grove",
+     "def": "гай"
+    },
+    {
+     "term": "meadow",
+     "def": "луг"
+    },
+    {
+     "term": "resources",
+     "def": "ресурси, багатства"
+    },
+    {
+     "term": "soil",
+     "def": "ґрунт"
+    },
+    {
+     "term": "variety (of)",
+     "def": "різноманітність"
+    },
+    {
+     "term": "to dot",
+     "def": "усіювати, вкривати цятками"
+    },
+    {
+     "term": "to lie",
+     "def": "лежати, розташовуватися (lay, lain)"
+    },
+    {
+     "term": "to number",
+     "def": "налічувати"
+    },
+    {
+     "term": "favourable",
+     "def": "сприятливий"
+    },
+    {
+     "term": "fertile",
+     "def": "родючий"
+    },
+    {
+     "term": "flat",
+     "def": "рівнинний, плоский"
+    },
+    {
+     "term": "rich (in)",
+     "def": "багатий на"
+    },
+    {
+     "term": "Slavic",
+     "def": "слов'янський"
+    }
+   ]
+  },
+  "131": {
+   "kind": "exercises",
+   "title": "Unit 7. Ukraine Profile — Reading",
+   "points": [
+    "Впр. 3: сказати, правдиві чи хибні 12 тверджень про Україну (площа, Дніпро, Карпати, кордони, ґрунт, Кримські гори, моря, національності, клімат, озера).",
+    "Більшу частину сторінки займає фізична карта України з масштабом, висотами (шкала 0–3000), містами, річками й морями."
+   ]
+  },
+  "132": {
+   "kind": "exercises",
+   "title": "Unit 7. Ukraine Profile — Reading",
+   "points": [
+    "Впр. 4: за довідкою «General Facts About Ukraine» доповнити текст. У довідці: площа 603 700 sq km, найдовша ріка — Дніпро 2200 km (981 km в Україні), найвища гора — Говерла 2061 m (Карпати).",
+    "Також у довідці: столиця — Kyiv, герб — тризуб («the trident»), прапор — синьо-жовті горизонтальні смуги, державна мова — Ukrainian, валюта — hryvnia.",
+    "Впр. 5: рольова гра в парах — британський учитель географії ставить запитання про розташування України, її кордони, моря, гори, національності та туристів.",
+    "Впр. 6: у групах знайти фото цікавих місць України й підготувати візуальний тур, сказавши 1–2 речення про кожне фото."
+   ],
+   "terms": [
+    {
+     "term": "trident",
+     "def": "тризуб"
+    },
+    {
+     "term": "currency",
+     "def": "валюта"
+    }
+   ]
+  },
+  "133": {
+   "kind": "text",
+   "title": "Unit 7. Ukraine Profile — Grammar: Passive Voice (Present, Past and Future Simple)",
+   "points": [
+    "Тема: пасивний стан (Passive Voice) у Present, Past і Future Simple; детальніше — Grammar Focus на с. 174.",
+    "Впр. 1: порівняти колонки: активне «The Black Sea washes the southern part of Ukraine» і пасивне «The southern part of Ukraine is washed by the Black Sea»; чим різняться дієслова й місце підмета.",
+    "Впр. 2: прочитати вірш про вітер і будинок та виписати речення в пасиві («The house was shaken», «the clothing was bought»)."
+   ],
+   "formulas": [
+    "Passive: is/are + V3 (is washed, is inhabited, is occupied, is covered)",
+    "They say that … = … is said to be …"
+   ],
+   "example": "Active: Mountains occupy a very small part of Ukraine → Passive: A very small part of Ukraine is occupied by mountains."
+  },
+  "134": {
+   "kind": "exercises",
+   "title": "Unit 7. Ukraine Profile — Grammar: Passive Voice",
+   "points": [
+    "Впр. 3: скласти речення з трьох колонок: підмет + was/were, is/are, will be + дієслово в 3-й формі (grown, presented, occupied, washed, visited, crossed…) + закінчення («by the sea», «with snow»).",
+    "Впр. 4: перетворити 5 речень із Future Simple з активного стану в пасивний за зразком «We will speak about this book → This book will be spoken about by us.»",
+    "Впр. 5: переписати 10 речень у пасиві (Past, Future, Present Simple). Впр. 6: відповісти на 5 запитань у пасиві про кордони, туристів, гори, народи й допомогу Україні.",
+    "Внизу — відсилання до Grammar Book для додаткової практики."
+   ],
+   "formulas": [
+    "Passive: was/were/is/are/will be + V3",
+    "Future Simple Passive: will be + V3 (will be spoken)"
+   ]
+  },
+  "135": {
+   "kind": "exercises",
+   "title": "Unit 7. Ukraine Profile — Listening",
+   "points": [
+    "Впр. 1–2: повторити слова з рамки Words for You і вставити слова (latitude, navigable, pipelines, trade, agriculture, watershed) у 6 речень.",
+    "Впр. 3: у парах обговорити географічне положення України — де розташована, площа, сусіди, клімат, рельєф, найдовша ріка.",
+    "Впр. 4a–b: прослухати інформацію про географічне положення України й з'єднати половини 7 речень; прослухати ще раз для перевірки.",
+    "Впр. 5: у групах обговорити почуте — що робить Україну «коморою Європи» і що сприяє розвитку ресурсів, промисловості, торгівлі й культури."
+   ],
+   "terms": [
+    {
+     "term": "agriculture",
+     "def": "сільське господарство"
+    },
+    {
+     "term": "Danube",
+     "def": "Дунай"
+    },
+    {
+     "term": "latitude",
+     "def": "широта"
+    },
+    {
+     "term": "pipeline",
+     "def": "трубопровід"
+    },
+    {
+     "term": "trade",
+     "def": "торгівля"
+    },
+    {
+     "term": "Transcaucasia",
+     "def": "Закавказзя"
+    },
+    {
+     "term": "watershed",
+     "def": "вододіл, водозбір"
+    },
+    {
+     "term": "navigable",
+     "def": "судноплавний"
+    }
+   ]
+  },
+  "136": {
+   "kind": "text",
+   "title": "Unit 7. Ukraine Profile — Vocabulary: Climate",
+   "points": [
+    "Тема: лексика про клімат і його чинники; нові слова подано в реченнях, їх значення треба здогадатися з контексту (впр. 1).",
+    "Рамка Keep in Mind!: після «to influence» іде додаток без прийменника, а іменник «an influence» вживається з прийменником «on».",
+    "Впр. 2: вставити слова з впр. 1 у правильній формі в текст про клімат України (помірно-континентальний, у Криму субтропічний; середня температура, опади від 75 до 35 см на рік).",
+    "Впр. 3: дати визначення й коротко описати види клімату: moderate, continental, moderate continental, tropical, subtropical."
+   ],
+   "terms": [
+    {
+     "term": "an influence / to influence",
+     "def": "вплив / впливати"
+    },
+    {
+     "term": "to vary",
+     "def": "змінюватися, коливатися"
+    },
+    {
+     "term": "climate",
+     "def": "клімат"
+    },
+    {
+     "term": "to determine",
+     "def": "визначати, зумовлювати"
+    },
+    {
+     "term": "to cause",
+     "def": "спричиняти"
+    },
+    {
+     "term": "average",
+     "def": "середній; у середньому"
+    },
+    {
+     "term": "to range",
+     "def": "коливатися в певних межах"
+    }
+   ],
+   "formulas": [
+    "to influence somebody/something = to have an influence on somebody/something"
+   ]
+  },
+  "137": {
+   "kind": "text",
+   "title": "Unit 7. Ukraine Profile — Grammar: Present Perfect Passive",
+   "points": [
+    "Тема: Present Perfect Passive; докладніше — Grammar Focus на с. 175.",
+    "Впр. 1: порівняти пасивні форми простих часів: Present — «Ukraine is washed by two seas», Past — «the Black Sea was called ‘Kara Deniz’ by the Turks», Future — «Stepan will be taken on a trip».",
+    "Впр. 2: доповнити пропущені частини форм Present Perfect Passive (to populate, to know, to discover, to find).",
+    "Впр. 3: утворити питальні речення з 6 стверджувальних за зразком «Has the new project been completed yet?». Впр. 4: поставити 6 дієслів у дужках у Present Perfect Passive."
+   ],
+   "formulas": [
+    "Present Perfect Passive: have/has + been + V3",
+    "Present Simple Passive: am/is/are + V3; Past Simple Passive: was/were + V3; Future Simple Passive: will be + V3",
+    "Питання: Has/Have + підмет + been + V3?"
+   ]
+  },
+  "138": {
+   "kind": "exercises",
+   "title": "Unit 7. Ukraine Profile — Speaking",
+   "points": [
+    "Впр. 1: у групах відібрати найважливіші факти про Україну для іноземця, який нічого про неї не знає.",
+    "Впр. 2–3a: повторити слова «coastline», «resort» з рамки Words for You; мозковий штурм чинників, що впливають на клімат.",
+    "Впр. 3b–c: прослухати інтерв'ю про кліматичні зони України, визначити, правдиві чи хибні 6 тверджень, і перевірити себе повторним прослуховуванням.",
+    "Впр. 4: у парах поставити й відповісти на 6 запитань про клімат України.",
+    "Впр. 5 (And you?): описати погоду, типову для твоєї частини країни останнім часом."
+   ],
+   "terms": [
+    {
+     "term": "coastline",
+     "def": "берегова лінія"
+    },
+    {
+     "term": "resort",
+     "def": "курорт"
+    }
+   ]
+  },
+  "139": {
+   "kind": "text",
+   "title": "Unit 7. Ukraine Profile — Writing",
+   "points": [
+    "Впр. 1: скласти список ідей про Україну, порівняти зі списком партнера й у парах створити «association map» (карту асоціацій).",
+    "Впр. 2: написати коротку статтю чи блог-пост про Україну для сайту школи іноземного друга, користуючись порадою Tip.",
+    "Tip «Writing an Article»: придумати привабливий заголовок; перше речення має бути пов'язане із заголовком і вводити тему.",
+    "Далі: поділити ідеї на абзаци (нова думка — новий абзац); останній абзац підводить підсумок, робить висновок або висловлює думку."
+   ],
+   "terms": [
+    {
+     "term": "conclusion",
+     "def": "висновок"
+    }
+   ]
+  },
+  "140": {
+   "kind": "exercises",
+   "title": "Unit 7. Ukraine Profile — Look Back",
+   "points": [
+    "Впр. 1: перетворити 8 речень у пасив (більшість — у Present Perfect: «They have built many spa resorts…»).",
+    "Впр. 2: підібрати слова за 8 визначеннями з теми уроку (climate, mountainous, to inhabit, to cause, to vary, emblem, to range, to determine).",
+    "Впр. 3: доповнити текст про Україну пропущеними словами (центр Європи, Карпати, кордони, рельєф, ріки, моря, зміни клімату).",
+    "Впр. 4: знайти синоніми до слів «close to, main, large, location, connections, significant, territory, state», за потреби скористатися Vocabulary List."
+   ]
+  },
+  "141": {
+   "kind": "exercises",
+   "title": "Unit 7. Ukraine Profile — Look Back",
+   "points": [
+    "Впр. 5: у парах пройти вікторину з 7 запитань (кордони на півночі, клімат Криму, гірська територія, центр Галичини, хліб-сіль, мова, доступ до Європи) з варіантами a–d.",
+    "Впр. 6a: з'єднати слова «rafting», «waterfall», «stream», «trout», «spring», «fortress» із 6 фото й перевірити за Vocabulary List."
+   ],
+   "terms": [
+    {
+     "term": "rafting",
+     "def": "рафтинг, сплав на плотах"
+    },
+    {
+     "term": "waterfall",
+     "def": "водоспад"
+    },
+    {
+     "term": "stream",
+     "def": "струмок"
+    },
+    {
+     "term": "trout",
+     "def": "форель"
+    },
+    {
+     "term": "spring",
+     "def": "джерело, вода з джерела"
+    },
+    {
+     "term": "fortress",
+     "def": "фортеця"
+    }
+   ]
+  },
+  "142": {
+   "kind": "exercises",
+   "title": "Unit 7. Ukraine Profile — Look Back",
+   "points": [
+    "Впр. 6b: з'єднати відповіді турагента з питаннями іноземного туриста про Українські Карпати й скласти діалог; репліки туриста пронумеровано 1, 3, 5, 7, 9.",
+    "У діалозі згадано: Карпати тягнуться майже на 1500 km, білі гриби й ягоди, форель у струмках, пам'ятки, замки, дерев'яні церкви, мінеральні джерела, лижі, скелелазіння, рафтинг.",
+    "Впр. 6c: розіграти діалог у парах."
+   ]
+  },
+  "143": {
+   "kind": "exercises",
+   "title": "Unit 7. Ukraine Profile — Look Back",
+   "points": [
+    "Впр. 7: у парах учень A готує запитання A (положення, розмір, герб, ріка, температури), учень B — запитання B (місто, національності, гори, висока гора, клімат); питають із закритими книжками.",
+    "Впр. 8: у групах зробити цифрову презентацію місця у своїй країні (парк, курорт): положення, географія, рослини й тварини, що робити відвідувачам; проголосувати за найкращу.",
+    "Впр. 9: написати вікторину «How Much Do You Know about Ukraine?» і зробити постер із запитаннями.",
+    "Впр. 10: проєкт «My Brochure about Ukraine»: згадати положення, населення, символи, мову, клімат, звичаї, історію, їжу.",
+    "Кроки проєкту: упорядкувати нотатки; написати текст абзацами або розділами; проілюструвати брошуру."
+   ]
+  },
+  "144": {
+   "kind": "exercises",
+   "title": "Unit 7. Ukraine Profile — Self-Assessment",
+   "points": [
+    "Впр. 1: подумати, що вивчено в розділі й із чим ще потрібна допомога; для самоперевірки є розділ Self-Check в онлайн-додатку.",
+    "Впр. 2: скопіювати таблицю й позначити рівень уміння (від «розумію й можу допомогти партнеру» до «не розумію») для Vocabulary, Grammar, Reading, Listening, Speaking, Writing.",
+    "Now I can: називати українські міста, ріки, озера, моря й гори; розповісти про улюблене місце; описати положення й клімат країни; порадити, куди їхати.",
+    "Також: презентувати країну іноземцям; вживати Present Perfect Passive; створити вікторину про Україну; написати коротку статтю про свою країну."
+   ]
+  },
+  "145": {
+   "kind": "intro",
+   "title": "Unit 8. Discover English-Speaking Countries!",
+   "points": [
+    "Початок розділу «Discover English-Speaking Countries!»; Lead-in: які англомовні країни ти знаєш, із чого складається UK, столиця США, яку країну хотів би відвідати.",
+    "Language: країни й національності, географічні назви, типи клімату й ландшафтів, повторення часів.",
+    "Skills: розуміти тексти про географію й клімат, описувати положення англомовних країн, обговорювати національні особливості, брати інтерв'ю.",
+    "Також: вести блог про населення, писати fact file про англомовну країну, проводити вікторину-змагання."
+   ]
+  },
+  "146": {
+   "kind": "text",
+   "title": "Unit 8. Discover English-Speaking Countries! — My Incredible Guide: England",
+   "points": [
+    "Англія — частина Сполученого Королівства на острові Great Britain; на півночі межує зі Scotland, на заході з Wales, на сході North Sea, на півдні English Channel.",
+    "Найдовша ріка Англії — the Thames (338 km).",
+    "General Facts: столиця — London, мова — English, площа 130 278 sq km, населення 57 106 000, клімат — humid temperate.",
+    "Fun Facts: Англія — монархія, але закони ухвалює Parliament; англійців звуть «Brits»; «fish and chips»; щодня близько 100 млн чашок чаю; англійці винайшли футбол і «shoelaces».",
+    "Впр. 1a–b: повторити слова з рамки Words for You (с. 147) і вставити їх у 9 речень."
+   ]
+  },
+  "147": {
+   "kind": "text",
+   "title": "Unit 8. Discover English-Speaking Countries! — Kids Online: The USA",
+   "points": [
+    "США — четверта за площею країна світу в Північній Америці, федеративний союз 50 штатів; межує з Canada на півночі й Mexico на півдні; на заході Pacific Ocean, на сході Atlantic Ocean.",
+    "Найдовша ріка — the Mississippi (3766 km). General Facts: столиця — Washington, D.C., мова — English, площа 9 866 289 sq km, населення 341 963 000, клімат — highly diverse.",
+    "Fun Facts: різні кліматичні зони, найбільше торнадо у світі («Tornado Alley»), «melting pot» — люди різних культур, шкала Фаренгейта замість Цельсія, 21 000 скибок піци щохвилини.",
+    "Впр. 2–3a: сказати, що вже відомо про Англію й США; прочитати гід і визначити, правдиві чи хибні 8 тверджень."
+   ],
+   "terms": [
+    {
+     "term": "federal union",
+     "def": "федеративний союз"
+    },
+    {
+     "term": "icon",
+     "def": "символ, ікона"
+    },
+    {
+     "term": "melting pot",
+     "def": "«плавильний котел» (суспільство, де змішуються культури)"
+    },
+    {
+     "term": "monarchy",
+     "def": "монархія"
+    },
+    {
+     "term": "religion",
+     "def": "релігія"
+    },
+    {
+     "term": "tornado",
+     "def": "торнадо"
+    },
+    {
+     "term": "to locate",
+     "def": "розташовувати, знаходити місце"
+    },
+    {
+     "term": "to melt",
+     "def": "танути, розтоплювати"
+    },
+    {
+     "term": "humid",
+     "def": "вологий"
+    }
+   ]
+  },
+  "148": {
+   "kind": "exercises",
+   "title": "Unit 8. Discover English-Speaking Countries! — Comments",
+   "points": [
+    "Коментарі: Jane, 14, England — клімат вологий; Lucas, 14, New Zealand — їде влітку до США, до Texas; Lily, 13, Ireland — чай щовечора; Bill, 15, Canada — його країна теж «melting pot».",
+    "Впр. 3b: перечитати й завершити 8 речень (населення Англії, сусіди, «Brits», чай, площа США, найдовша ріка, melting pot, улюблена страва).",
+    "Впр. 4: за коментарями сказати, хто їде до Texas, хто з Англії, чия країна теж «melting pot» і хто п'є чай увечері.",
+    "Впр. 5: у парах знайти в інтернеті іншу англомовну країну й підготувати схожий гід: назва, столиця, положення, мови, клімат, площа, населення, факти."
+   ]
+  },
+  "149": {
+   "kind": "text",
+   "title": "Unit 8. Discover English-Speaking Countries! — Vocabulary: Main Types of Climate",
+   "points": [
+    "Тема: головні типи клімату за класифікацією Кеппена (Koppen Climate Classification) на карті світу.",
+    "Впр. 1a: подивитися на карту, прослухати й прочитати назви клімату: 1 — Continental, 2 — Dry, 3 — Polar, 4 — Temperate, 5 — Tropical.",
+    "Впр. 1b: з'єднати типи клімату з п'ятьма описами (екстремальна спека, помірна погода, холодне літо й морозна зима, тепло цілий рік, холодна зима й жарке літо).",
+    "В описах згадано пустелі, Західну Європу, Арктику й Антарктику, Африку, Канаду, схід США."
+   ],
+   "terms": [
+    {
+     "term": "continental",
+     "def": "континентальний"
+    },
+    {
+     "term": "dry",
+     "def": "сухий"
+    },
+    {
+     "term": "polar",
+     "def": "полярний"
+    },
+    {
+     "term": "temperate",
+     "def": "помірний"
+    },
+    {
+     "term": "tropical",
+     "def": "тропічний"
+    }
+   ]
+  },
+  "150": {
+   "kind": "exercises",
+   "title": "Unit 8. Discover English-Speaking Countries! — Vocabulary: Types of Landscapes",
+   "points": [
+    "Впр. 2a: продовжити список видів погоди («Fog, storm, windy, …»). Впр. 2b: сказати, яка погода типова для якого клімату, за зразком «Fog is typical for temperate and continental climates.»",
+    "Впр. 3a: з'єднати 9 слів про ландшафти з фото: «coast», «cave», «desert», «jungle», «lake», «plain», «mountain», «river», «waterfall».",
+    "Впр. 3b: навести відомі приклади таких місць за зразком «The Dnipro and the Thames are rivers.»"
+   ],
+   "terms": [
+    {
+     "term": "coast",
+     "def": "узбережжя"
+    },
+    {
+     "term": "cave",
+     "def": "печера"
+    },
+    {
+     "term": "desert",
+     "def": "пустеля"
+    },
+    {
+     "term": "jungle",
+     "def": "джунглі"
+    },
+    {
+     "term": "lake",
+     "def": "озеро"
+    },
+    {
+     "term": "plain",
+     "def": "рівнина"
+    },
+    {
+     "term": "mountain",
+     "def": "гора"
+    },
+    {
+     "term": "river",
+     "def": "ріка"
+    },
+    {
+     "term": "waterfall",
+     "def": "водоспад"
+    }
+   ]
+  },
+  "151": {
+   "kind": "text",
+   "title": "Unit 8. Discover English-speaking countries! — Reading",
+   "points": [
+    "Урок читання про Нову Зеландію: спочатку слова з рамки Words for You, потім імена й назви («Wellington», «Auckland», «Maori», «Pakeha», «Rotorua», «Waitomo») з транскрипцією.",
+    "Стаття «New Zealand»: країна з двох великих островів — «North Island» і «South Island»; тепло й багато дощів, тому добре для фермерства.",
+    "Столиця — Веллінгтон, найбільше місто — Окленд.",
+    "Маорі першими оселилися в Новій Зеландії: приплили з Полінезії на великих каное понад тисячу років тому, жили племенами, робили татуювання, ловили птахів і рибу.",
+    "Після приходу Джеймса Кука й поселенців багато маорі загинули в боях, дітей змушували говорити англійською; у 1970-х ситуація почала мінятися, нині офіційні мови — англійська й маорі.",
+    "Впр. 1–2: прослухати й повторити слова, доповнити речення 1–8 потрібними словами в правильній формі; прочитати назви, прослухати й прочитати статтю, пояснити власні назви."
+   ],
+   "terms": [
+    {
+     "term": "canoe",
+     "def": "каное, довгий вузький човен"
+    },
+    {
+     "term": "geyser",
+     "def": "гейзер"
+    },
+    {
+     "term": "settler",
+     "def": "поселенець"
+    },
+    {
+     "term": "species",
+     "def": "вид (тварин, рослин)"
+    },
+    {
+     "term": "tribe",
+     "def": "плем'я"
+    },
+    {
+     "term": "whale",
+     "def": "кит"
+    },
+    {
+     "term": "to tattoo",
+     "def": "робити татуювання"
+    },
+    {
+     "term": "starry",
+     "def": "зоряний, зіркоподібний"
+    },
+    {
+     "term": "to consist of smth",
+     "def": "складатися з чогось"
+    }
+   ]
+  },
+  "152": {
+   "kind": "text",
+   "title": "Unit 8. Discover English-speaking countries! — Reading",
+   "points": [
+    "Закінчення статті про Нову Зеландію: країна сніжних гір, зелених низовин, пляжів, озер і водоспадів.",
+    "Rotorua — місто з багатьма гейзерами, де можна ходити біля барвистих озер гарячої води.",
+    "Печери Waitomo створила річка, їх оглядають із човна; стеля печер схожа на зоряне небо, бо світять маленькі тварини, схожі на мух.",
+    "Найпопулярніший птах — ківі, який не вміє літати; біля берегів можна побачити 35 видів дельфінів і китів.",
+    "Впр. 3: a) вибрати a або b, щоб закінчити речення 1–8 за статтею; b) відповісти в парах на питання 1–8 за текстом.",
+    "Впр. 4: у групах по 3–4 знайти в інтернеті кілька цікавих фактів про Нову Зеландію (населення, культура) і розповісти класу."
+   ],
+   "terms": [
+    {
+     "term": "lowland",
+     "def": "низовина (виноска до статті)"
+    }
+   ]
+  },
+  "153": {
+   "kind": "exercises",
+   "title": "Unit 8. Discover English-speaking countries! — Grammar: Revision of Tenses (part 1)",
+   "points": [
+    "Урок-повторення часів, частина 1; довідка до впр. 1–4 — Grammar Focus на с. 175.",
+    "Впр. 1: пригадати й сказати, коли вживаємо «Present Simple», «Present Continuous», «Present Perfect», «Past Simple», «Past Continuous», «Past Perfect».",
+    "Впр. 2–3: вибрати правильну форму часу («haven't/wasn't», «visits/visited»); поставити дієслова в дужках у потрібну форму.",
+    "Впр. 4–5: відповісти на загальні питання за зразком «Yes, I do.»; перетворити розповідні речення на питання («Is Mike swimming now?»)."
+   ]
+  },
+  "154": {
+   "kind": "exercises",
+   "title": "Unit 8. Discover English-speaking countries! — Listening: Australia",
+   "points": [
+    "Урок аудіювання про Австралію; нові слова з рамки Words for You вивчають перед прослуховуванням.",
+    "Впр. 1: прослухати слова, перевірити значення у Vocabulary List, доповнити речення 1–6 словами з рамки.",
+    "Впр. 2: розглянути малюнки (місто, карта, абориген); прослухати «Australia Guide» і визначити, чи речення 1–8 правильні.",
+    "Впр. 3: прослухати ще раз і вибрати правильний варіант у реченнях 1–8 («Under Down/Down Under», «1787/1887»).",
+    "Впр. 4: знайти додаткову інформацію про Австралію та її людей і поділитися з класом."
+   ],
+   "terms": [
+    {
+     "term": "Aborigine",
+     "def": "абориген, корінний житель Австралії"
+    },
+    {
+     "term": "convict",
+     "def": "засуджений, каторжник"
+    },
+    {
+     "term": "creation",
+     "def": "творіння, створення"
+    },
+    {
+     "term": "harmony",
+     "def": "гармонія, злагода"
+    },
+    {
+     "term": "nomad",
+     "def": "кочівник"
+    },
+    {
+     "term": "spirit",
+     "def": "дух"
+    }
+   ]
+  },
+  "155": {
+   "kind": "exercises",
+   "title": "Unit 8. Discover English-speaking countries! — Vocabulary: Location, Population",
+   "points": [
+    "Впр. 1: за прапорами 1–10 назвати країни й національності за зразком «The United Kingdom — British».",
+    "Впр. 2: за картою світу доповнити речення 1–4 про розташування («bordering the USA in the south»); b) сказати, де лежать інші англомовні країни.",
+    "Впр. 3: прочитати блог-пости про населення й відповісти на питання; на цій сторінці видно допис про Британію: різне етнічне походження, понад 68 мільйонів людей."
+   ]
+  },
+  "156": {
+   "kind": "text",
+   "title": "Unit 8. Discover English-speaking countries! — Vocabulary: Population; Grammar Corner",
+   "points": [
+    "Допис про населення США: третє за чисельністю населення у світі (341 963 000), багато етнічних груп; найшвидше зростає група змішаної раси.",
+    "Впр. 3 а): шість питань до дописів про Британію й США. Впр. 3 b): написати схожий блог-пост про іншу англомовну країну: походження нації, етнічні групи, чисельність.",
+    "Grammar Corner: означений артикль «the» уживаємо з назвами країн зі словами «state», «republic», «kingdom», країн у множині, гірських хребтів, пустель, груп островів, річок, морів і океанів.",
+    "Без артикля — окремі гори, окремі острови й озера."
+   ],
+   "formulas": [
+    "the + countries with state/republic/kingdom: «the United States of America», «the Republic of Ireland»",
+    "the + plural countries, mountain ranges, deserts, island groups: «the Netherlands», «the Alps», «the Sahara», «the Bahamas»",
+    "the + rivers, seas, oceans: «the Amazon», «the Black Sea», «the Pacific Ocean»; NOT with islands, individual mountains, lakes"
+   ]
+  },
+  "157": {
+   "kind": "exercises",
+   "title": "Unit 8. Discover English-speaking countries! — Grammar: Revision of Tenses (part 2)",
+   "points": [
+    "Урок-повторення часів, частина 2 (майбутнє); довідка до впр. 1–4 — Grammar Focus на с. 176.",
+    "Впр. 1: пригадати, коли вживаємо «Future Simple», «be going to», «Present Simple for Future», «Present Continuous for Future».",
+    "Впр. 2–3: вибрати a або b у реченнях 1–8 («arrives/is arriving»); поставити дієслова в дужках у правильну форму.",
+    "Впр. 4–5: зіставити питання 1–6 з відповідями a–f; дописати питання до коротких відповідей 1–6."
+   ]
+  },
+  "158": {
+   "kind": "exercises",
+   "title": "Unit 8. Discover English-speaking countries! — Speaking",
+   "points": [
+    "Урок говоріння про британців і американців.",
+    "Впр. 1: прослухати текст двічі й розподілити прикметники («polite», «reserved», «outspoken», «open-minded», «tolerant») між «Brits» і «Americans»; b) розповісти класу, що ще знаєш про них.",
+    "Впр. 2: у парах вибрати іншу англомовну націю, знайти в інтернеті, які її люди, зробити нотатки й розповісти класу.",
+    "Впр. 3: прослухати розмову Крістен і Джейн про місця, які відвідає Джейн, і закінчити речення 1–6.",
+    "Впр. 4: інтерв'ю в парах: чи був партнер в англомовній країні, куди хоче поїхати, що хоче побачити й зробити."
+   ]
+  },
+  "159": {
+   "kind": "exercises",
+   "title": "Unit 8. Discover English-speaking countries! — Writing",
+   "points": [
+    "Урок письма: довідкова картка (fact file) про Велику Британію — повна назва, столиця London, площа 242 500 sq km, населення 68 278 000, клімат «temperate».",
+    "Також у картці: найвища гора «Ben Nevis» (1343 m), річка «the Severn» (354 km), «fish and chips», «pound sterling», символи — прапор, гімн, «Big Ben», «the London Eye».",
+    "Впр. 1: прочитати картку й відповісти на питання 1–10 («What is the UK?», «How big is the UK?»).",
+    "Впр. 2: створити схожі картки про США, Канаду, Нову Зеландію й Австралію."
+   ]
+  },
+  "160": {
+   "kind": "exercises",
+   "title": "Unit 8. Discover English-speaking countries! — Look Back",
+   "points": [
+    "Розділ повторення «Look Back» для Unit 8: часи й лексика теми.",
+    "Впр. 1: вибрати правильний варіант у реченнях 1–10 і пояснити вибір («is/was», «have/had», «will leave/leaves»).",
+    "Впр. 2: поставити дієслова в дужках у правильну форму (речення 1–10).",
+    "Впр. 3: дописати питання до коротких відповідей 1–10."
+   ]
+  },
+  "161": {
+   "kind": "exercises",
+   "title": "Unit 8. Discover English-speaking countries! — Look Back",
+   "points": [
+    "Впр. 4: a) доповнити речення 1–8 словами з рамки («canoe», «monarchy», «species»…); b) скласти власні речення зі словами «coast», «convict», «harmony», «icon», «nomad», «tribe»…",
+    "Впр. 5: описати типи клімату («continental», «dry», «polar», «temperate», «tropical») за схемою «A ... climate is when ...» і навести приклади країн.",
+    "Впр. 6: гра в парах: скласти список типів погоди, виграє найдовший список.",
+    "Впр. 7: за фото 1–9 назвати типи ландшафтів і навести приклади таких місць."
+   ]
+  },
+  "162": {
+   "kind": "exercises",
+   "title": "Unit 8. Discover English-speaking countries! — Look Back",
+   "points": [
+    "Впр. 8 a): зіставити прапори 1–10 із національностями («English», «Americans», «Canadians», «Welsh», «Scots», «Irish», «Northern Irish», «British», «Australians», «New Zealanders»).",
+    "Впр. 8 b): за картою світу сказати, де розташована кожна країна, за зразком «The USA is situated in North America, bordering Canada in the north and Mexico in the south.»"
+   ]
+  },
+  "163": {
+   "kind": "exercises",
+   "title": "Unit 8. Discover English-speaking countries! — Look Back",
+   "points": [
+    "Впр. 9: вікторина «How well do you know the English-speaking world?» — 10 запитань з варіантами a/b про клімат Британії, площу США, Австралію, Канаду, Нову Зеландію.",
+    "Підрахунок результату: 10–9 правильних — «Well done!!!», 8–7 — «Good job!», 6–5 — «So-so», 4–3 — «Bad», 2–0 — «Very bad!»; перевірити відповіді на с. 164.",
+    "Впр. 10: відповісти на питання, яку англомовну країну хочеш відвідати, що побачити й зробити там.",
+    "Впр. 11: проєкт «A Quiz Competition»: у групах вибрати країну, придумати 10–15 запитань про положення, клімат, ландшафт, населення, традиції, скласти правила й провести гру в класі."
+   ]
+  },
+  "164": {
+   "kind": "exercises",
+   "title": "Unit 8. Discover English-speaking countries! — Self-Assessment",
+   "points": [
+    "Впр. 1: подумати, що вивчено в розділі й із чим ще потрібна допомога; є вказівка на розділ Self-Check в онлайн-додатку.",
+    "Впр. 2: скопіювати таблицю й відзначити свій рівень (від «розумію й можу допомогти партнеру» до «не розумію») для Vocabulary, Grammar, Reading, Listening, Speaking, Writing.",
+    "Список «Now I can»: описувати географічне положення, клімат і ландшафти, обговорювати особливості країн, брати інтерв'ю, писати блог і fact file, вживати різні часи, проводити вікторину.",
+    "Унизу — відповіді до вікторини зі с. 163."
+   ]
+  },
+  "165": {
+   "kind": "text",
+   "title": "Grammar Focus 1.1. Adverbs of degree",
+   "points": [
+    "Прислівники ступеня вказують на міру вияву ознаки; вживаємо їх з іншими прислівниками, прикметниками, дієсловами, інколи з іменником чи займенником.",
+    "Перелік: «completely» (повністю), «absolutely» (абсолютно), «hardly» (майже не), «somewhat» (дещо), «totally» (зовсім), «a bit», «a little», «a little bit».",
+    "Приклади: «Our teacher is completely different from theirs.», «We can hardly wait!», «The dog is a bit hungry.», «It is a little bit dark here.»"
+   ],
+   "terms": [
+    {
+     "term": "hardly",
+     "def": "майже не, ледве"
+    },
+    {
+     "term": "somewhat",
+     "def": "дещо, трохи"
+    },
+    {
+     "term": "a little bit",
+     "def": "трішечки"
+    }
+   ],
+   "formulas": [
+    "adverb of degree + adjective/adverb: «absolutely happy», «a bit loudly»",
+    "verb + adverb of degree: «I agree with you completely»"
+   ]
+  },
+  "166": {
+   "kind": "text",
+   "title": "Grammar Focus 1.1. Adverbs of degree (закінчення); 1.2. Modal verbs: have to/had to, can/could, may/might",
+   "points": [
+    "Важливо: «totally» уживаємо в неофіційному мовленні; «a little» формальніше, ніж «a bit»; «a little bit» вказує на сильніший вияв ознаки.",
+    "«A little/a bit/a little bit» ставимо перед або після прикметника чи прислівника: «I'm a bit tired» або «I'm tired a bit»; з дієсловом — лише після нього: «Lilly cried a little».",
+    "«Have to» — обов'язок або потреба, яку визначає не мовець: «She has to wear glasses», «Ed doesn't have to pay» (немає потреби).",
+    "«Must» — сильніший обов'язок, який визначаємо самі: «I must go there».",
+    "«Had to» — минула форма «have to» і «must»; увага: «We had to listen», а не «We musted listen»."
+   ],
+   "formulas": [
+    "have to / has to / doesn't have to + V (обов'язок, потреба, відсутність потреби)",
+    "must + V (сильний обов'язок); минуле — had to + V"
+   ]
+  },
+  "167": {
+   "kind": "text",
+   "title": "Grammar Focus 1.2. Modal verbs: have to/had to, can/could, may/might",
+   "points": [
+    "«Didn't have to» — відсутність потреби в минулому: «We didn't have to prepare because we were ready».",
+    "«Can» — уміння, можливість, дозвіл або заборона: «Tom can swim», «You can't bring pets to school»; «could» — минула форма «can».",
+    "«May» — можливість, у якій не впевнені, або офіційний дозвіл чи заборона: «Students may travel for free»; «might» — минула форма «may».",
+    "Але «might» може означати й теперішню чи минулу дію, у якій дуже невпевнені: «The headmaster might be in the corridor».",
+    "Прохання про дозвіл: «can» (менш формально), «could/may» (формальніше й ввічливіше): «Can you…?», «Could you…?», «May I go now, please?»"
+   ],
+   "formulas": [
+    "didn't have to + V (не було потреби)",
+    "can/could, may/might + V: уміння, можливість, дозвіл, заборона"
+   ]
+  },
+  "168": {
+   "kind": "text",
+   "title": "Grammar Focus 2.1. Reciprocal pronouns: each other, one another; 2.2. Reflexive pronouns",
+   "points": [
+    "Взаємні займенники — взаємодія двох і більше осіб: «each other» — дві особи («Ann and Ben tell each other secrets»); «one another» — три й більше.",
+    "Зворотні займенники: «myself», «yourself», «himself», «herself», «itself», «ourselves», «yourselves», «themselves» — -self в однині, -selves у множині.",
+    "Зворотні займенники вживаємо, коли дія спрямована на виконавця («My phone turns itself off»), для підкреслення («I closed it myself») або наголосу на іменнику."
+   ],
+   "formulas": [
+    "each other — 2 особи; one another — 3 і більше",
+    "my/your/him/her/it/our/them + self (однина) або selves (множина)"
+   ]
+  },
+  "169": {
+   "kind": "text",
+   "title": "Grammar Focus 2.2. Reflexive pronouns (закінчення); 3.1. Tag questions",
+   "points": [
+    "Прийменник «by» зі зворотним займенником показує, що дію виконує сама особа: «Jack usually cleans everything by himself».",
+    "Взаємні займенники — дія щодо іншої особи, зворотні — щодо себе: «Mia and Pam smiled at each other» і «Fred and Jane hit themselves».",
+    "Розділові питання стоять наприкінці речення для підтвердження інформації; частини розділяємо комою: якщо перша частина ствердна, то друга заперечна, і навпаки.",
+    "Приклади за часами: «Ann plays a lot, doesn't she?», «Jim is smiling, isn't he?», «Tara has broken it, hasn't she?», «Dave went there, didn't he?», «I will be late, won't I?»",
+    "Увага: після «I am» ставимо «aren't I?», а не «am not I?»."
+   ],
+   "formulas": [
+    "ствердне речення + заперечне питання («plays, doesn't she?»); заперечне речення + ствердне питання («don't blog, do you?»)",
+    "I am …, aren't I?"
+   ]
+  },
+  "170": {
+   "kind": "text",
+   "title": "Grammar Focus 3.2. Tag questions with modal verbs; 4.1. Present Perfect with 'for' and 'since'",
+   "points": [
+    "Розділові питання з модальними дієсловами повторюють той самий модальний: «You can vlog, can't you?», «We must find it, mustn't we?», «You would be happy, wouldn't you?».",
+    "Проте з «have to» і «had to» питання утворюємо через «do/does/did»: «I have to log in, don't I?», «You had to be on time, didn't you?».",
+    "«Present Perfect» уживаємо, щоб дізнатися, як довго триває дія, що почалася в минулому й триває досі; для цього є прийменники «for» і «since».",
+    "«For» — період, протягом якого дія триває: «I have lived in the UK for two years».",
+    "«Since» — конкретний момент у минулому, коли дія почалася: «Robert has worked as a DJ since 2020»."
+   ],
+   "formulas": [
+    "Present Perfect: have/has + V3 (past participle)",
+    "for + період (two years, a month); since + момент (nine o'clock, 2020, last year)"
+   ]
+  },
+  "171": {
+   "kind": "text",
+   "title": "Grammar Focus 4.2. Past Perfect; 5.1. Relative pronouns",
+   "points": [
+    "«Past Perfect» утворюємо з «had» у всіх особах та основного дієслова з -ed або у третій формі (past participle).",
+    "Вживаємо: дія перед іншою дією чи конкретним часом у минулому («Andy had gone to the concert before I arrived»); дія з видимим результатом у минулому; як відповідник «Present Perfect».",
+    "Порівняння: «My violin is gone. Someone has taken it» — «My violin was gone. Someone had taken it».",
+    "Відносні займенники: «who/that» — для людей, «whose» — належність, «which/that» — для речей, «where» — місця, «when» — час."
+   ],
+   "formulas": [
+    "Past Perfect: had + V3 (+) · hadn't + V3 (−) · Had + підмет + V3? (?)",
+    "who/that — люди; whose — належність; which/that — речі; where — місце; when — час"
+   ]
+  },
+  "172": {
+   "kind": "text",
+   "title": "Grammar Focus 5.1. Defining relative clauses; 5.2. Non-defining relative clauses",
+   "points": [
+    "Обмежувальне означальне речення містить важливе уточнення про осіб, речі, час або місце; у ньому можна вживати «that» замість «who» і «which».",
+    "Без такого речення головне втрачає зміст («A school is a place where you study» — «A school is a place»). Обмежувальні означальні речення комами не виділяємо.",
+    "Приклади: «Lily is the woman who/that works in our school library», «The novel which/that she wrote inspires me».",
+    "Описове означальне речення містить несуттєве уточнення і виділяється комами: «The Carpathian National Nature Park, which was founded in 1980, is where Mount Hoverla is located».",
+    "В описових реченнях не вживаємо «that»: правильно «Larry Lorry, who lives in London, loves lilies»."
+   ],
+   "formulas": [
+    "defining: who/which/that без ком",
+    "non-defining: , who/which/where … , (з комами, без that)"
+   ]
+  },
+  "173": {
+   "kind": "text",
+   "title": "Grammar Focus 5.2. Non-defining relative clauses (закінчення); 6.1. First conditional; 6.2. Used to, be used to",
+   "points": [
+    "Приклади описових речень: «Michael, who had never been to Ukraine before, was impressed by its beauty», «My office, where I work every day, is painted yellow».",
+    "Умовні речення 1-го типу виражають можливу за певних обставин дію в майбутньому: «If I have free time, I will visit you».",
+    "Структура: в умовній частині «if» — «Present Simple», у головній — «will» + інфінітив; якщо головне речення йде першим, кому не ставимо: «I will visit you if I have free time».",
+    "«Used to» позначає минулі звички й дії, які вже не відбуваються: «I used to read newspapers (But I don't now)»; після «used to» — інфінітив без «to»."
+   ],
+   "formulas": [
+    "First conditional: If + Present Simple, will + V",
+    "used to + V (минула звичка)"
+   ]
+  },
+  "174": {
+   "kind": "text",
+   "title": "Grammar Focus 6.2. Used to, be used to (закінчення); 7.1. Passive voice: Present, Past and Future Simple",
+   "points": [
+    "Заперечення й питання з «used to»: «You didn't use to go to the gym», «Did you use to go to the gym…?» (без -d).",
+    "«Be used to» вказує на звичну дію чи стан: «I am used to cycling every day»; після нього — дієслово з -ing, іменник або займенник; «be» змінюється за підметом.",
+    "«Active Voice» — підмет сам виконує дію («I ask»), «Passive Voice» — підмет є об'єктом дії («I am asked»).",
+    "Якщо відомі виконавець або знаряддя, їх додаємо після присудка з прийменниками «by» або «with»: «This man is followed by the dog everywhere»."
+   ],
+   "formulas": [
+    "be used to + V-ing / noun / pronoun",
+    "Passive Voice: be (у відповідному часі) + V3 (past participle): be asked, be written"
+   ]
+  },
+  "175": {
+   "kind": "text",
+   "title": "Grammar Focus 7.1. Passive voice (закінчення); 7.2. Present Perfect passive; 8.1. Revision of tenses (part 1)",
+   "points": [
+    "Особу, число й час у пасиві показує дієслово «be», а третя форма основного дієслова не змінюється: «I am asked», «She was asked», «He will be asked».",
+    "«Present Perfect Passive» вживаємо, коли невідомо або неважливо, хто виконав дію: «The geographical report has been finished at last».",
+    "Щоб назвати виконавця дії, вживаємо прийменник «by».",
+    "«Present Simple» — регулярні дії й факти («London is the capital of the UK»); дієслова стану, а не дії, теж уживаємо в «Present Simple» («We know about this»).",
+    "«Present Continuous» — дії в момент мовлення: «I am watching TV at the moment»."
+   ],
+   "formulas": [
+    "Present Perfect Passive: have/has been + V3",
+    "Present Simple: V / V-s, don't/doesn't + V, Do/Does + підмет + V?; Present Continuous: am/is/are + V-ing"
+   ]
+  },
+  "176": {
+   "kind": "text",
+   "title": "Grammar Focus. 8.1 Revision of Tenses (part 1); 8.2 Revision of Tenses (part 2)",
+   "points": [
+    "Повторення часів: Present Perfect — дії/стани, що тривають дотепер, або завершені дії з важливим результатом зараз («I have been here since 5 o'clock!»).",
+    "Past Simple — дії, що відбулися в минулому, зазвичай у визначений час («Jack left two days ago»); Past Continuous — дії, що тривали певний проміжок часу в минулому.",
+    "Past Perfect — дія, що відбулася перед іншою дією в минулому або перед конкретним часом («Tina had left by 10 am»).",
+    "8.2: Future Simple — раптові рішення, обіцянки або передбачення на основі особистих переконань («Don't worry, I will help you pack»).",
+    "До кожного часу дано приклади ствердження (+), заперечення (–) та питання (?) з короткими відповідями («Have you been there yet? — Yes, I have»)."
+   ],
+   "formulas": [
+    "Present Perfect: have/has + V3",
+    "Past Perfect: had + V3",
+    "Past Continuous: was/were + V-ing",
+    "Future Simple: will + V (заперечення: won't)"
+   ]
+  },
+  "177": {
+   "kind": "text",
+   "title": "Grammar Focus. 8.2 Revision of Tenses (part 2)",
+   "points": [
+    "Be going to — наміри або передбачення, що спираються на факти («Look! That bag is going to fall down!»).",
+    "Present Simple для майбутнього — дії, які є елементами розкладу («The lessons start at 8 o'clock tomorrow»).",
+    "Present Continuous для майбутнього — чітко заплановані дії («Mia is meeting me at 5 o'clock tomorrow»).",
+    "Для кожної конструкції подано ствердження, заперечення і питання з короткими відповідями («Is Don going to use his GPS? — No, he isn't»)."
+   ],
+   "formulas": [
+    "Be going to: am/is/are + going to + V",
+    "Present Simple (розклад): V/Vs; Present Continuous (план): am/is/are + V-ing"
+   ]
+  },
+  "178": {
+   "kind": "index",
+   "title": "Vocabulary List. Unit 1 – Unit 2",
+   "points": [
+    "Словник до Unit 1 (школа): будівлі й приміщення, шкільні типи, поведінка, наприклад «bully», «detention», «strict».",
+    "Початок словника до Unit 2 (стосунки, спілкування): «advice», «argument», «balance», «communication», «date» тощо.",
+    "Біля слів подано транскрипцію й український переклад; стійкі звороти виділено жирним («to get detention (for)»)."
+   ],
+   "terms": [
+    {
+     "term": "boarding school",
+     "def": "школа-пансіон"
+    },
+    {
+     "term": "comprehensive school",
+     "def": "єдина середня школа"
+    },
+    {
+     "term": "detention",
+     "def": "покарання; to get detention (for) — отримувати покарання (за)"
+    },
+    {
+     "term": "tolerant",
+     "def": "терпимий, толерантний"
+    },
+    {
+     "term": "tutor",
+     "def": "приватний(-а) учитель(-ька)"
+    },
+    {
+     "term": "a piece of advice",
+     "def": "порада (щодо)"
+    },
+    {
+     "term": "to have a date",
+     "def": "мати побачення"
+    },
+    {
+     "term": "frank",
+     "def": "щирий, відвертий"
+    }
+   ]
+  },
+  "179": {
+   "kind": "index",
+   "title": "Vocabulary List. Unit 2 – Unit 3",
+   "points": [
+    "Продовження словника до Unit 2 (від «function» до «worldwide network»), із розмовними зворотами з «to».",
+    "Початок словника до Unit 3 (медіа): «account», «ad», «app», «blog», «broadcast», «channel», «digital media» тощо.",
+    "Серед зворотів Unit 2: «to keep in touch with smb», «to stand up for smb», «to drop smb a line»."
+   ],
+   "terms": [
+    {
+     "term": "to keep smb posted",
+     "def": "повідомляти комусь-небудь новини"
+    },
+    {
+     "term": "to stand up for smb",
+     "def": "заступатися за когось-небудь"
+    },
+    {
+     "term": "to be easier said than done",
+     "def": "вислів «Легко сказати, важче зробити»"
+    },
+    {
+     "term": "stubborn",
+     "def": "упертий"
+    },
+    {
+     "term": "jealous",
+     "def": "заздрісний"
+    },
+    {
+     "term": "billboard",
+     "def": "білборд, рекламний щит"
+    },
+    {
+     "term": "broadcast",
+     "def": "транслювати"
+    },
+    {
+     "term": "to come up with smth",
+     "def": "придумувати щось-небудь"
+    }
+   ]
+  },
+  "180": {
+   "kind": "index",
+   "title": "Vocabulary List. Unit 3",
+   "points": [
+    "Словник до Unit 3 (медіа й інтернет), від «fake» до «Sunday paper».",
+    "Групи слів: види медіа («mass media», «print media», «outdoor media»), періодика («daily», «weekly», «monthly») та інтернет («log in», «password», «social network»).",
+    "Стійкі звороти: «to make money out of smth», «to sign up for smth», «to search the web»."
+   ],
+   "terms": [
+    {
+     "term": "fake news",
+     "def": "фейкові новини"
+    },
+    {
+     "term": "mass media",
+     "def": "мас-медіа, засоби масової інформації (ЗМІ)"
+    },
+    {
+     "term": "outdoor media",
+     "def": "зовнішня реклама"
+    },
+    {
+     "term": "log in",
+     "def": "входити в систему, авторизовуватися"
+    },
+    {
+     "term": "periodical",
+     "def": "періодичне видання"
+    },
+    {
+     "term": "podcast",
+     "def": "подкаст"
+    },
+    {
+     "term": "subscriber",
+     "def": "підписник, підписниця"
+    },
+    {
+     "term": "to sign up for smth",
+     "def": "підписуватися на щось-небудь"
+    }
+   ]
+  },
+  "181": {
+   "kind": "index",
+   "title": "Vocabulary List. Unit 3 – Unit 4",
+   "points": [
+    "Закінчення словника до Unit 3 («surf», «tabloid», «talk show», «vlog», «weather forecast», «website», «weekly»).",
+    "Словник до Unit 4 (музика), від «accordion» до «form»: інструменти, жанри та професії музикантів.",
+    "Пари слів: інструмент і виконавець («cello» — «cellist», «accordion» — «accordionist»)."
+   ],
+   "terms": [
+    {
+     "term": "to surf the Net",
+     "def": "проводити час за переглядом вебсторінок, вебсайтів"
+    },
+    {
+     "term": "talk show",
+     "def": "ток-шоу, розмовне шоу"
+    },
+    {
+     "term": "vlog",
+     "def": "влог, відеоблог; вести влог"
+    },
+    {
+     "term": "weather forecast",
+     "def": "прогноз погоди"
+    },
+    {
+     "term": "choir",
+     "def": "хор"
+    },
+    {
+     "term": "conductor",
+     "def": "диригент, диригентка"
+    },
+    {
+     "term": "compose",
+     "def": "писати музику"
+    },
+    {
+     "term": "audience",
+     "def": "аудиторія, публіка"
+    }
+   ]
+  },
+  "182": {
+   "kind": "index",
+   "title": "Vocabulary List. Unit 4 – Unit 5",
+   "points": [
+    "Продовження словника до Unit 4 (музика) — від «genre» до «voice»: жанри, інструменти й професії.",
+    "У кінці сторінки починається словник до Unit 5 («actually», «ancestor», «atmosphere»).",
+    "Жанри: «heavy metal», «hip-hop», «jazz», «K-pop», «pop rock», «rock-n-roll», «R&B»."
+   ],
+   "terms": [
+    {
+     "term": "lead singer",
+     "def": "вокаліст, вокалістка"
+    },
+    {
+     "term": "music producer",
+     "def": "музичний продюсер, музична продюсерка"
+    },
+    {
+     "term": "musical instrument",
+     "def": "музичний інструмент"
+    },
+    {
+     "term": "performance",
+     "def": "виступ"
+    },
+    {
+     "term": "songwriter",
+     "def": "пісняр, піснярка"
+    },
+    {
+     "term": "sell out",
+     "def": "розпродаватися"
+    },
+    {
+     "term": "tour",
+     "def": "тур, турне; гастролювати"
+    },
+    {
+     "term": "record",
+     "def": "запис; записувати"
+    }
+   ]
+  },
+  "183": {
+   "kind": "index",
+   "title": "Vocabulary List. Unit 5",
+   "points": [
+    "Словник до Unit 5 (книжки й читання), від «attention» до «while away».",
+    "Типи літератури: «fiction», «non-fiction», «novel», «poetry», «fantasy», «SF», «trilogy», «memoir».",
+    "Слова про книжку: «blurb», «bookmark», «contents», «cover», «publisher», «title»; звороти «to do without smth», «in favour of smth»."
+   ],
+   "terms": [
+    {
+     "term": "blurb",
+     "def": "видавнича анотація"
+    },
+    {
+     "term": "a table of contents",
+     "def": "зміст"
+    },
+    {
+     "term": "to do without smth",
+     "def": "могти прожити без чогось-небудь"
+    },
+    {
+     "term": "fiction",
+     "def": "художня література"
+    },
+    {
+     "term": "non-fiction",
+     "def": "нехудожня література"
+    },
+    {
+     "term": "librarian",
+     "def": "бібліотекар, бібліотекарка"
+    },
+    {
+     "term": "recommendation",
+     "def": "рекомендація, порада"
+    },
+    {
+     "term": "while away",
+     "def": "проводити приємно час, згаювати вільний час"
+    }
+   ]
+  },
+  "184": {
+   "kind": "index",
+   "title": "Vocabulary List. Unit 5 – Unit 6",
+   "points": [
+    "Закінчення словника до Unit 5 («within», «young adult»).",
+    "Словник до Unit 6 (здоровий спосіб життя) — від «alcohol» до «Where there's a will, there's a way».",
+    "Теми слів: харчування («diet», «junk food», «nutrient»), спосіб життя («lifestyle», «relaxation», «overwork»), місцевість («rural», «urban»)."
+   ],
+   "terms": [
+    {
+     "term": "daily routine",
+     "def": "щоденна рутина"
+    },
+    {
+     "term": "junk food",
+     "def": "шкідлива, нездорова їжа"
+    },
+    {
+     "term": "lifestyle",
+     "def": "спосіб життя"
+    },
+    {
+     "term": "to gain/put on weight",
+     "def": "набирати ваги"
+    },
+    {
+     "term": "to stay calm",
+     "def": "зберігати спокій, не нервувати"
+    },
+    {
+     "term": "overweight",
+     "def": "який із зайвою, надлишковою вагою"
+    },
+    {
+     "term": "unhealthy",
+     "def": "нездоровий, шкідливий"
+    },
+    {
+     "term": "Where there's a will, there's a way",
+     "def": "Було б бажання, а можливість знайдеться"
+    }
+   ]
+  },
+  "185": {
+   "kind": "index",
+   "title": "Vocabulary List. Unit 7",
+   "points": [
+    "Початок словника до Unit 7 (Україна — географія, історія, культура), від «access» до «hemisphere».",
+    "Типові слова: географічні назви й терміни («Carpathian», «Danube», «Crimea», «climate», «coastline», «fertile», «forest-steppe»).",
+    "Біля деяких слів є примітки: «foot» — множина «feet» (фут, одиниця виміру), «on average» — у середньому."
+   ],
+   "terms": [
+    {
+     "term": "breadbasket",
+     "def": "житниця"
+    },
+    {
+     "term": "black soil",
+     "def": "чорнозем"
+    },
+    {
+     "term": "climate change",
+     "def": "зміна клімату"
+    },
+    {
+     "term": "Cossack",
+     "def": "козак; козацький"
+    },
+    {
+     "term": "fertile",
+     "def": "родючий"
+    },
+    {
+     "term": "forest-steppe",
+     "def": "лісостеп"
+    },
+    {
+     "term": "fortress",
+     "def": "фортеця"
+    },
+    {
+     "term": "defend",
+     "def": "захищати, обороняти"
+    }
+   ]
+  },
+  "186": {
+   "kind": "index",
+   "title": "Vocabulary List. Unit 7",
+   "points": [
+    "Продовження словника до Unit 7 (Україна) — від «heroic» до «range».",
+    "Слова про країну й людей: «independence», «inhabitant», «invader», «nation», «nationality», «population», «Orthodox Church».",
+    "Географія: «landscape», «latitude», «meadow», «mixed forest», «mountain range», «picturesque», «pipeline»."
+   ],
+   "terms": [
+    {
+     "term": "independence",
+     "def": "незалежність"
+    },
+    {
+     "term": "inhabit",
+     "def": "жити, мешкати"
+    },
+    {
+     "term": "invader",
+     "def": "загарбник, окупант"
+    },
+    {
+     "term": "landscape",
+     "def": "ландшафт"
+    },
+    {
+     "term": "mountain range",
+     "def": "гірський хребет"
+    },
+    {
+     "term": "must-see",
+     "def": "який неодмінно варто побачити"
+    },
+    {
+     "term": "picturesque",
+     "def": "мальовничий"
+    },
+    {
+     "term": "preserve",
+     "def": "охороняти, зберігати"
+    }
+   ]
+  },
+  "187": {
+   "kind": "index",
+   "title": "Vocabulary List. Unit 7 – Unit 8",
+   "points": [
+    "Закінчення словника до Unit 7 (від «relations» до «zone»): ресурси, регіони, природа («resources», «steppe», «waterfall», «watershed»).",
+    "Початок словника до Unit 8 (англомовні країни): «Aborigine», «Alaska», «Antarctic», «Arctic», «Atlantic Ocean», «Auckland», «Ben Nevis».",
+    "Біля географічних назв подано український відповідник («Transcaucasia» — Закавказзя)."
+   ],
+   "terms": [
+    {
+     "term": "resources",
+     "def": "ресурси"
+    },
+    {
+     "term": "significant",
+     "def": "значний"
+    },
+    {
+     "term": "spectacular",
+     "def": "ефектний, захопливий"
+    },
+    {
+     "term": "territory",
+     "def": "територія"
+    },
+    {
+     "term": "unique",
+     "def": "унікальний"
+    },
+    {
+     "term": "variety",
+     "def": "розмаїття"
+    },
+    {
+     "term": "world-famous",
+     "def": "всесвітньовідомий"
+    },
+    {
+     "term": "Aborigine",
+     "def": "австралійський абориген, аборигенка"
+    }
+   ]
+  },
+  "188": {
+   "kind": "index",
+   "title": "Vocabulary List. Unit 8",
+   "points": [
+    "Словник до Unit 8 (англомовні країни й народи), від «British» до «melt».",
+    "Групи слів: країни й народи («Briton», «Greenland», «Iceland», «Ireland», «Irish», «Hawaii»), природа («canyon», «desert», «geyser», «jungle»).",
+    "Тварини Австралії та Нової Зеландії: «kangaroo», «koala», «kiwi bird»; шкали температури «Celsius» і «Fahrenheit»."
+   ],
+   "terms": [
+    {
+     "term": "Down Under",
+     "def": "«перевернута земля» (неофіційна назва Австралії)"
+    },
+    {
+     "term": "to bump into smb",
+     "def": "зіткнутися з кимось-небудь"
+    },
+    {
+     "term": "continent",
+     "def": "континент, материк"
+    },
+    {
+     "term": "fact file",
+     "def": "короткий набір фактів"
+    },
+    {
+     "term": "fun fact",
+     "def": "цікавий факт"
+    },
+    {
+     "term": "immigrant",
+     "def": "іммігрант, іммігрантка"
+    },
+    {
+     "term": "island",
+     "def": "острів"
+    },
+    {
+     "term": "kingdom",
+     "def": "королівство"
+    }
+   ]
+  },
+  "189": {
+   "kind": "index",
+   "title": "Vocabulary List. Unit 8",
+   "points": [
+    "Закінчення словника до Unit 8, від «melting pot» до «wood».",
+    "Країни й народи: «New Zealand», «Northern Ireland», «Scotland», «Wales», «Maori», «Pacific Islander», «South America».",
+    "Суспільство й культура: «melting pot», «open-minded», «stereotype», «tolerant», «tribe», «religion», «republic»."
+   ],
+   "terms": [
+    {
+     "term": "melting pot",
+     "def": "плавильний котел, різноманітне суспільство"
+    },
+    {
+     "term": "mixed-race",
+     "def": "який поєднує кілька рас"
+    },
+    {
+     "term": "open-minded",
+     "def": "неупереджений, відкритий до нового"
+    },
+    {
+     "term": "pound sterling",
+     "def": "фунт стерлінгів"
+    },
+    {
+     "term": "standard of living",
+     "def": "рівень життя"
+    },
+    {
+     "term": "stereotype",
+     "def": "стереотип"
+    },
+    {
+     "term": "tribe",
+     "def": "племʼя, клан"
+    },
+    {
+     "term": "whereas",
+     "def": "тоді як"
+    }
+   ]
+  },
+  "190": {
+   "kind": "index",
+   "title": "Irregular Verbs (be – keep)",
+   "points": [
+    "Таблиця неправильних дієслів у трьох формах: I — інфінітив, II — Past Simple, III — Past Participle, з українським перекладом; на сторінці від «be» до «keep».",
+    "Деякі дієслова мають однакові форми II і III («bring — brought — brought», «build — built — built»).",
+    "У ряді дієслів усі три форми однакові («cost — cost — cost», «cut — cut — cut», «hurt — hurt — hurt»)."
+   ],
+   "terms": [
+    {
+     "term": "be",
+     "def": "was/were — been, бути"
+    },
+    {
+     "term": "begin",
+     "def": "began — begun, починати(ся)"
+    },
+    {
+     "term": "break",
+     "def": "broke — broken, розбивати(ся)"
+    },
+    {
+     "term": "buy",
+     "def": "bought — bought, купувати"
+    },
+    {
+     "term": "do",
+     "def": "did — done, робити, виконувати"
+    },
+    {
+     "term": "eat",
+     "def": "ate — eaten, їсти"
+    },
+    {
+     "term": "forget",
+     "def": "forgot — forgotten, забувати"
+    },
+    {
+     "term": "go",
+     "def": "went — gone, іти, ходити"
+    }
+   ]
+  },
+  "191": {
+   "kind": "index",
+   "title": "Irregular Verbs (lead – write)",
+   "points": [
+    "Продовження таблиці неправильних дієслів у трьох формах з перекладом; на сторінці від «lead» до «write».",
+    "Однакові форми II і III: «left», «made», «met», «sold», «sent», «slept», «spent», «stood», «told», «thought».",
+    "Форми III, що відрізняються: «risen», «seen», «spoken», «taken», «thrown», «worn», «written»."
+   ],
+   "terms": [
+    {
+     "term": "leave",
+     "def": "left — left, залишати, виїжджати"
+    },
+    {
+     "term": "make",
+     "def": "made — made, робити, виготовляти"
+    },
+    {
+     "term": "see",
+     "def": "saw — seen, бачити"
+    },
+    {
+     "term": "speak",
+     "def": "spoke — spoken, розмовляти"
+    },
+    {
+     "term": "swim",
+     "def": "swam — swum, плавати"
+    },
+    {
+     "term": "take",
+     "def": "took — taken, брати, взяти"
+    },
+    {
+     "term": "think",
+     "def": "thought — thought, думати"
+    },
+    {
+     "term": "write",
+     "def": "wrote — written, писати"
+    }
+   ]
+  }
+ }
+}
