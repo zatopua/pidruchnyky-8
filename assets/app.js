@@ -38,42 +38,74 @@
     if (location.hash !== h) history.replaceState(null, '', h === '#' ? location.pathname + location.search : h);
   }
 
-  /* ---------- Вибір предмета ---------- */
+  /* ---------- Вибір предмета: «Дія» × кіберпанк (макет design/landing-ideas/04a) ---------- */
+  // неон — за групою предметів; невідома група — блакитний
+  const NEON = { 'Мови й література': '#00f0ff', 'Математика': '#ff2bd6', 'Природничі науки': '#7dff4d', 'Суспільство': '#ffe14d', 'Технології': '#ff8a3d', "Мистецтво й здоров'я": '#b77dff' };
+  const ICON = {
+    'ukr-mova': '✍️', 'ukr-lit': '📖', 'zar-lit': '🌍', english: '💬', algebra: '➗', geometria: '📐',
+    fizyka: '⚡', khimiia: '🧪', biolohiia: '🧬', heohrafiia: '🗺️', 'istoriia-ukr': '🏰', vsesvitnia: '🏛️',
+    hromadianska: '🤝', pidpryiemnytstvo: '💰', informatyka: '💻', tekhnolohii: '🛠️', mystetstvo: '🎨', zdorovia: '🍎',
+  };
+  // знахідний відмінок для «Продовжимо …?» (з назвою в називному виходить «Продовжимо фізика?»)
+  const ACC = {
+    'ukr-mova': 'українську мову', 'ukr-lit': 'українську літературу', 'zar-lit': 'зарубіжну літературу', english: 'англійську',
+    algebra: 'алгебру', geometria: 'геометрію', fizyka: 'фізику', khimiia: 'хімію', biolohiia: 'біологію', heohrafiia: 'географію',
+    'istoriia-ukr': 'історію України', vsesvitnia: 'всесвітню історію', hromadianska: 'громадянську освіту',
+    pidpryiemnytstvo: 'підприємництво', informatyka: 'інформатику', tekhnolohii: 'технології', mystetstvo: 'мистецтво', zdorovia: "«Здоров'я, безпека та добробут»",
+  };
+  const num = n => n.toLocaleString('uk-UA');
+
   function renderHome() {
     document.title = 'Підручники 8 клас';
+    const all = state.books.subjects;
     const groups = new Map();
-    for (const b of state.books.subjects) {
+    for (const b of all) {
       if (!groups.has(b.group)) groups.set(b.group, []);
       groups.get(b.group).push(b);
     }
-    const nReady = state.books.subjects.filter(ready).length;
+    const nReady = all.filter(ready).length;
+    const nPages = all.reduce((s, b) => s + (b.pages || 0), 0);
+    // остання відкрита книжка (state 'recent' пише show()); закладка на обкладинці — теж закладка
+    const rb = all.find(b => b.slug === store.get('recent') && ready(b));
+    const rp = rb && Math.min(store.get('last:' + rb.slug) || 1, rb.pages);
+    const hello = rb
+      ? `<div><div class="cy-sys">// система готова · ${nReady} підручників · ${num(nPages)} сторінок</div>
+          <h2>Привіт! Продовжимо <span>${esc(ACC[rb.slug] || rb.subject)}</span>?<i class="cy-cur" aria-hidden="true"></i></h2>
+          <p>${label(rb, rp) ? `Закладка на сторінці ${label(rb, rp)} з ${lastLabel(rb)}.` : 'Закладка на початку книжки.'} Тези вже чекають поруч.</p>
+          <div class="cy-bar" role="progressbar" aria-label="Прочитано" aria-valuemin="0" aria-valuemax="${rb.pages}" aria-valuenow="${rp}"><i style="width:${Math.round(rp / rb.pages * 100)}%"></i></div></div>
+        <button class="cy-go" data-slug="${esc(rb.slug)}">Продовжити →</button>`
+      : `<div><div class="cy-sys">// система готова · ${nReady} з ${all.length} підручників · ${num(nPages)} сторінок</div>
+          <h2>Привіт! Обери <span>предмет</span><i class="cy-cur" aria-hidden="true"></i></h2>
+          <p>Ліворуч сторінка підручника, праворуч короткі тези саме цієї сторінки.</p></div>
+        <button class="cy-go" id="to-list">До предметів ↓</button>`;
     app.innerHTML = `
-      <main class="home">
-        <header class="home-head">
-          <span class="eyebrow">${state.books.grade} клас · навчальний рік 2026/27</span>
-          <h1>Підручник зліва, <em>конспект</em> справа</h1>
-          <p>Оберіть предмет. Відкриється підручник, а поруч — короткі тези саме тієї сторінки, яку ви читаєте.
-             Готово ${nReady} з ${state.books.subjects.length} предметів.</p>
-        </header>
-        ${[...groups].map(([g, list]) => `
-          <section class="group" aria-label="${esc(g)}">
-            <h2>${esc(g)}</h2>
-            <div class="shelf">
-              ${list.map(b => {
-                const last = store.get('last:' + b.slug);
-                const meta = ready(b)
-                  ? `<span>${b.pages} с.</span>${b.demo ? '<span class="tag demo">демо</span>' : ''}${last > 1 && label(b, last) ? `<span class="resume">далі з с. ${label(b, last)}</span>` : ''}`
-                  : '<span class="tag">чекає на PDF</span>';
-                return `<button class="book-card" style="--c:${esc(b.color)}" data-slug="${esc(b.slug)}" ${ready(b) ? '' : 'disabled'}>
-                    <span class="spine"></span>
-                    <span class="body"><span class="name">${esc(b.subject)}</span><span class="meta">${meta}</span></span>
-                  </button>`;
-              }).join('')}
-            </div>
-          </section>`).join('')}
+      <main class="cy">
+        <div class="cy-sky" aria-hidden="true"></div><div class="cy-floor" aria-hidden="true"></div>
+        <div class="cy-wrap">
+          <header class="cy-top"><h1>Підручники</h1><span class="cy-lv">${state.books.grade} клас</span><span class="cy-me" aria-hidden="true">${state.books.grade}</span></header>
+          <section class="cy-hello">${hello}</section>
+          ${[...groups].map(([g, list], i) => `
+            <section class="cy-group" style="--n:${NEON[g] || '#00f0ff'}" aria-label="${esc(g)}"${i ? '' : ' id="list"'}>
+              <h3>${esc(g)}</h3>
+              <div class="cy-grid">
+                ${list.map(b => {
+                  const last = store.get('last:' + b.slug);
+                  const meta = ready(b)
+                    ? `<span>${b.pages} с. · тези</span>${b.demo ? '<span class="demo">демо</span>' : ''}${last > 1 && label(b, last) ? `<span class="res">▶ с. ${label(b, last)}</span>` : ''}`
+                    : `<span>${esc(b.note || 'чекає на PDF')}</span>`;
+                  return `<button class="cy-card" data-slug="${esc(b.slug)}" ${ready(b) ? '' : 'disabled'}>
+                      <span class="cy-ico" aria-hidden="true">${ICON[b.slug] || '📘'}</span>
+                      <span><b>${esc(b.subject)}</b><span class="cy-meta">${meta}</span></span>
+                      <span class="cy-arr" aria-hidden="true">→</span>
+                    </button>`;
+                }).join('')}
+              </div>
+            </section>`).join('')}
+        </div>
       </main>`;
-    app.querySelectorAll('.book-card:not([disabled])').forEach(el =>
+    app.querySelectorAll('.cy-card:not([disabled]), .cy-go[data-slug]').forEach(el =>
       el.addEventListener('click', () => openBook(el.dataset.slug)));
+    document.getElementById('to-list')?.addEventListener('click', () => document.getElementById('list').scrollIntoView({ behavior: 'smooth' }));
   }
 
   /* ---------- Читалка ---------- */
@@ -90,7 +122,8 @@
     const b = state.book;
     document.title = `${b.subject} · 8 клас`;
     app.innerHTML = `
-      <div class="reader" style="--c:${esc(b.color)}">
+      <div class="reader" style="--n:${NEON[b.group] || '#00f0ff'}">
+        <div class="cy-sky" aria-hidden="true"></div>
         <header class="bar">
           <button class="back" id="back" title="До списку предметів">← Предмети</button>
           <div class="title"><span class="dot"></span><b>${esc(b.title || b.subject)}</b></div>
@@ -159,6 +192,7 @@
     document.getElementById('prev').disabled = n <= 1;
     document.getElementById('next').disabled = n >= b.pages;
     store.set('last:' + b.slug, n);
+    store.set('recent', b.slug);
     go(b.slug, n);
     renderNotes();
     for (const k of [n + 1, n + 2, n - 1]) if (k >= 1 && k <= b.pages) new Image().src = pageUrl(b.slug, k);
