@@ -279,3 +279,59 @@
     .catch(() => { app.innerHTML = '<p class="loading">Не вдалося завантажити список предметів (books.json). Оновіть сторінку.</p>'; });
   window.addEventListener('hashchange', () => { if (state.books) route(); });
 })();
+
+/* Неоновий курсор — варіант 03 «Неоновий хвіст» з design/cursor-ideas.
+   Лише миша (hover + точний вказівник); у полях вводу — звичайна каретка;
+   «менше руху» в системі — без хвоста, лише точка. Кадри малюються, тільки поки хвіст не згас. */
+(() => {
+  'use strict';
+  if (!matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)');
+  const HOT = 'a, button, [role="button"], summary, label, .hit';
+  const NATIVE = 'input, textarea, select, [contenteditable="true"]';
+  const cv = document.createElement('canvas');
+  cv.className = 'neon-cursor'; cv.setAttribute('aria-hidden', 'true');
+  document.body.append(cv);
+  document.documentElement.classList.add('has-neon-cursor');
+  const g = cv.getContext('2d');
+  const pts = [];
+  let x = 0, y = 0, on = false, hot = false, native = false, still = 0, raf = 0;
+
+  // присвоєння canvas.width стирає малюнок — міняти розмір лише коли він справді інший
+  const fit = () => {
+    const r = devicePixelRatio || 1, w = Math.round(innerWidth * r), h = Math.round(innerHeight * r);
+    if (cv.width === w && cv.height === h) return;
+    cv.width = w; cv.height = h; g.setTransform(r, 0, 0, r, 0, 0); wake();
+  };
+  const wake = () => { if (!raf) raf = requestAnimationFrame(frame); };
+
+  function frame() {
+    raf = 0;
+    const max = reduce.matches ? 1 : 22;
+    g.clearRect(0, 0, innerWidth, innerHeight);
+    if (!on || native) { pts.length = 0; return; }          // над полем вводу — системна каретка
+    pts.push({ x, y });
+    while (pts.length > max) pts.shift();
+    g.lineCap = 'round';
+    for (let i = 1; i < pts.length; i++) {                  // хвіст: від рожевого (старе) до блакитного (нове)
+      const k = i / pts.length;
+      g.strokeStyle = `rgba(${Math.round(255 * (1 - k))}, ${Math.round(43 + 197 * k)}, ${Math.round(214 + 41 * k)}, ${k})`;
+      g.lineWidth = 1 + 5 * k; g.shadowBlur = 12 * k; g.shadowColor = g.strokeStyle;
+      g.beginPath(); g.moveTo(pts[i - 1].x, pts[i - 1].y); g.lineTo(pts[i].x, pts[i].y); g.stroke();
+    }
+    g.shadowBlur = 14; g.shadowColor = '#00f0ff'; g.fillStyle = hot ? '#ff2bd6' : '#eaffff';
+    g.beginPath(); g.arc(x, y, hot ? 5 : 3.5, 0, Math.PI * 2); g.fill();
+    if (still++ < max + 2) wake();                          // миша стоїть — хвіст догасає й цикл засинає
+  }
+
+  fit();
+  addEventListener('resize', fit);
+  addEventListener('pointermove', e => {
+    if (e.pointerType !== 'mouse') return;
+    x = e.clientX; y = e.clientY; on = true; still = 0;
+    const t = e.target instanceof Element ? e.target : null;
+    native = !!t?.closest(NATIVE); hot = !native && !!t?.closest(HOT);
+    wake();
+  }, { passive: true });
+  document.documentElement.addEventListener('mouseleave', () => { on = false; wake(); });
+})();
