@@ -122,7 +122,8 @@ button, input { font: inherit; color: inherit; }
 .pager input { width: 56px; height: 36px; text-align: center; border: 1px solid var(--desk-edge); border-radius: 10px; background: rgb(0 0 0 / .35); color: var(--pen); font: 700 15px/1 var(--f-mono); }
 .pager .of { color: var(--ink-soft); white-space: nowrap; }
 
-.split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, 440px); min-height: 0; }
+.split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, 440px); min-height: 0; transition: grid-template-columns .25s ease; }
+.split.nb-closed { grid-template-columns: minmax(0, 1fr) 56px; }
 .stage { position: relative; min-height: 0; min-width: 0; display: grid; grid-template-columns: minmax(0, 1fr); place-items: center; padding: 18px; overflow: hidden; perspective: 2200px; }
 .stage.zoom { overflow: auto; place-items: start center; }
 .sheet { position: relative; max-height: 100%; max-width: 100%; min-width: 0; display: grid; justify-items: center; }
@@ -155,25 +156,49 @@ button, input { font: inherit; color: inherit; }
   background-size: 100% 100%, var(--cell) var(--cell), var(--cell) var(--cell);
   border-left: 1px solid color-mix(in srgb, var(--n) 30%, transparent); padding: 22px 22px 40px 72px; position: relative;
 }
-.nb-page { position: absolute; left: 8px; top: 20px; width: 42px; text-align: center; font: 800 17px/1 var(--f-mono); color: var(--margin); text-shadow: 0 0 10px var(--margin); }
+.nb-page { position: absolute; left: 8px; top: 64px; width: 42px; text-align: center; font: 800 17px/1 var(--f-mono); color: var(--margin); text-shadow: 0 0 10px var(--margin); }
 .nb-kind { display: inline-block; font: 700 11px/1 var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--n); border: 1px solid color-mix(in srgb, var(--n) 55%, transparent); padding: 5px 9px; border-radius: 99px; box-shadow: 0 0 10px color-mix(in srgb, var(--n) 20%, transparent); }
-.notebook h2 { font: 800 21px/1.3 var(--f-display); margin: 12px 0 14px; text-wrap: balance; color: var(--ink); }
-.notebook h3 { font: 700 12px/1 var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--margin); text-shadow: 0 0 8px color-mix(in srgb, var(--margin) 70%, transparent); margin: 26px 0 10px; }
+#nbbody { font-size: calc(16px * var(--nb-fs, 1)); }
+.notebook h2 { font: 800 1.3125em/1.3 var(--f-display); margin: 12px 0 14px; text-wrap: balance; color: var(--ink); }
+.notebook h3 { font: 700 .75em/1 var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--margin); text-shadow: 0 0 8px color-mix(in srgb, var(--margin) 70%, transparent); margin: 26px 0 10px; }
 .points { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
 .points li { position: relative; padding-left: 20px; color: #d3f7ff; line-height: 1.5; }
 .points li::before { content: ""; position: absolute; left: 2px; top: .62em; width: 8px; height: 8px; border-radius: 50%; border: 2px solid var(--n); box-shadow: 0 0 8px var(--n); }
 .terms { display: grid; gap: 8px; margin: 0; }
 .terms div { background: rgb(255 255 255 / .04); border: 1px solid var(--desk-edge); border-left: 3px solid var(--n); border-radius: 10px; padding: 8px 12px; }
 .terms dt { font-weight: 700; color: var(--n); }
-.terms dd { margin: 2px 0 0; color: var(--ink); font-size: 15px; }
-.formula { font: 600 20px/1.4 "Cambria Math", "STIX Two Math", Georgia, serif; color: var(--pen); text-shadow: 0 0 10px rgb(0 240 255 / .45); padding: 6px 12px; border: 1.5px dashed var(--pen); border-radius: 10px; background: rgb(0 240 255 / .05); display: block; width: fit-content; max-width: 100%; margin: 0 0 8px; }
-.example { color: var(--ink); font-size: 15px; }
-.empty { color: var(--ink-soft); font-size: 15px; display: grid; gap: 6px; }
-.empty b { font: 800 14px/1.2 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--margin); text-shadow: 0 0 8px var(--margin); }
-details.raw { margin-top: 26px; font-size: 14px; color: var(--ink-soft); }
-details.raw summary { cursor: pointer; font: 700 12px/1.4 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; }
+.terms dd { margin: 2px 0 0; color: var(--ink); font-size: .9375em; }
+.formula { font: 600 1.25em/1.4 "Cambria Math", "STIX Two Math", Georgia, serif; color: var(--pen); text-shadow: 0 0 10px rgb(0 240 255 / .45); padding: 6px 12px; border: 1.5px dashed var(--pen); border-radius: 10px; background: rgb(0 240 255 / .05); display: block; width: fit-content; max-width: 100%; margin: 0 0 8px; }
+.example { color: var(--ink); font-size: .9375em; }
+.empty { color: var(--ink-soft); font-size: .9375em; display: grid; gap: 6px; }
+.empty b { font: 800 .9333em/1.2 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--margin); text-shadow: 0 0 8px var(--margin); }
+details.raw { margin-top: 26px; font-size: .875em; color: var(--ink-soft); }
+details.raw summary { cursor: pointer; font: 700 .857em/1.4 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; }
 details.raw summary:hover { color: var(--pen); }
-details.raw pre { white-space: pre-wrap; font: 12.5px/1.55 var(--f-mono); color: #b9c6dc; background: rgb(0 0 0 / .4); border: 1px solid var(--desk-edge); border-radius: 10px; padding: 10px; max-height: 40vh; overflow: auto; }
+details.raw pre { white-space: pre-wrap; font: .893em/1.55 var(--f-mono); color: #b9c6dc; background: rgb(0 0 0 / .4); border: 1px solid var(--desk-edge); border-radius: 10px; padding: 10px; max-height: 40vh; overflow: auto; }
+
+/* шапка конспекту: мітка типу сторінки + A−/A+ */
+.nb-head { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; }
+.nb-font { display: inline-flex; gap: 4px; }
+.nb-font button { height: 23px; min-width: 34px; padding: 0 8px; border-radius: 99px; border: 1px solid var(--desk-edge); background: var(--chip); color: var(--pen); cursor: pointer;
+  font: 700 11px/1 var(--f-mono); letter-spacing: .04em; transition: border-color .15s, box-shadow .15s; }
+.nb-font button:hover:not(:disabled) { border-color: var(--pen); box-shadow: 0 0 10px color-mix(in srgb, var(--pen) 40%, transparent); }
+.nb-font button:disabled { opacity: .3; cursor: default; }
+
+/* згорнути/розгорнути конспект: кнопка на полях; згорнутий — лишається смужка-поле з написом, клік по ній відкриває */
+.nb-toggle { position: absolute; left: 7px; top: 14px; width: 42px; height: 34px; z-index: 1; display: flex; align-items: center; justify-content: center; gap: 12px;
+  border: 1px solid color-mix(in srgb, var(--margin) 55%, transparent); border-radius: 10px; background: rgb(7 6 15 / .6); color: var(--margin); cursor: pointer;
+  box-shadow: 0 0 10px color-mix(in srgb, var(--margin) 20%, transparent); transition: box-shadow .15s, border-color .15s; }
+.nb-toggle:hover { border-color: var(--margin); box-shadow: 0 0 16px color-mix(in srgb, var(--margin) 50%, transparent); }
+.nb-toggle i { font: 900 20px/1 var(--f-mono); font-style: normal; transform: rotate(180deg); text-shadow: 0 0 8px var(--margin); }
+.nb-toggle span { display: none; font: 700 11px/1 var(--f-mono); letter-spacing: .2em; text-transform: uppercase; }
+.notebook.closed { overflow: hidden; padding: 0; }
+.notebook.closed #nbbody { display: none; }
+.notebook.closed .nb-toggle { inset: 0; width: auto; height: auto; flex-direction: column; justify-content: flex-start; padding-top: 18px;
+  border: 0; border-radius: 0; background: none; box-shadow: none; }
+.notebook.closed .nb-toggle:hover { background: color-mix(in srgb, var(--margin) 8%, transparent); }
+.notebook.closed .nb-toggle i { transform: none; }
+.notebook.closed .nb-toggle span { display: block; writing-mode: vertical-rl; }
 
 .loading { padding: 40px 16px; color: var(--pen); text-align: center; font: 700 13px/1.4 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; }
 
@@ -186,9 +211,17 @@ details.raw pre { white-space: pre-wrap; font: 12.5px/1.55 var(--f-mono); color:
   .stage { padding: 12px; }
   .sheet img { max-height: 78dvh; }
   .notebook { border-left: 0; border-top: 1px solid color-mix(in srgb, var(--n) 30%, transparent); padding-left: 64px; }
+  /* на телефоні конспект під сторінкою: згорнутий — смужка на всю ширину */
+  .split.nb-closed { grid-template-columns: minmax(0, 1fr); }
+  .notebook.closed { height: 48px; }
+  .notebook.closed .nb-toggle { flex-direction: row; justify-content: center; padding-top: 0; }
+  .notebook.closed .nb-toggle span { writing-mode: horizontal-tb; }
+  .nb-toggle i { transform: rotate(90deg); }
+  .notebook.closed .nb-toggle i { transform: rotate(-90deg); }
 }
 @media (prefers-reduced-motion: reduce) {
   .flip { display: none; }
+  .split { transition: none; }
   .cy-card, .cy-go { transition: none; }
 }
 .nb-page.wide { left: 2px; width: 52px; font-size: 12px; }

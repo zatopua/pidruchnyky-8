@@ -6,6 +6,8 @@
   const KIND = { cover: 'Обкладинка', toc: 'Зміст', text: 'Тема', exercises: 'Завдання', image: 'Ілюстрація', empty: 'Порожня сторінка', intro: 'Вступ', answers: 'Відповіді', index: 'Покажчик' };
   const state = { books: null, book: null, theses: {}, texts: null, page: 1, busy: false };
   const cache = new Map();
+  // масштаб шрифту конспекту: кроки A−/A+, 1 = як у макеті
+  const FS = [0.85, 1, 1.15, 1.3, 1.5, 1.75];
 
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const store = {
@@ -141,7 +143,10 @@
             <button class="hit r" id="hitr" aria-label="Наступна сторінка"></button>
             <div class="stage-tools"><button id="zoom">Збільшити</button></div>
           </section>
-          <aside class="notebook" id="notes" aria-live="polite"></aside>
+          <aside class="notebook" id="notes" aria-label="Конспект сторінки">
+            <button class="nb-toggle" id="nbtoggle" aria-controls="nbbody"><i aria-hidden="true">‹</i><span>Конспект</span></button>
+            <div id="nbbody" aria-live="polite"></div>
+          </aside>
         </div>
       </div>`;
     const $ = id => document.getElementById(id);
@@ -149,6 +154,16 @@
     $('prev').onclick = $('hitl').onclick = () => turn(-1);
     $('next').onclick = $('hitr').onclick = () => turn(1);
     $('pnum').onchange = e => { const x = parseInt(e.target.value, 10); show(Number.isFinite(x) ? fromLabel(b, x) : state.page, 0); };
+    // конспект: згорнути/розгорнути (лишається смужка-поле, по якій його відкривають знову) і розмір шрифту
+    $('nbtoggle').onclick = () => { store.set('nbClosed', !store.get('nbClosed')); applyNotebook(); };
+    $('notes').addEventListener('click', e => {
+      const btn = e.target.closest('[data-fs]');
+      if (!btn) return;
+      const i = Math.min(Math.max(fsIndex() + +btn.dataset.fs, 0), FS.length - 1);
+      store.set('nbFont', FS[i]);
+      applyNotebook();
+    });
+    applyNotebook();
     $('zoom').onclick = () => {
       const z = $('stage').classList.toggle('zoom');
       $('zoom').textContent = z ? 'Вмістити' : 'Збільшити';
@@ -166,6 +181,25 @@
   }
 
   function turn(d) { show(state.page + d, d); }
+
+  function fsIndex() { const i = FS.indexOf(store.get('nbFont')); return i < 0 ? FS.indexOf(1) : i; }
+
+  // стан конспекту з localStorage → класи/атрибути; викликається після кожного renderNotes (кнопки A−/A+ перемальовуються)
+  function applyNotebook() {
+    const el = document.getElementById('notes');
+    if (!el) return;
+    const closed = !!store.get('nbClosed'), i = fsIndex();
+    el.closest('.split').classList.toggle('nb-closed', closed);
+    el.classList.toggle('closed', closed);
+    el.style.setProperty('--nb-fs', FS[i]);
+    const t = document.getElementById('nbtoggle');
+    t.setAttribute('aria-expanded', String(!closed));
+    t.title = closed ? 'Показати конспект' : 'Сховати конспект';
+    t.setAttribute('aria-label', t.title);
+    el.querySelectorAll('[data-fs]').forEach(b => { b.disabled = +b.dataset.fs < 0 ? i === 0 : i === FS.length - 1; });
+    const pct = el.querySelector('.nb-font');
+    if (pct) pct.title = `Шрифт конспекту: ${Math.round(FS[i] * 100)}%`;
+  }
 
   function show(n, dir) {
     const b = state.book;
@@ -199,13 +233,16 @@
   }
 
   function renderNotes() {
-    const el = document.getElementById('notes');
+    const el = document.getElementById('nbbody');
     const n = state.page, t = state.theses[String(n)], lb = label(state.book, n);
     let html = `<div class="nb-page${lb.includes("–") ? " wide" : ""}" aria-label="Сторінка ${lb || n}">${lb || '·'}</div>`;
+    const font = `<span class="nb-font" role="group" aria-label="Розмір шрифту конспекту">
+        <button data-fs="-1" aria-label="Зменшити шрифт конспекту">A−</button><button data-fs="1" aria-label="Збільшити шрифт конспекту">A+</button></span>`;
     if (!t) {
+      html += `<div class="nb-head">${font}</div>`;
       html += `<div class="empty"><b>Тез ще немає</b><span>Для сторінки ${lb || n} конспект ще не згенеровано. Сторінку можна читати зліва.</span></div>`;
     } else {
-      html += `<span class="nb-kind">${esc(KIND[t.kind] || 'Сторінка')}</span>`;
+      html += `<div class="nb-head"><span class="nb-kind">${esc(KIND[t.kind] || 'Сторінка')}</span>${font}</div>`;
       if (t.title) html += `<h2>${esc(t.title)}</h2>`;
       if (t.points?.length) html += `<ul class="points">${t.points.map(p => `<li>${esc(p)}</li>`).join('')}</ul>`;
       if (t.formulas?.length) html += `<h3>Формули</h3>${t.formulas.map(f => `<div class="formula">${esc(f)}</div>`).join(' ')}`;
@@ -214,7 +251,8 @@
     }
     html += `<details class="raw" id="raw"><summary>Текст сторінки</summary><pre id="rawtext">…</pre></details>`;
     el.innerHTML = html;
-    el.scrollTop = 0;
+    document.getElementById('notes').scrollTop = 0;
+    applyNotebook();
     document.getElementById('raw').addEventListener('toggle', async e => {
       if (!e.target.open) return;
       try {
